@@ -1,0 +1,111 @@
+
+.slider-container {
+  position: relative;
+  height: 550px;
+  overflow: hidden;
+  
+}
+@media (max-width: 768px) {
+  .slider-container {
+    height: 200px;  /* Ajusta la altura a un valor más pequeño para móviles */
+  }
+}
+.carousel-inner img {
+  width: 100%;
+  height: 100%;       /* ocupa todo el alto */
+  object-fit: cover;  /* recorta proporcional */
+}
+.carousel-indicators {
+  bottom: -10px; /* o lo que necesites */
+  z-index: 30; /* que se sobrepongan */
+}
+.carousel-control-prev,
+.carousel-control-next {
+  position: absolute;
+  top: 50%;
+  width: 40px;
+  height: 40px;
+  z-index: 10;
+  transform: translateY(-50%); 
+}
+
+.carousel-caption {
+  top:50%;
+  transform: translateY(-50%);
+  bottom: auto;
+  left:5%;
+  right: auto;
+}
+.carousel-caption h5{
+  font-size:  50px;
+  font: bold;
+}
+.carousel-caption p{
+  font-size: 25px;
+  color:whitesmoke;
+}
+@media (max-width: 768px) {
+    .carousel-caption h5 {
+        font-size: 1.0rem;  /* Reducir tamaño del texto en pantallas pequeñas */
+    }
+
+    .carousel-caption p {
+        font-size: 0.7rem;  /* Reducir tamaño del texto en pantallas pequeñas */
+    }
+}
+.boton
+{
+  background: transparent;
+  border: none;
+  padding: 0;
+  cursor:pointer;
+  transition: transform 0.2s ease-in-out;
+}
+.boton:hover
+{
+  transform: scale(1.05);
+}
+.categoria-item img
+{
+    position: relative; 
+    overflow: hidden;  /*Ajusta la imagen para que no se salga del botón? */
+    padding: 0; /* Ajusta la imagen a los bordes por eso 0 */
+    display: flex;
+    flex-direction: column; /* Alinear el texto y la imagen en una columna */
+    justify-content: center; /* Centra la imagen y por consecuencia el texto xd */
+    align-items: center; /*   la orientación de los elementos */
+    height: 265px; /* altura fija */
+}
+.texto_categoria
+{
+  font-size: 20px;
+  font:bold;
+}
+.categoria-item {
+    position: relative;
+    overflow: hidden;
+    padding: 0;
+    border: 1px solid rgb(201, 201, 201); /* color de borde y ancho  */
+    background-color: white;  /* Fondo igual a la imagen */
+    border-radius: 4px; /* qué tan suaves los bordes */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 250px; /* el alto del contenedor en general */
+    cursor: pointer; /* transformación del puntero al pasar por la imagen o boton */
+    transition: all 0.2s ease; /* el tiempo de transicion el y el ease que es un modo de animación*/
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3); /* sombrita para el botón */
+}
+
+@media (max-width:768px)
+{
+.categorias-item h5{
+  font-size: 1rem;
+}
+}
+
+
+.categoria-item.btn:hover {
+transform: scale(1.10);
+}

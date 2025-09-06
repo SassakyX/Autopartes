@@ -1,0 +1,59 @@
+<nav class="navbar navbar-expand-lg navbar-light  fixed-top">
+  <div class="container-fluid position-relative">
+
+    <!-- Opciones izquierda -->
+    <ul class="navbar-nav me-auto mb-2 mb-lg-0 d-none d-lg-flex">
+      <li class="nav-item"><a class="nav-link" href="#">Quiénes Somos</a></li>
+      <li class="nav-item"><a class="nav-link" href="#">Repuestos</a></li>
+      <li class="nav-item"><a class="nav-link" href="#">Mantenimiento</a></li>
+    </ul>
+
+    <!-- Título centrado -->
+    <a class="navbar-brand fw-bold text-primary fs-4 position-absolute top-50 start-50 translate-middle" href="#">
+      Autopartes
+    </a>
+
+    <!-- Iconos derecha -->
+    <div class="d-none d-lg-flex gap-3 ms-auto">
+      <button class="btn nav-btn">
+        <i class="bi bi-cart fs-5"></i>
+      </button>
+      <button class="btn nav-btn">
+        <i class="bi bi-person fs-5"></i>
+      </button>
+    </div>
+
+    <!-- Botón hamburguesa (solo móvil) -->
+    <button
+      class="btn d-lg-none"
+      type="button"
+      data-bs-toggle="offcanvas"
+      data-bs-target="#offcanvasMenu"
+      aria-controls="offcanvasMenu"
+    >
+      <i class="bi bi-list fs-3"></i>
+    </button>
+  </div>
+</nav>
+
+<!-- Offcanvas para móvil -->
+<div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasMenu" aria-labelledby="offcanvasMenuLabel">
+  <div class="offcanvas-header">
+    <h5 class="offcanvas-title" id="offcanvasMenuLabel">Menú</h5>
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body">
+    <ul class="navbar-nav">
+      <li class="nav-item"><a class="nav-link" href="#">Quiénes Somos</a></li>
+      <li class="nav-item"><a class="nav-link" href="#">Repuestos</a></li>
+      <li class="nav-item"><a class="nav-link" href="#">Mantenimiento</a></li>
+    </ul>
+    <hr />
+    <div class="d-flex gap-3">
+      <button class="btn nav-btn"><i class="bi bi-search fs-5"></i></button>
+      <button class="btn nav-btn"><i class="bi bi-cart fs-5"></i></button>
+      <button class="btn nav-btn"><i class="bi bi-person fs-5"></i></button>
+    </div>
+  </div>
+</div>
+

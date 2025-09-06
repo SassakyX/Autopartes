@@ -1,0 +1,11 @@
+.nav-btn {
+  color: #000000; /* color icono */
+  background: transparent;  /* sin fondo */
+  border: none;    /* sin borde */        
+  transition: 0.3s;
+}
+
+.navbar {
+    box-shadow: 0 3px 20px rgba(0, 0, 0, 0.3); 
+    background-color: rgb(231, 231, 231);
+}
