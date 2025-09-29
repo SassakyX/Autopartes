@@ -1,0 +1,470 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Sassa\\Music\\Autopartes-main\\Autopartes-main\\Back_Repuestos\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{400C08FA-8FA1-4B68-AFB7-A4EA5939F8A9}|Pruebas\\Pruebas.csproj|c:\\users\\sassa\\music\\autopartes-main\\autopartes-main\\back_repuestos\\pruebas\\test1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{400C08FA-8FA1-4B68-AFB7-A4EA5939F8A9}|Pruebas\\Pruebas.csproj|solutionrelative:pruebas\\test1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{400C08FA-8FA1-4B68-AFB7-A4EA5939F8A9}|Pruebas\\Pruebas.csproj|c:\\users\\sassa\\music\\autopartes-main\\autopartes-main\\back_repuestos\\pruebas\\testhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{400C08FA-8FA1-4B68-AFB7-A4EA5939F8A9}|Pruebas\\Pruebas.csproj|solutionrelative:pruebas\\testhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95182C79-4FC7-4E62-9165-A13083D0CEF2}|Back_Repuestos\\Back_Repuestos.csproj|c:\\users\\sassa\\music\\autopartes-main\\autopartes-main\\back_repuestos\\back_repuestos\\services\\correoservicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95182C79-4FC7-4E62-9165-A13083D0CEF2}|Back_Repuestos\\Back_Repuestos.csproj|solutionrelative:back_repuestos\\services\\correoservicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95182C79-4FC7-4E62-9165-A13083D0CEF2}|Back_Repuestos\\Back_Repuestos.csproj|c:\\users\\sassa\\music\\autopartes-main\\autopartes-main\\back_repuestos\\back_repuestos\\controllers\\autocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95182C79-4FC7-4E62-9165-A13083D0CEF2}|Back_Repuestos\\Back_Repuestos.csproj|solutionrelative:back_repuestos\\controllers\\autocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95182C79-4FC7-4E62-9165-A13083D0CEF2}|Back_Repuestos\\Back_Repuestos.csproj|c:\\users\\sassa\\music\\autopartes-main\\autopartes-main\\back_repuestos\\back_repuestos\\modelos\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95182C79-4FC7-4E62-9165-A13083D0CEF2}|Back_Repuestos\\Back_Repuestos.csproj|solutionrelative:back_repuestos\\modelos\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95182C79-4FC7-4E62-9165-A13083D0CEF2}|Back_Repuestos\\Back_Repuestos.csproj|c:\\users\\sassa\\music\\autopartes-main\\autopartes-main\\back_repuestos\\back_repuestos\\dto\\dtoverificacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95182C79-4FC7-4E62-9165-A13083D0CEF2}|Back_Repuestos\\Back_Repuestos.csproj|solutionrelative:back_repuestos\\dto\\dtoverificacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95182C79-4FC7-4E62-9165-A13083D0CEF2}|Back_Repuestos\\Back_Repuestos.csproj|c:\\users\\sassa\\music\\autopartes-main\\autopartes-main\\back_repuestos\\back_repuestos\\dto\\dtologin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95182C79-4FC7-4E62-9165-A13083D0CEF2}|Back_Repuestos\\Back_Repuestos.csproj|solutionrelative:back_repuestos\\dto\\dtologin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95182C79-4FC7-4E62-9165-A13083D0CEF2}|Back_Repuestos\\Back_Repuestos.csproj|c:\\users\\sassa\\music\\autopartes-main\\autopartes-main\\back_repuestos\\back_repuestos\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95182C79-4FC7-4E62-9165-A13083D0CEF2}|Back_Repuestos\\Back_Repuestos.csproj|solutionrelative:back_repuestos\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95182C79-4FC7-4E62-9165-A13083D0CEF2}|Back_Repuestos\\Back_Repuestos.csproj|c:\\users\\sassa\\music\\autopartes-main\\autopartes-main\\back_repuestos\\back_repuestos\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{95182C79-4FC7-4E62-9165-A13083D0CEF2}|Back_Repuestos\\Back_Repuestos.csproj|solutionrelative:back_repuestos\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95182C79-4FC7-4E62-9165-A13083D0CEF2}|Back_Repuestos\\Back_Repuestos.csproj|c:\\users\\sassa\\music\\autopartes-main\\autopartes-main\\back_repuestos\\back_repuestos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95182C79-4FC7-4E62-9165-A13083D0CEF2}|Back_Repuestos\\Back_Repuestos.csproj|solutionrelative:back_repuestos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95182C79-4FC7-4E62-9165-A13083D0CEF2}|Back_Repuestos\\Back_Repuestos.csproj|c:\\users\\sassa\\music\\autopartes-main\\autopartes-main\\back_repuestos\\back_repuestos\\migrations\\20250929030216_nuevamigracionlaptop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95182C79-4FC7-4E62-9165-A13083D0CEF2}|Back_Repuestos\\Back_Repuestos.csproj|solutionrelative:back_repuestos\\migrations\\20250929030216_nuevamigracionlaptop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95182C79-4FC7-4E62-9165-A13083D0CEF2}|Back_Repuestos\\Back_Repuestos.csproj|c:\\users\\sassa\\music\\autopartes-main\\autopartes-main\\back_repuestos\\back_repuestos\\dato semilla\\datosemilla.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95182C79-4FC7-4E62-9165-A13083D0CEF2}|Back_Repuestos\\Back_Repuestos.csproj|solutionrelative:back_repuestos\\dato semilla\\datosemilla.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95182C79-4FC7-4E62-9165-A13083D0CEF2}|Back_Repuestos\\Back_Repuestos.csproj|c:\\users\\sassa\\music\\autopartes-main\\autopartes-main\\back_repuestos\\back_repuestos\\migrations\\appdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95182C79-4FC7-4E62-9165-A13083D0CEF2}|Back_Repuestos\\Back_Repuestos.csproj|solutionrelative:back_repuestos\\migrations\\appdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95182C79-4FC7-4E62-9165-A13083D0CEF2}|Back_Repuestos\\Back_Repuestos.csproj|c:\\users\\sassa\\music\\autopartes-main\\autopartes-main\\back_repuestos\\back_repuestos\\back_repuestos.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{95182C79-4FC7-4E62-9165-A13083D0CEF2}|Back_Repuestos\\Back_Repuestos.csproj|solutionrelative:back_repuestos\\back_repuestos.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95182C79-4FC7-4E62-9165-A13083D0CEF2}|Back_Repuestos\\Back_Repuestos.csproj|c:\\users\\sassa\\music\\autopartes-main\\autopartes-main\\back_repuestos\\back_repuestos\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95182C79-4FC7-4E62-9165-A13083D0CEF2}|Back_Repuestos\\Back_Repuestos.csproj|solutionrelative:back_repuestos\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95182C79-4FC7-4E62-9165-A13083D0CEF2}|Back_Repuestos\\Back_Repuestos.csproj|c:\\users\\sassa\\music\\autopartes-main\\autopartes-main\\back_repuestos\\back_repuestos\\controllers\\productocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95182C79-4FC7-4E62-9165-A13083D0CEF2}|Back_Repuestos\\Back_Repuestos.csproj|solutionrelative:back_repuestos\\controllers\\productocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95182C79-4FC7-4E62-9165-A13083D0CEF2}|Back_Repuestos\\Back_Repuestos.csproj|c:\\users\\sassa\\music\\autopartes-main\\autopartes-main\\back_repuestos\\back_repuestos\\controllers\\categoriacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95182C79-4FC7-4E62-9165-A13083D0CEF2}|Back_Repuestos\\Back_Repuestos.csproj|solutionrelative:back_repuestos\\controllers\\categoriacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95182C79-4FC7-4E62-9165-A13083D0CEF2}|Back_Repuestos\\Back_Repuestos.csproj|c:\\users\\sassa\\music\\autopartes-main\\autopartes-main\\back_repuestos\\back_repuestos\\dto\\dtoproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95182C79-4FC7-4E62-9165-A13083D0CEF2}|Back_Repuestos\\Back_Repuestos.csproj|solutionrelative:back_repuestos\\dto\\dtoproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95182C79-4FC7-4E62-9165-A13083D0CEF2}|Back_Repuestos\\Back_Repuestos.csproj|c:\\users\\sassa\\music\\autopartes-main\\autopartes-main\\back_repuestos\\back_repuestos\\modelos\\productos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95182C79-4FC7-4E62-9165-A13083D0CEF2}|Back_Repuestos\\Back_Repuestos.csproj|solutionrelative:back_repuestos\\modelos\\productos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95182C79-4FC7-4E62-9165-A13083D0CEF2}|Back_Repuestos\\Back_Repuestos.csproj|c:\\users\\sassa\\music\\autopartes-main\\autopartes-main\\back_repuestos\\back_repuestos\\modelos\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95182C79-4FC7-4E62-9165-A13083D0CEF2}|Back_Repuestos\\Back_Repuestos.csproj|solutionrelative:back_repuestos\\modelos\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95182C79-4FC7-4E62-9165-A13083D0CEF2}|Back_Repuestos\\Back_Repuestos.csproj|c:\\users\\sassa\\music\\autopartes-main\\autopartes-main\\back_repuestos\\back_repuestos\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95182C79-4FC7-4E62-9165-A13083D0CEF2}|Back_Repuestos\\Back_Repuestos.csproj|solutionrelative:back_repuestos\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95182C79-4FC7-4E62-9165-A13083D0CEF2}|Back_Repuestos\\Back_Repuestos.csproj|c:\\users\\sassa\\music\\autopartes-main\\autopartes-main\\back_repuestos\\back_repuestos\\dto\\dtoregistro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95182C79-4FC7-4E62-9165-A13083D0CEF2}|Back_Repuestos\\Back_Repuestos.csproj|solutionrelative:back_repuestos\\dto\\dtoregistro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95182C79-4FC7-4E62-9165-A13083D0CEF2}|Back_Repuestos\\Back_Repuestos.csproj|c:\\users\\sassa\\music\\autopartes-main\\autopartes-main\\back_repuestos\\back_repuestos\\modelos\\venta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95182C79-4FC7-4E62-9165-A13083D0CEF2}|Back_Repuestos\\Back_Repuestos.csproj|solutionrelative:back_repuestos\\modelos\\venta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95182C79-4FC7-4E62-9165-A13083D0CEF2}|Back_Repuestos\\Back_Repuestos.csproj|c:\\users\\sassa\\music\\autopartes-main\\autopartes-main\\back_repuestos\\back_repuestos\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{95182C79-4FC7-4E62-9165-A13083D0CEF2}|Back_Repuestos\\Back_Repuestos.csproj|solutionrelative:back_repuestos\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95182C79-4FC7-4E62-9165-A13083D0CEF2}|Back_Repuestos\\Back_Repuestos.csproj|c:\\users\\sassa\\music\\autopartes-main\\autopartes-main\\back_repuestos\\back_repuestos\\back_repuestos.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{95182C79-4FC7-4E62-9165-A13083D0CEF2}|Back_Repuestos\\Back_Repuestos.csproj|solutionrelative:back_repuestos\\back_repuestos.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95182C79-4FC7-4E62-9165-A13083D0CEF2}|Back_Repuestos\\Back_Repuestos.csproj|c:\\users\\sassa\\music\\autopartes-main\\autopartes-main\\back_repuestos\\back_repuestos\\modelos\\detalleventa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95182C79-4FC7-4E62-9165-A13083D0CEF2}|Back_Repuestos\\Back_Repuestos.csproj|solutionrelative:back_repuestos\\modelos\\detalleventa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{269a02dc-6af8-11d3-bdc4-00c04f688e50}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TestHelper.cs",
+              "DocumentMoniker": "C:\\Users\\Sassa\\Music\\Autopartes-main\\Autopartes-main\\Back_Repuestos\\Pruebas\\TestHelper.cs",
+              "RelativeDocumentMoniker": "Pruebas\\TestHelper.cs",
+              "ToolTip": "C:\\Users\\Sassa\\Music\\Autopartes-main\\Autopartes-main\\Back_Repuestos\\Pruebas\\TestHelper.cs",
+              "RelativeToolTip": "Pruebas\\TestHelper.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAUwBYAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-29T18:06:50.807Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DTOlogin.cs",
+              "DocumentMoniker": "C:\\Users\\Sassa\\Music\\Autopartes-main\\Autopartes-main\\Back_Repuestos\\Back_Repuestos\\DTO\\DTOlogin.cs",
+              "RelativeDocumentMoniker": "Back_Repuestos\\DTO\\DTOlogin.cs",
+              "ToolTip": "C:\\Users\\Sassa\\Music\\Autopartes-main\\Autopartes-main\\Back_Repuestos\\Back_Repuestos\\DTO\\DTOlogin.cs",
+              "RelativeToolTip": "Back_Repuestos\\DTO\\DTOlogin.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-18T16:02:40.767Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Sassa\\Music\\Autopartes-main\\Autopartes-main\\Back_Repuestos\\Back_Repuestos\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Back_Repuestos\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\Sassa\\Music\\Autopartes-main\\Autopartes-main\\Back_Repuestos\\Back_Repuestos\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "Back_Repuestos\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-06T23:42:59.62Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AutoController.cs",
+              "DocumentMoniker": "C:\\Users\\Sassa\\Music\\Autopartes-main\\Autopartes-main\\Back_Repuestos\\Back_Repuestos\\Controllers\\AutoController.cs",
+              "RelativeDocumentMoniker": "Back_Repuestos\\Controllers\\AutoController.cs",
+              "ToolTip": "C:\\Users\\Sassa\\Music\\Autopartes-main\\Autopartes-main\\Back_Repuestos\\Back_Repuestos\\Controllers\\AutoController.cs",
+              "RelativeToolTip": "Back_Repuestos\\Controllers\\AutoController.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAYwE4AAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-18T13:21:34.571Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Test1.cs",
+              "DocumentMoniker": "C:\\Users\\Sassa\\Music\\Autopartes-main\\Autopartes-main\\Back_Repuestos\\Pruebas\\Test1.cs",
+              "RelativeDocumentMoniker": "Pruebas\\Test1.cs",
+              "ToolTip": "C:\\Users\\Sassa\\Music\\Autopartes-main\\Autopartes-main\\Back_Repuestos\\Pruebas\\Test1.cs",
+              "RelativeToolTip": "Pruebas\\Test1.cs",
+              "ViewState": "AgIAAEAAAAAAAAAAAAApwEMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-29T17:47:07.072Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CorreoServicio.cs",
+              "DocumentMoniker": "C:\\Users\\Sassa\\Music\\Autopartes-main\\Autopartes-main\\Back_Repuestos\\Back_Repuestos\\Services\\CorreoServicio.cs",
+              "RelativeDocumentMoniker": "Back_Repuestos\\Services\\CorreoServicio.cs",
+              "ToolTip": "C:\\Users\\Sassa\\Music\\Autopartes-main\\Autopartes-main\\Back_Repuestos\\Back_Repuestos\\Services\\CorreoServicio.cs",
+              "RelativeToolTip": "Back_Repuestos\\Services\\CorreoServicio.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAvwAkAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-18T22:44:43.58Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DTOVerificacion.cs",
+              "DocumentMoniker": "C:\\Users\\Sassa\\Music\\Autopartes-main\\Autopartes-main\\Back_Repuestos\\Back_Repuestos\\DTO\\DTOVerificacion.cs",
+              "RelativeDocumentMoniker": "Back_Repuestos\\DTO\\DTOVerificacion.cs",
+              "ToolTip": "C:\\Users\\Sassa\\Music\\Autopartes-main\\Autopartes-main\\Back_Repuestos\\Back_Repuestos\\DTO\\DTOVerificacion.cs",
+              "RelativeToolTip": "Back_Repuestos\\DTO\\DTOVerificacion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-18T22:43:28.59Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Usuario.cs",
+              "DocumentMoniker": "C:\\Users\\Sassa\\Music\\Autopartes-main\\Autopartes-main\\Back_Repuestos\\Back_Repuestos\\Modelos\\Usuario.cs",
+              "RelativeDocumentMoniker": "Back_Repuestos\\Modelos\\Usuario.cs",
+              "ToolTip": "C:\\Users\\Sassa\\Music\\Autopartes-main\\Autopartes-main\\Back_Repuestos\\Back_Repuestos\\Modelos\\Usuario.cs",
+              "RelativeToolTip": "Back_Repuestos\\Modelos\\Usuario.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-06T23:19:10.749Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Sassa\\Music\\Autopartes-main\\Autopartes-main\\Back_Repuestos\\Back_Repuestos\\appsettings.json",
+              "RelativeDocumentMoniker": "Back_Repuestos\\appsettings.json",
+              "ToolTip": "C:\\Users\\Sassa\\Music\\Autopartes-main\\Autopartes-main\\Back_Repuestos\\Back_Repuestos\\appsettings.json",
+              "RelativeToolTip": "Back_Repuestos\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-09-06T23:39:46.078Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Sassa\\Music\\Autopartes-main\\Autopartes-main\\Back_Repuestos\\Back_Repuestos\\Program.cs",
+              "RelativeDocumentMoniker": "Back_Repuestos\\Program.cs",
+              "ToolTip": "C:\\Users\\Sassa\\Music\\Autopartes-main\\Autopartes-main\\Back_Repuestos\\Back_Repuestos\\Program.cs",
+              "RelativeToolTip": "Back_Repuestos\\Program.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABgAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-06T23:40:42.252Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "20250929030216_NuevaMigracionLaptop.cs",
+              "DocumentMoniker": "C:\\Users\\Sassa\\Music\\Autopartes-main\\Autopartes-main\\Back_Repuestos\\Back_Repuestos\\Migrations\\20250929030216_NuevaMigracionLaptop.cs",
+              "RelativeDocumentMoniker": "Back_Repuestos\\Migrations\\20250929030216_NuevaMigracionLaptop.cs",
+              "ToolTip": "C:\\Users\\Sassa\\Music\\Autopartes-main\\Autopartes-main\\Back_Repuestos\\Back_Repuestos\\Migrations\\20250929030216_NuevaMigracionLaptop.cs",
+              "RelativeToolTip": "Back_Repuestos\\Migrations\\20250929030216_NuevaMigracionLaptop.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-29T18:07:40.668Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "DatoSemilla.cs",
+              "DocumentMoniker": "C:\\Users\\Sassa\\Music\\Autopartes-main\\Autopartes-main\\Back_Repuestos\\Back_Repuestos\\Dato semilla\\DatoSemilla.cs",
+              "RelativeDocumentMoniker": "Back_Repuestos\\Dato semilla\\DatoSemilla.cs",
+              "ToolTip": "C:\\Users\\Sassa\\Music\\Autopartes-main\\Autopartes-main\\Back_Repuestos\\Back_Repuestos\\Dato semilla\\DatoSemilla.cs",
+              "RelativeToolTip": "Back_Repuestos\\Dato semilla\\DatoSemilla.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-23T02:58:42.927Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AppDbContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Users\\Sassa\\Music\\Autopartes-main\\Autopartes-main\\Back_Repuestos\\Back_Repuestos\\Migrations\\AppDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "Back_Repuestos\\Migrations\\AppDbContextModelSnapshot.cs",
+              "ToolTip": "C:\\Users\\Sassa\\Music\\Autopartes-main\\Autopartes-main\\Back_Repuestos\\Back_Repuestos\\Migrations\\AppDbContextModelSnapshot.cs",
+              "RelativeToolTip": "Back_Repuestos\\Migrations\\AppDbContextModelSnapshot.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-29T17:51:35.589Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Categoria.cs",
+              "DocumentMoniker": "C:\\Users\\Sassa\\Music\\Autopartes-main\\Autopartes-main\\Back_Repuestos\\Back_Repuestos\\Modelos\\Categoria.cs",
+              "RelativeDocumentMoniker": "Back_Repuestos\\Modelos\\Categoria.cs",
+              "ToolTip": "C:\\Users\\Sassa\\Music\\Autopartes-main\\Autopartes-main\\Back_Repuestos\\Back_Repuestos\\Modelos\\Categoria.cs",
+              "RelativeToolTip": "Back_Repuestos\\Modelos\\Categoria.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-06T23:12:38.655Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ProductoController.cs",
+              "DocumentMoniker": "C:\\Users\\Sassa\\Music\\Autopartes-main\\Autopartes-main\\Back_Repuestos\\Back_Repuestos\\Controllers\\ProductoController.cs",
+              "RelativeDocumentMoniker": "Back_Repuestos\\Controllers\\ProductoController.cs",
+              "ToolTip": "C:\\Users\\Sassa\\Music\\Autopartes-main\\Autopartes-main\\Back_Repuestos\\Back_Repuestos\\Controllers\\ProductoController.cs",
+              "RelativeToolTip": "Back_Repuestos\\Controllers\\ProductoController.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAkwBQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-14T13:15:20.278Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Back_Repuestos.csproj",
+              "DocumentMoniker": "C:\\Users\\Sassa\\Music\\Autopartes-main\\Autopartes-main\\Back_Repuestos\\Back_Repuestos\\Back_Repuestos.csproj",
+              "RelativeDocumentMoniker": "Back_Repuestos\\Back_Repuestos.csproj",
+              "ToolTip": "C:\\Users\\Sassa\\Music\\Autopartes-main\\Autopartes-main\\Back_Repuestos\\Back_Repuestos\\Back_Repuestos.csproj",
+              "RelativeToolTip": "Back_Repuestos\\Back_Repuestos.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-09-07T00:54:04.726Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "CategoriaController.cs",
+              "DocumentMoniker": "C:\\Users\\Sassa\\Music\\Autopartes-main\\Autopartes-main\\Back_Repuestos\\Back_Repuestos\\Controllers\\CategoriaController.cs",
+              "RelativeDocumentMoniker": "Back_Repuestos\\Controllers\\CategoriaController.cs",
+              "ToolTip": "C:\\Users\\Sassa\\Music\\Autopartes-main\\Autopartes-main\\Back_Repuestos\\Back_Repuestos\\Controllers\\CategoriaController.cs",
+              "RelativeToolTip": "Back_Repuestos\\Controllers\\CategoriaController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAkwDcAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-18T00:38:08.519Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "WeatherForecast.cs",
+              "DocumentMoniker": "C:\\Users\\Sassa\\Music\\Autopartes-main\\Autopartes-main\\Back_Repuestos\\Back_Repuestos\\WeatherForecast.cs",
+              "RelativeDocumentMoniker": "Back_Repuestos\\WeatherForecast.cs",
+              "ToolTip": "C:\\Users\\Sassa\\Music\\Autopartes-main\\Autopartes-main\\Back_Repuestos\\Back_Repuestos\\WeatherForecast.cs",
+              "RelativeToolTip": "Back_Repuestos\\WeatherForecast.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-29T02:59:36.745Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Productos.cs",
+              "DocumentMoniker": "C:\\Users\\Sassa\\Music\\Autopartes-main\\Autopartes-main\\Back_Repuestos\\Back_Repuestos\\Modelos\\Productos.cs",
+              "RelativeDocumentMoniker": "Back_Repuestos\\Modelos\\Productos.cs",
+              "ToolTip": "C:\\Users\\Sassa\\Music\\Autopartes-main\\Autopartes-main\\Back_Repuestos\\Back_Repuestos\\Modelos\\Productos.cs",
+              "RelativeToolTip": "Back_Repuestos\\Modelos\\Productos.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-06T22:50:16.243Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "DTOproducto.cs",
+              "DocumentMoniker": "C:\\Users\\Sassa\\Music\\Autopartes-main\\Autopartes-main\\Back_Repuestos\\Back_Repuestos\\DTO\\DTOproducto.cs",
+              "RelativeDocumentMoniker": "Back_Repuestos\\DTO\\DTOproducto.cs",
+              "ToolTip": "C:\\Users\\Sassa\\Music\\Autopartes-main\\Autopartes-main\\Back_Repuestos\\Back_Repuestos\\DTO\\DTOproducto.cs",
+              "RelativeToolTip": "Back_Repuestos\\DTO\\DTOproducto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-24T12:38:41.007Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "C:\\Users\\Sassa\\Music\\Autopartes-main\\Autopartes-main\\Back_Repuestos\\Back_Repuestos\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "Back_Repuestos\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "C:\\Users\\Sassa\\Music\\Autopartes-main\\Autopartes-main\\Back_Repuestos\\Back_Repuestos\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "Back_Repuestos\\Controllers\\WeatherForecastController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-14T12:48:20.026Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "DTOregistro.cs",
+              "DocumentMoniker": "C:\\Users\\Sassa\\Music\\Autopartes-main\\Autopartes-main\\Back_Repuestos\\Back_Repuestos\\DTO\\DTOregistro.cs",
+              "RelativeDocumentMoniker": "Back_Repuestos\\DTO\\DTOregistro.cs",
+              "ToolTip": "C:\\Users\\Sassa\\Music\\Autopartes-main\\Autopartes-main\\Back_Repuestos\\Back_Repuestos\\DTO\\DTOregistro.cs",
+              "RelativeToolTip": "Back_Repuestos\\DTO\\DTOregistro.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-18T13:20:00.573Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Venta.cs",
+              "DocumentMoniker": "C:\\Users\\Sassa\\Music\\Autopartes-main\\Autopartes-main\\Back_Repuestos\\Back_Repuestos\\Modelos\\Venta.cs",
+              "RelativeDocumentMoniker": "Back_Repuestos\\Modelos\\Venta.cs",
+              "ToolTip": "C:\\Users\\Sassa\\Music\\Autopartes-main\\Autopartes-main\\Back_Repuestos\\Back_Repuestos\\Modelos\\Venta.cs",
+              "RelativeToolTip": "Back_Repuestos\\Modelos\\Venta.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-06T23:14:58.433Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\Sassa\\Music\\Autopartes-main\\Autopartes-main\\Back_Repuestos\\Back_Repuestos\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Back_Repuestos\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\Sassa\\Music\\Autopartes-main\\Autopartes-main\\Back_Repuestos\\Back_Repuestos\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Back_Repuestos\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-09-14T15:21:24.078Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Back_Repuestos.http",
+              "DocumentMoniker": "C:\\Users\\Sassa\\Music\\Autopartes-main\\Autopartes-main\\Back_Repuestos\\Back_Repuestos\\Back_Repuestos.http",
+              "RelativeDocumentMoniker": "Back_Repuestos\\Back_Repuestos.http",
+              "ToolTip": "C:\\Users\\Sassa\\Music\\Autopartes-main\\Autopartes-main\\Back_Repuestos\\Back_Repuestos\\Back_Repuestos.http",
+              "RelativeToolTip": "Back_Repuestos\\Back_Repuestos.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2025-09-07T00:56:36.575Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "DetalleVenta.cs",
+              "DocumentMoniker": "C:\\Users\\Sassa\\Music\\Autopartes-main\\Autopartes-main\\Back_Repuestos\\Back_Repuestos\\Modelos\\DetalleVenta.cs",
+              "RelativeDocumentMoniker": "Back_Repuestos\\Modelos\\DetalleVenta.cs",
+              "ToolTip": "C:\\Users\\Sassa\\Music\\Autopartes-main\\Autopartes-main\\Back_Repuestos\\Back_Repuestos\\Modelos\\DetalleVenta.cs",
+              "RelativeToolTip": "Back_Repuestos\\Modelos\\DetalleVenta.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-06T23:17:27.645Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

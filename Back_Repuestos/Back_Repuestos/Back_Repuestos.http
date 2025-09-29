@@ -1,0 +1,6 @@
+@Back_Repuestos_HostAddress = http://localhost:5298
+
+GET {{Back_Repuestos_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
