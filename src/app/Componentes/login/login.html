@@ -1,0 +1,29 @@
+<div class="login-container d-flex justify-content-center align-items-center">
+  <div class="login-card p-4 shadow-lg rounded">
+    <h2 class="text-center mb-4">Iniciar Sesión</h2>
+
+    <form (ngSubmit)="iniciarSesion()">
+      <div class="mb-3">
+        <label for="user" class="form-label">Usuario</label>
+        <input type="text" id="user" [(ngModel)]="credenciales.User" name="user"
+               class="form-control" placeholder="Ej: CARLOS" required>
+      </div>
+
+      <div class="mb-3">
+        <label for="contrasenia" class="form-label">Contraseña</label>
+        <input type="password" id="contrasenia" [(ngModel)]="credenciales.Contrasenia" name="contrasenia"
+               class="form-control" placeholder="********" required>
+      </div>
+
+      <button type="submit" class="btn btn-primary w-100">Ingresar</button>
+    </form>
+
+    <p *ngIf="mensaje" class="alert alert-info mt-3 text-center">
+      {{ mensaje }}
+    </p>
+
+    <div class="text-center mt-3">
+      <small>¿No tienes cuenta? <a routerLink="/registro" class="link-primary">Regístrate aquí</a></small>
+    </div>
+  </div>
+</div>

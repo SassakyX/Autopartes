@@ -1,0 +1,19 @@
+<div class="registro-container">
+  <h2>Registro de Usuario</h2>
+
+  <form (ngSubmit)="registrar()">
+    <input type="text" [(ngModel)]="usuario.nombre_apellido" name="nombre_apellido" placeholder="Nombre y Apellido" required>
+    <input type="text" [(ngModel)]="usuario.dni" name="dni" placeholder="DNI" required>
+    <input type="text" [(ngModel)]="usuario.direccion" name="direccion" placeholder="Dirección">
+    <input type="email" [(ngModel)]="usuario.correo" name="correo" placeholder="Correo" required>
+    <input type="text" [(ngModel)]="usuario.user" name="user" placeholder="Usuario" required>
+    <input type="password" [(ngModel)]="usuario.contrasenia" name="contrasenia" placeholder="Contraseña" required>
+    <input type="password" class="form-control" [(ngModel)]="usuario.confirmarContrasenia" name="confirmarContrasenia"  placeholder="Confirmar Contrasenia" required="">
+      <div *ngIf="usuario.contrasenia && usuario.confirmarContrasenia && usuario.contrasenia !== usuario.confirmarContrasenia" class="text-danger mt-2">
+        Las contraseñas no coinciden
+      </div>
+
+    <button type="submit">Registrarse</button>
+  </form>
+  <p  style ="color:green" *ngIf="mensaje">{{ mensaje }}</p>
+</div>

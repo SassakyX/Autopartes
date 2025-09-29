@@ -1,0 +1,90 @@
+<!-- Banner -->
+<div class="container-fluid banner-repuestos d-flex justify-content-center align-items-center position-relative">
+  <div class="w-100 text-center">
+    <img src="images/Repuestos.jpg" alt="Imagen repuestos" class="img-fluid w-100"
+         style="max-height: 350px; object-fit: cover; z-index: 1; position: relative;">
+    <h2 class="texto-catalogo" style="position: relative; z-index: 5;">Catálogo</h2>
+    <div class="texto_banner" style="z-index: 10;">
+      <h2>Repuestos</h2>
+    </div>
+  </div>
+</div>
+
+<!-- Layout principal -->
+  <!-- Buscador -->
+<div class="container-fluid mt-5">
+  <div class="row">
+    <div><h2 class="mb-4" style="margin-left: 20px;">Productos</h2>
+    <input type="text" class="form-control buscador mb-4"
+             placeholder="Buscar producto..."
+             [(ngModel)]="filtroNombre">
+    </div>
+    <!-- Columna de filtros -->
+    <div class="col-lg-3">
+      <div class="panel-filtros">
+        <h5 class="titulo-filtros">Filtros</h5>
+
+       <!-- categorias dinamicas-->
+
+      <h6>Categorías</h6>
+        <div *ngFor="let cat of categorias">
+          <label>
+          <input type="radio"
+                name="categoria"
+                [value]="cat.idCategoria"
+                [(ngModel)]="categoriaSeleccionada"
+                (change)="aplicarFiltros()">
+            {{ cat.nombre }}
+          </label>
+        </div>
+
+        <!-- Opción todas-->
+
+        <label>
+        <input type="radio"
+              name="categoria"
+              [value]="null"
+              [(ngModel)]="categoriaSeleccionada"
+              (change)="aplicarFiltros()">
+        Todas
+      </label>
+    <!-- Precios -->
+        <h6 class="mt-3">Precio</h6>
+        <input type="number" [(ngModel)]="precioMin" placeholder="Mínimo" class="form-control mb-2" style="width:120px">
+        <input type="number" [(ngModel)]="precioMax" placeholder="Máximo" class="form-control mb-2" style="width:120px">
+
+        <h6 class="mt-3">Stock</h6>
+        <label><input type="checkbox" [(ngModel)]="soloStock"> Solo productos en stock</label>
+      </div>
+    </div>
+
+    <!-- Columna de productos -->
+    <div class="col-lg-9">
+
+
+      <!-- Grid de productos -->
+        <div class="productos-grid mt-4">
+          <div *ngFor="let p of producto" class="producto-card">
+            <img *ngIf="p.imagenBase64"
+                [src]="'data:image/png;base64,' + p.imagenBase64"
+                alt="{{ p.nombre }}"
+                class="producto-img">
+
+          <div class="producto-info">
+                <h3>{{ p.nombre }}</h3>
+                <p>{{ p.descrpicion }}</p>
+                <p><strong>Compra:</strong> S/{{ p.precioCompra }}</p>
+                <p><strong>Venta:</strong> S/{{ p.precioVena }}</p>
+                <p><strong>Stock:</strong> {{ p.stock }}</p>
+                <p><strong>Categoría:</strong> {{ p.categoria }}</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Mensaje si no hay resultados -->
+      <div *ngIf="producto.length === 0" class="no-resultados">
+        <p>No se encontró el producto buscado</p>
+      </div>
+    </div>
+  </div>
+</div>

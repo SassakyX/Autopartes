@@ -1,0 +1,25 @@
+<div *ngIf="(auth.usuario$ | async)?.rol === 'Admin'; else noAcceso" class="admin-container">
+  <h2 class="admin-title">Panel de Administración</h2>
+
+  <div class="admin-cards">
+    <div class="admin-card" >
+      <a class ="admin-link" routerLink="/admin-productos">
+      <h3>Gestionar Productos</h3>
+      <p>Agrega, edita o elimina productos de la tienda.</p>
+      </a>
+    </div>
+
+    <div class="admin-card" routerLink="/admin/categorias">
+      <h3>Gestionar Categorías</h3>
+      <p>Organiza y administra las categorías de productos.</p>
+    </div>
+  </div>
+
+  <button class="logout-btn" (click)="cerrarSesion()">Cerrar Sesión</button>
+</div>
+
+<ng-template #noAcceso>
+  <div class="no-access">
+    <p>No tienes permiso para acceder a esta sección.</p>
+  </div>
+</ng-template>

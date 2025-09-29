@@ -4,8 +4,9 @@
     <!-- Opciones izquierda -->
     <ul class="navbar-nav me-auto mb-2 mb-lg-0 d-none d-lg-flex">
       <li class="nav-item"><a class="nav-link" href="#">Quiénes Somos</a></li>
-      <li class="nav-item"><a class="nav-link" href="#">Repuestos</a></li>
+      <li class="nav-item"><a class="nav-link" routerLink="/repuestos">Repuestos</a></li>
       <li class="nav-item"><a class="nav-link" href="#">Mantenimiento</a></li>
+      <li class="nav-item"><a  *ngIf="esAdmin()" routerLink="/admin" class="nav-link">Administrar</a></li>
     </ul>
 
     <!-- Título centrado -->
@@ -18,9 +19,18 @@
       <button class="btn nav-btn">
         <i class="bi bi-cart fs-5"></i>
       </button>
-      <button class="btn nav-btn">
-        <i class="bi bi-person fs-5"></i>
-      </button>
+      <div class="d-flex gap-3">
+        <button *ngIf="!usuario" class="Botón" routerLink="/login">
+          <i class="bi bi-person fs-5"></i> Iniciar Sesión
+        </button>
+
+        <div *ngIf="usuario" class="d-flex align-items-center gap-2">
+          <span style="margin-right: 32px; font-weight: bold;">Hola, {{usuario.nombre_apellido}}</span>
+          <button class="Botón" (click)="cerrarSesion()">
+            <i class="bi bi-box-arrow-right fs-5"></i> Cerrar Sesión
+          </button>
+        </div>
+      </div>
     </div>
 
     <!-- Botón hamburguesa (solo móvil) -->

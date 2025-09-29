@@ -5,3 +5,9 @@ body
 {
   background-color:rgb(233, 233, 233);
 }
+.textoHolder {
+  color :rgb(131, 131, 131);
+  text-align: start;
+  margin-top: 1%;
+  margin-bottom: -1%;
+}

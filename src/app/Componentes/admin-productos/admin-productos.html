@@ -1,0 +1,44 @@
+<h2>Gestión de Productos</h2>
+
+<button class="agregar-btn" (click)="abrirModalCrear()">
+ Agregar Producto
+</button>
+<hr>
+
+<h2>Gestión de Categorías</h2>
+<button class="agregar-btn" (click)="abrirModalCrearCategoria()">Nueva Categoría</button>
+
+<div class="productos-grid">
+  <div *ngFor="let c of categorias" class="producto-card">
+    <div>
+      <h4>{{ c.nombre }}</h4>
+    </div>
+    <button (click)="abrirModalEditarCategoria(c)">Editar</button>
+    <button (click)="eliminarCategoria(c.idCategoria)">Eliminar</button>
+  </div>
+</div>
+<!-- Crear nuevo -->
+
+<hr>
+
+<!-- Listado -->
+<div class="productos-grid">
+  <div *ngFor="let p of productos" class="producto-card">
+    <img *ngIf="p.imagenBase64"
+         [src]="'data:image/jpeg;base64,' + p.imagenBase64"
+         alt="{{p.nombre}}"
+         class="producto-img">
+
+    <div>
+      <h4>{{ p.nombre }}</h4>
+      <p>{{ p.descrpicion }}</p>
+      <p>Compra: S/{{ p.precioCompra }}</p>
+      <p>Venta: S/{{ p.precioVena }}</p>
+      <p>Stock: {{ p.stock }}</p>
+      <p>Categoría: {{ p.categoria }}</p>
+    </div>
+
+    <button (click)="abrirModalEditar(p)">Editar</button>
+    <button (click)="eliminar(p.idProducto)">Eliminar</button>
+  </div>
+</div>

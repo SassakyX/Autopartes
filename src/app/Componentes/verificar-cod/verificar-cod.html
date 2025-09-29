@@ -1,0 +1,26 @@
+<form class="container"  (ngSubmit)="Verificar()" #form="ngForm">
+  <div class="mb-3">
+    <label style="font-size: larger;" for="codigo" class="form-label">Hola ingresa el Código de verificación</label>
+    <input
+      type="text"
+      [(ngModel)]="codigo"
+      name="codigo"
+      id="codigo"
+      class="form-control"
+      required
+      maxlength="6"
+      pattern="[0-9]*"/>
+  </div>
+  <button class="btn btn-primary" type="submit" [disabled]="form.invalid">
+    Verificar
+  </button>
+  <!-- Aviso de éxito -->
+  <p *ngIf="mensaje" style="color: green; font-weight: bold;">
+    {{ mensaje }}
+  </p>
+
+  <!-- Aviso de error -->
+  <p *ngIf="error" style="color: red; font-weight: bold;">
+    {{ error }}
+  </p>
+</form>
