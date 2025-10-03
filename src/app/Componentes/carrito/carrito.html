@@ -1,0 +1,29 @@
+<div class="carrito-banner">
+  <img src="images/Carro_Compra.webp" alt="carrito" class="imagen">
+  <h1>Carrito de Compras</h1>
+</div>
+
+<div class="carrito-container">
+  <div *ngIf="items.length === 0" class="carrito-vacio">
+    <p>Tu carrito está vacío</p>
+  </div>
+
+  <div *ngFor="let item of items; let i = index" class="carrito-item">
+    <img *ngIf="item.imagenBase64"
+         [src]="'data:image/png;base64,' + item.imagenBase64"
+         alt="{{ item.nombre }}">
+    <div>
+      <h4>{{ item.nombre }}</h4>
+      <p>Precio: S/ {{ item.precioVena }}</p>
+      <button class="btn-eliminar" (click)="eliminar(i)">Eliminar</button>
+    </div>
+  </div>
+
+  <div *ngIf="items.length > 0" class="carrito-footer">
+    <h3>Total: S/ {{ getTotal() }}</h3>
+    <div class="carrito-botones">
+      <button class="btn-vaciar" (click)="limpiar()">Vaciar carrito</button>
+      <button class="btn-comprar" (click)="finalizarCompra()">Finalizar compra</button>
+    </div>
+  </div>
+</div>

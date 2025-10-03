@@ -1,15 +1,16 @@
+
 import { Component } from '@angular/core';
-import { RouterOutlet} from '@angular/router';
 import { CommonModule } from '@angular/common';
-import { Unsubscribable } from 'rxjs';
 import { Router } from '@angular/router';
 import { AuthService } from '../../servicios/AutServicio/autenticacion';
 import { RouterLink } from '@angular/router';
+import Swal from 'sweetalert2';
+import { FormsModule } from '@angular/forms';
 
 
 @Component({
   selector: 'app-admin',
-  imports: [CommonModule, RouterLink],
+  imports: [CommonModule, RouterLink, FormsModule],
   templateUrl: './admin.html',
   styleUrl: './admin.css'
 })
@@ -21,4 +22,6 @@ export class Admin {
   alert("Sesión cerrada correctamente");
   this.router.navigate(['/']);
   }
+
 }
+

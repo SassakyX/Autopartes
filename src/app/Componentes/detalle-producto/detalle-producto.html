@@ -1,0 +1,20 @@
+<div *ngIf="producto" class="detalle-wrapper">
+  <div class="detalle-container">
+    <div class="detalle-imagen">
+      <div class="zoom-container" (mousemove)="onMouseMove($event)" (mouseleave)="resetZoom()">
+        <img #imagen
+             [src]="'data:image/png;base64,' + producto.imagenBase64"
+             alt="{{ producto.nombre }}">
+      </div>
+    </div>
+
+    <div class="detalle-info">
+      <h2 style="font-size: 50px;">{{ producto.nombre }}</h2>
+      <p>{{ producto.descrpicion }}</p>
+      <p><strong>Precio de Venta:</strong> S/ {{ producto.precioVena }}</p>
+      <p><strong>Stock:</strong> {{ producto.stock }}</p>
+      <p><strong>Categoría:</strong> {{ producto.categoria }}</p>
+    </div>
+    <button class="btn-carrito" (click)="agregarAlCarrito()">Agregar al carrito</button>
+  </div>
+</div>

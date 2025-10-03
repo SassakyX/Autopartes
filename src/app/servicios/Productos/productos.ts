@@ -10,6 +10,7 @@ export interface Producto {
   descrpicion: string;
   precioCompra: number;
   precioVena: number;
+  cantidad : number;
   stock: number;
   idCategoria?: number;
   imagenBase64?: string;
@@ -57,4 +58,7 @@ export class ProductosServicio {
   eliminar(id: number): Observable<any> {
     return this.http.delete(`${this.apiUrl}/${id}`);
   }
+  getPorId(id: number): Observable<Producto> {
+  return this.http.get<Producto>(`${this.apiUrl}/${id}`);
+}
 }

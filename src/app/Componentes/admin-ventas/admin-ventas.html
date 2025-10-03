@@ -1,0 +1,50 @@
+<h2 class="admin-title">Gestión de Ventas</h2>
+
+<div *ngFor="let v of ventas" class="venta-card">
+  <h4>Venta #{{ v.idVenta }} - {{ v.usuarioNombre }}</h4>
+  <p>Correo: {{ v.usuarioCorreo }}</p>
+  <p>Total: S/{{ v.total }}</p>
+
+  <!-- Estado con select -->
+  <p>
+    Estado actual:
+    <span class="estado-badge" [ngClass]="{
+      'pendiente': v.estado === 'Pendiente',
+      'pagado': v.estado === 'Pagado',
+      'finalizado': v.estado === 'Finalizado',
+      'cancelado': v.estado === 'Cancelado'
+    }">{{ v.estado }}</span>
+  </p>
+
+  <select [(ngModel)]="v.estado"
+          (change)="cambiarEstado(v.idVenta, v.estado, v.estadoAnterior)"
+          [disabled]="v.estadoAnterior === 'Finalizado' || v.estadoAnterior === 'Cancelado'">
+    <option value="Pendiente">Pendiente</option>
+    <option value="Pagado">Pagado</option>
+    <option value="Finalizado">Finalizado</option>
+    <option value="Cancelado">Cancelado</option>
+  </select>
+
+  <!-- Detalles de la venta -->
+  <div class="detalles">
+    <h4>Detalles</h4>
+    <table>
+      <thead>
+        <tr>
+          <th>Producto</th>
+          <th>Cantidad</th>
+          <th>Precio Unidad</th>
+          <th>Subtotal</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let d of v.detalles">
+          <td>{{ d.productoNombre }}</td>
+          <td>{{ d.cantidad }}</td>
+          <td>S/{{ d.precioUnidad }}</td>
+          <td>S/{{ d.subtotal }}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>

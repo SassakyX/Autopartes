@@ -3,12 +3,13 @@ import { Producto, ProductosServicio } from '../../servicios/Productos/productos
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { CategoriasServicio,Categorias } from '../../servicios/Categoria/categorias';
+import { RouterLink } from '@angular/router';
 
 @Component({
   selector: 'app-repuestos',
   templateUrl: './repuestos.html',
   styleUrls: ['./repuestos.css'],
-  imports: [CommonModule, FormsModule],
+  imports: [CommonModule, FormsModule, RouterLink],
   standalone : true
 })
 

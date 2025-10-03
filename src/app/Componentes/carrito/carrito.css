@@ -1,0 +1,136 @@
+.carrito-banner {
+  margin: 80px auto 0 auto;
+  width: 90%;
+  max-width: 900px;
+  height: 220px;
+  position: relative;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.carrito-banner img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.carrito-banner h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 2rem;
+  font-weight: bold;
+  text-shadow: 0 2px 6px rgba(0,0,0,0.6);
+}
+
+/* Contenedor */
+.carrito-container {
+  padding: 2rem;
+  max-width: 900px;
+  margin: 2rem auto;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+/* Item */
+.carrito-item {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 1rem;
+}
+
+.carrito-item img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+/* Footer */
+.carrito-footer {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Botones */
+button {
+  padding: 0.7rem 1.5rem;
+  margin-right: 15px;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+/* Botón eliminar */
+.btn-eliminar {
+  background: #e11d48;
+  color: white;
+}
+
+.btn-eliminar:hover {
+  background: #be123c;
+}
+
+/* Botón vaciar */
+.btn-vaciar {
+  background: #6b7280;
+  color: white;
+}
+
+.btn-vaciar:hover {
+  background: #4b5563;
+}
+
+/* Botón comprar */
+.btn-comprar {
+  background: #2563eb;
+  color: white;
+}
+
+.btn-comprar:hover {
+  background: #1d4ed8;
+}
+
+/* 📱 Responsive: En tablets */
+@media (max-width: 992px) {
+  .carrito-banner {
+    height: 200px;
+  }
+
+  .carrito-banner h1 {
+    font-size: 2rem;
+  }
+}
+
+/* 📱 Responsive: celulares */
+@media (max-width: 570px) {
+  .carrito-banner {
+    height: 150px;
+  }
+
+  .carrito-banner h1 {
+    font-size: 2.5rem;
+    padding: 0 10px; /* para que no se corte el texto */
+    text-align: center;
+  }
+  .carrito-footer h3
+  {
+    font-size: 30px;
+    margin-right: 150px;
+  }
+    .carrito-footer button
+  {
+
+    margin-top: 20px;
+  }
+}

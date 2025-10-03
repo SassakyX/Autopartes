@@ -64,7 +64,8 @@
 
       <!-- Grid de productos -->
         <div class="productos-grid mt-4">
-          <div *ngFor="let p of producto" class="producto-card">
+          <div *ngFor="let p of producto" class="producto-card" [routerLink]="['/detalle-producto', p.idProducto]">
+
             <img *ngIf="p.imagenBase64"
                 [src]="'data:image/png;base64,' + p.imagenBase64"
                 alt="{{ p.nombre }}"
@@ -73,7 +74,6 @@
           <div class="producto-info">
                 <h3>{{ p.nombre }}</h3>
                 <p>{{ p.descrpicion }}</p>
-                <p><strong>Compra:</strong> S/{{ p.precioCompra }}</p>
                 <p><strong>Venta:</strong> S/{{ p.precioVena }}</p>
                 <p><strong>Stock:</strong> {{ p.stock }}</p>
                 <p><strong>Categoría:</strong> {{ p.categoria }}</p>
