@@ -148,6 +148,31 @@ namespace Back_Repuestos.Controllers
             await _context.SaveChangesAsync();
             return Ok(new { mensaje = "Producto eliminado" });
         }
+
+
+
+        [HttpGet("{id}")]
+        public async Task<ActionResult<object>> GetPorId(int id)
+        {
+            var producto = await _context.Productos
+                .Include(p => p.Categoria)
+                .FirstOrDefaultAsync(p => p.idProducto == id);
+
+            if (producto == null) return NotFound();
+
+            return new
+            {
+                producto.idProducto,
+                producto.Nombre,
+                producto.Descrpicion,
+                producto.PrecioCompra,
+                producto.PrecioVena,
+                producto.stock,
+                Categoria = producto.Categoria != null ? producto.Categoria.Nombre : null,
+                ImagenBase64 = producto.Imagen != null ? Convert.ToBase64String(producto.Imagen) : null
+            };
+        }
+
     }
 }
 

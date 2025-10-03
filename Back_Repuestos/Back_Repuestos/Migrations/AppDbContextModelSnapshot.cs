@@ -176,6 +176,11 @@ namespace Back_Repuestos.Migrations
 
                     MySqlPropertyBuilderExtensions.UseMySqlIdentityColumn(b.Property<int>("IdVenta"));
 
+                    b.Property<string>("Estado")
+                        .IsRequired()
+                        .HasMaxLength(20)
+                        .HasColumnType("varchar(20)");
+
                     b.Property<DateTime>("Fecha")
                         .HasColumnType("datetime(6)");
 

@@ -255,6 +255,22 @@
   },
   {
     "ContainingType": "Back_Repuestos.Controllers.ProductoController",
+    "Method": "GetPorId",
+    "RelativePath": "api/Producto/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Back_Repuestos.Controllers.ProductoController",
     "Method": "GetFiltrados",
     "RelativePath": "api/Producto/filtrar",
     "HttpMethod": "GET",
@@ -298,6 +314,69 @@
         "StatusCode": 200
       }
     ]
+  },
+  {
+    "ContainingType": "Back_Repuestos.Controllers.VentasController",
+    "Method": "GetVentas",
+    "RelativePath": "api/Ventas",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Back_Repuestos.Controllers.VentasController",
+    "Method": "CambiarEstado",
+    "RelativePath": "api/Ventas/{id}/estado",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "nuevoEstado",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Back_Repuestos.Controllers.VentasController",
+    "Method": "CrearVenta",
+    "RelativePath": "api/Ventas/crear",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Back_Repuestos.DTO.PedidoCrearDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Back_Repuestos.Controllers.VentasController",
+    "Method": "GetVentasPorUsuario",
+    "RelativePath": "api/Ventas/usuario/{idUsuario}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idUsuario",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
   },
   {
     "ContainingType": "Back_Repuestos.Controllers.WeatherForecastController",

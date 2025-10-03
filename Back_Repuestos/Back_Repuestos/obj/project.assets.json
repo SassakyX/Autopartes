@@ -3983,11 +3983,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Sassa\\Documents\\Calidad y Pruebas de software\\Back_Repuestos\\Back_Repuestos\\Back_Repuestos.csproj",
+      "projectUniqueName": "C:\\Users\\Sassa\\Videos\\Proyecto\\Back_Repuestos\\Back_Repuestos\\Back_Repuestos.csproj",
       "projectName": "Back_Repuestos",
-      "projectPath": "C:\\Users\\Sassa\\Documents\\Calidad y Pruebas de software\\Back_Repuestos\\Back_Repuestos\\Back_Repuestos.csproj",
+      "projectPath": "C:\\Users\\Sassa\\Videos\\Proyecto\\Back_Repuestos\\Back_Repuestos\\Back_Repuestos.csproj",
       "packagesPath": "C:\\Users\\Sassa\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Sassa\\Documents\\Calidad y Pruebas de software\\Back_Repuestos\\Back_Repuestos\\obj\\",
+      "outputPath": "C:\\Users\\Sassa\\Videos\\Proyecto\\Back_Repuestos\\Back_Repuestos\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -14,5 +14,10 @@ namespace Back_Repuestos.Modelos
         public Usuario? Usuario { get; set; }
 
         public ICollection<DetalleVenta>? DetalleVentas { get; set; }
+        
+        
+        [StringLength(20)]
+        public string Estado { get; set; } = "Pendiente";
+        // Estados posibles: Pendiente, Pagado, Finalizado, Cancelado
     }
 }
