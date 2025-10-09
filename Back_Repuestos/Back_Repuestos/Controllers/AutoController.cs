@@ -38,21 +38,29 @@ namespace Back_Repuestos.Controllers
                 return BadRequest(new { errores });
             }
 
-            if (await _context.Usuarios.AnyAsync(u => u.user == request.User || u.Correo == request.Correo))
+            if (await _context.Usuarios.AnyAsync(u => u.Correo == request.Correo))
             {
-                return BadRequest(new { mensaje = "El usuario o correo ya está registrado." });
+                return BadRequest(new { mensaje = "El correo ya está registrado, ingresa uno diferente." });
+            }
+            else if (await _context.Usuarios.AnyAsync(u => u.user == request.User ))
+            {
+                return BadRequest(new { mensaje = "El usuario ya está registrado, ingresa uno diferente. " });
+            }
+            else if (await _context.Usuarios.AnyAsync(u => u.DNI == request.DNI))
+            {
+                return BadRequest(new { mensaje = "El DNI ya está registrado, ingresa uno diferente. " });
             }
 
-            var usuario = new Usuario
-            {
-                Nombre_apellido = request.Nombre_apellido,
-                DNI = request.DNI,
-                Direccion = request.Direccion,
-                Correo = request.Correo,
-                user = request.User,
-                Contrasenia = BCrypt.Net.BCrypt.HashPassword(request.Contrasenia),
-                rol = "Usuario"
-            };
+                var usuario = new Usuario
+                {
+                    Nombre_apellido = request.Nombre_apellido,
+                    DNI = request.DNI,
+                    Direccion = request.Direccion,
+                    Correo = request.Correo,
+                    user = request.User,
+                    Contrasenia = BCrypt.Net.BCrypt.HashPassword(request.Contrasenia),
+                    rol = "Usuario"
+                };
 
             _context.Usuarios.Add(usuario);
             await _context.SaveChangesAsync();

@@ -4,7 +4,7 @@ namespace Back_Repuestos.DTO
 {
     public class DTOlogin
     {
-        [Required(ErrorMessage = "El usuario o correo es obligatorio")]
+        [Required(ErrorMessage = "El usuario es obligatorio")]
         public string User { get; set; } = string.Empty;
 
         [Required(ErrorMessage = "La contraseña es obligatoria")]

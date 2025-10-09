@@ -187,6 +187,10 @@
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
               "version": "[18.0.0, )"
+            },
+            "NPOI": {
+              "target": "Package",
+              "version": "[2.7.5, )"
             }
           },
           "imports": [

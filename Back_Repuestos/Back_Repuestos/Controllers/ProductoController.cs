@@ -60,10 +60,10 @@ namespace Back_Repuestos.Controllers
                 query = query.Where(p => p.IdCategoria == idCategoria);
 
             if (precioMin.HasValue)
-                query = query.Where(p => p.PrecioCompra >= precioMin);
+                query = query.Where(p => p.PrecioVena >= precioMin);
 
             if (precioMax.HasValue)
-                query = query.Where(p => p.PrecioCompra <= precioMax);
+                query = query.Where(p => p.PrecioVena <= precioMax);
 
             if (soloStock.HasValue && soloStock.Value)
                 query = query.Where(p => p.stock > 0);

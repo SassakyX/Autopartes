@@ -1,0 +1,913 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- https://go.microsoft.com/fwlink/?LinkID=208121. -->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA6QXeQezkPUW5bwwPm/eu6QAAAAACAAAAAAAQZgAAAAEAACAAAACKBfg4dMM9K20fc7CUpVjouEKWl35GXRuZqbfpjJUqZwAAAAAOgAAAAAIAACAAAABy6LKbhW092vVeQaWeZTGOoe4QDM6Com0FvZ/cysNzRCAAAADDqT77/bVZllYFWa5ZUluXHVo2D8zO5ljUvo0y2tPsGEAAAAA3twLKBAMANDJnb8CrOJwr9Kv6sS77vl8QOBJSG7O+tnkWXLv/+CyoZyYaE0wDJAODnssX3ZzoK/CutvDyrNYt</EncryptedPassword>
+    <_PublishTargetUrl>ftp://win9078.site4now.net/sassakyxx-001-site1.jtempurl.com</_PublishTargetUrl>
+    <History>True|2025-10-09T19:22:38.5079633Z||;True|2025-10-09T11:52:11.1755430-05:00||;True|2025-10-07T01:03:45.7274337-05:00||;True|2025-10-07T00:14:47.4541353-05:00||;True|2025-10-06T23:33:34.2085118-05:00||;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="alpine/x64/Cov_x64.config">
+      <publishTime>09/26/2025 04:27:32</publishTime>
+    </File>
+    <File Include="alpine/x64/libCoverageInstrumentationMethod.so">
+      <publishTime>09/26/2025 04:27:32</publishTime>
+    </File>
+    <File Include="alpine/x64/libInstrumentationEngine.so">
+      <publishTime>09/26/2025 04:27:32</publishTime>
+    </File>
+    <File Include="appsettings.Development.json">
+      <publishTime>09/06/2025 17:41:32</publishTime>
+    </File>
+    <File Include="appsettings.json">
+      <publishTime>10/09/2025 14:01:28</publishTime>
+    </File>
+    <File Include="arm64/MicrosoftInstrumentationEngine_arm64.dll">
+      <publishTime>03/22/2022 15:24:20</publishTime>
+    </File>
+    <File Include="Back_Repuestos.deps.json">
+      <publishTime>10/09/2025 14:07:29</publishTime>
+    </File>
+    <File Include="Back_Repuestos.dll">
+      <publishTime>10/09/2025 14:07:25</publishTime>
+    </File>
+    <File Include="Back_Repuestos.exe">
+      <publishTime>10/09/2025 14:07:25</publishTime>
+    </File>
+    <File Include="Back_Repuestos.pdb">
+      <publishTime>10/09/2025 14:07:25</publishTime>
+    </File>
+    <File Include="Back_Repuestos.runtimeconfig.json">
+      <publishTime>10/06/2025 23:20:16</publishTime>
+    </File>
+    <File Include="Back_Repuestos.staticwebassets.endpoints.json">
+      <publishTime>10/09/2025 14:07:29</publishTime>
+    </File>
+    <File Include="BCrypt.Net-Next.dll">
+      <publishTime>03/03/2022 11:10:20</publishTime>
+    </File>
+    <File Include="BouncyCastle.Cryptography.dll">
+      <publishTime>02/07/2025 01:15:06</publishTime>
+    </File>
+    <File Include="CodeCoverage/amd64/CodeCoverage.exe">
+      <publishTime>09/26/2025 04:33:36</publishTime>
+    </File>
+    <File Include="CodeCoverage/amd64/covrun64.dll">
+      <publishTime>09/26/2025 04:33:52</publishTime>
+    </File>
+    <File Include="CodeCoverage/amd64/Cov_x64.config">
+      <publishTime>09/26/2025 04:25:02</publishTime>
+    </File>
+    <File Include="CodeCoverage/amd64/msdia140.dll">
+      <publishTime>06/13/2025 17:35:56</publishTime>
+    </File>
+    <File Include="CodeCoverage/arm64/covrunarm64.dll">
+      <publishTime>09/26/2025 04:33:58</publishTime>
+    </File>
+    <File Include="CodeCoverage/arm64/Cov_arm64.config">
+      <publishTime>09/26/2025 04:25:02</publishTime>
+    </File>
+    <File Include="CodeCoverage/arm64/msdia140.dll">
+      <publishTime>06/13/2025 17:38:06</publishTime>
+    </File>
+    <File Include="CodeCoverage/CodeCoverage.config">
+      <publishTime>09/26/2025 04:25:02</publishTime>
+    </File>
+    <File Include="CodeCoverage/CodeCoverage.exe">
+      <publishTime>09/26/2025 04:33:34</publishTime>
+    </File>
+    <File Include="CodeCoverage/CodeCoverageMessages.dll">
+      <publishTime>09/26/2025 04:32:14</publishTime>
+    </File>
+    <File Include="CodeCoverage/coreclr/Microsoft.VisualStudio.CodeCoverage.Shim.dll">
+      <publishTime>09/26/2025 04:32:10</publishTime>
+    </File>
+    <File Include="CodeCoverage/covrun32.dll">
+      <publishTime>09/26/2025 04:33:08</publishTime>
+    </File>
+    <File Include="CodeCoverage/Cov_x86.config">
+      <publishTime>09/26/2025 04:25:02</publishTime>
+    </File>
+    <File Include="CodeCoverage/msdia140.dll">
+      <publishTime>06/13/2025 17:39:44</publishTime>
+    </File>
+    <File Include="cs/Microsoft.CodeCoverage.Core.resources.dll">
+      <publishTime>09/26/2025 04:32:36</publishTime>
+    </File>
+    <File Include="cs/Microsoft.Testing.Extensions.MSBuild.resources.dll">
+      <publishTime>10/01/2025 05:32:46</publishTime>
+    </File>
+    <File Include="cs/Microsoft.Testing.Extensions.Telemetry.resources.dll">
+      <publishTime>10/01/2025 05:32:46</publishTime>
+    </File>
+    <File Include="cs/Microsoft.Testing.Extensions.VSTestBridge.resources.dll">
+      <publishTime>10/01/2025 05:33:12</publishTime>
+    </File>
+    <File Include="cs/Microsoft.Testing.Platform.resources.dll">
+      <publishTime>10/01/2025 05:32:26</publishTime>
+    </File>
+    <File Include="cs/Microsoft.TestPlatform.AdapterUtilities.resources.dll">
+      <publishTime>02/07/2025 01:39:04</publishTime>
+    </File>
+    <File Include="cs/Microsoft.TestPlatform.CommunicationUtilities.resources.dll">
+      <publishTime>10/01/2025 10:37:46</publishTime>
+    </File>
+    <File Include="cs/Microsoft.TestPlatform.CoreUtilities.resources.dll">
+      <publishTime>10/01/2025 10:37:34</publishTime>
+    </File>
+    <File Include="cs/Microsoft.TestPlatform.CrossPlatEngine.resources.dll">
+      <publishTime>10/01/2025 10:37:50</publishTime>
+    </File>
+    <File Include="cs/Microsoft.VisualStudio.TestPlatform.Common.resources.dll">
+      <publishTime>10/01/2025 10:37:44</publishTime>
+    </File>
+    <File Include="cs/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll">
+      <publishTime>10/01/2025 10:37:38</publishTime>
+    </File>
+    <File Include="cs/Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll">
+      <publishTime>10/01/2025 05:32:28</publishTime>
+    </File>
+    <File Include="cs/Microsoft.VisualStudio.TraceDataCollector.resources.dll">
+      <publishTime>09/26/2025 04:33:38</publishTime>
+    </File>
+    <File Include="de/Microsoft.CodeCoverage.Core.resources.dll">
+      <publishTime>09/26/2025 04:32:36</publishTime>
+    </File>
+    <File Include="de/Microsoft.Testing.Extensions.MSBuild.resources.dll">
+      <publishTime>10/01/2025 05:32:46</publishTime>
+    </File>
+    <File Include="de/Microsoft.Testing.Extensions.Telemetry.resources.dll">
+      <publishTime>10/01/2025 05:32:46</publishTime>
+    </File>
+    <File Include="de/Microsoft.Testing.Extensions.VSTestBridge.resources.dll">
+      <publishTime>10/01/2025 05:33:12</publishTime>
+    </File>
+    <File Include="de/Microsoft.Testing.Platform.resources.dll">
+      <publishTime>10/01/2025 05:32:28</publishTime>
+    </File>
+    <File Include="de/Microsoft.TestPlatform.AdapterUtilities.resources.dll">
+      <publishTime>02/07/2025 01:39:04</publishTime>
+    </File>
+    <File Include="de/Microsoft.TestPlatform.CommunicationUtilities.resources.dll">
+      <publishTime>10/01/2025 10:37:46</publishTime>
+    </File>
+    <File Include="de/Microsoft.TestPlatform.CoreUtilities.resources.dll">
+      <publishTime>10/01/2025 10:37:34</publishTime>
+    </File>
+    <File Include="de/Microsoft.TestPlatform.CrossPlatEngine.resources.dll">
+      <publishTime>10/01/2025 10:37:50</publishTime>
+    </File>
+    <File Include="de/Microsoft.VisualStudio.TestPlatform.Common.resources.dll">
+      <publishTime>10/01/2025 10:37:44</publishTime>
+    </File>
+    <File Include="de/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll">
+      <publishTime>10/01/2025 10:37:38</publishTime>
+    </File>
+    <File Include="de/Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll">
+      <publishTime>10/01/2025 05:32:28</publishTime>
+    </File>
+    <File Include="de/Microsoft.VisualStudio.TraceDataCollector.resources.dll">
+      <publishTime>09/26/2025 04:33:38</publishTime>
+    </File>
+    <File Include="es/Microsoft.CodeCoverage.Core.resources.dll">
+      <publishTime>09/26/2025 04:32:36</publishTime>
+    </File>
+    <File Include="es/Microsoft.Testing.Extensions.MSBuild.resources.dll">
+      <publishTime>10/01/2025 05:32:46</publishTime>
+    </File>
+    <File Include="es/Microsoft.Testing.Extensions.Telemetry.resources.dll">
+      <publishTime>10/01/2025 05:32:46</publishTime>
+    </File>
+    <File Include="es/Microsoft.Testing.Extensions.VSTestBridge.resources.dll">
+      <publishTime>10/01/2025 05:33:12</publishTime>
+    </File>
+    <File Include="es/Microsoft.Testing.Platform.resources.dll">
+      <publishTime>10/01/2025 05:32:32</publishTime>
+    </File>
+    <File Include="es/Microsoft.TestPlatform.AdapterUtilities.resources.dll">
+      <publishTime>02/07/2025 01:39:04</publishTime>
+    </File>
+    <File Include="es/Microsoft.TestPlatform.CommunicationUtilities.resources.dll">
+      <publishTime>10/01/2025 10:37:46</publishTime>
+    </File>
+    <File Include="es/Microsoft.TestPlatform.CoreUtilities.resources.dll">
+      <publishTime>10/01/2025 10:37:34</publishTime>
+    </File>
+    <File Include="es/Microsoft.TestPlatform.CrossPlatEngine.resources.dll">
+      <publishTime>10/01/2025 10:37:50</publishTime>
+    </File>
+    <File Include="es/Microsoft.VisualStudio.TestPlatform.Common.resources.dll">
+      <publishTime>10/01/2025 10:37:44</publishTime>
+    </File>
+    <File Include="es/Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.resources.dll">
+      <publishTime>10/01/2025 05:33:04</publishTime>
+    </File>
+    <File Include="es/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll">
+      <publishTime>10/01/2025 10:37:38</publishTime>
+    </File>
+    <File Include="es/Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll">
+      <publishTime>10/01/2025 05:32:32</publishTime>
+    </File>
+    <File Include="es/Microsoft.VisualStudio.TraceDataCollector.resources.dll">
+      <publishTime>09/26/2025 04:33:38</publishTime>
+    </File>
+    <File Include="fr/Microsoft.CodeCoverage.Core.resources.dll">
+      <publishTime>09/26/2025 04:32:36</publishTime>
+    </File>
+    <File Include="fr/Microsoft.Testing.Extensions.MSBuild.resources.dll">
+      <publishTime>10/01/2025 05:32:46</publishTime>
+    </File>
+    <File Include="fr/Microsoft.Testing.Extensions.Telemetry.resources.dll">
+      <publishTime>10/01/2025 05:32:46</publishTime>
+    </File>
+    <File Include="fr/Microsoft.Testing.Extensions.VSTestBridge.resources.dll">
+      <publishTime>10/01/2025 05:33:12</publishTime>
+    </File>
+    <File Include="fr/Microsoft.Testing.Platform.resources.dll">
+      <publishTime>10/01/2025 05:32:32</publishTime>
+    </File>
+    <File Include="fr/Microsoft.TestPlatform.AdapterUtilities.resources.dll">
+      <publishTime>02/07/2025 01:39:04</publishTime>
+    </File>
+    <File Include="fr/Microsoft.TestPlatform.CommunicationUtilities.resources.dll">
+      <publishTime>10/01/2025 10:37:46</publishTime>
+    </File>
+    <File Include="fr/Microsoft.TestPlatform.CoreUtilities.resources.dll">
+      <publishTime>10/01/2025 10:37:34</publishTime>
+    </File>
+    <File Include="fr/Microsoft.TestPlatform.CrossPlatEngine.resources.dll">
+      <publishTime>10/01/2025 10:37:50</publishTime>
+    </File>
+    <File Include="fr/Microsoft.VisualStudio.TestPlatform.Common.resources.dll">
+      <publishTime>10/01/2025 10:37:44</publishTime>
+    </File>
+    <File Include="fr/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll">
+      <publishTime>10/01/2025 10:37:38</publishTime>
+    </File>
+    <File Include="fr/Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll">
+      <publishTime>10/01/2025 05:32:32</publishTime>
+    </File>
+    <File Include="fr/Microsoft.VisualStudio.TraceDataCollector.resources.dll">
+      <publishTime>09/26/2025 04:33:38</publishTime>
+    </File>
+    <File Include="Humanizer.dll">
+      <publishTime>01/29/2022 10:04:04</publishTime>
+    </File>
+    <File Include="it/Microsoft.CodeCoverage.Core.resources.dll">
+      <publishTime>09/26/2025 04:32:36</publishTime>
+    </File>
+    <File Include="it/Microsoft.Testing.Extensions.MSBuild.resources.dll">
+      <publishTime>10/01/2025 05:32:46</publishTime>
+    </File>
+    <File Include="it/Microsoft.Testing.Extensions.Telemetry.resources.dll">
+      <publishTime>10/01/2025 05:32:46</publishTime>
+    </File>
+    <File Include="it/Microsoft.Testing.Extensions.VSTestBridge.resources.dll">
+      <publishTime>10/01/2025 05:33:12</publishTime>
+    </File>
+    <File Include="it/Microsoft.Testing.Platform.resources.dll">
+      <publishTime>10/01/2025 05:32:32</publishTime>
+    </File>
+    <File Include="it/Microsoft.TestPlatform.AdapterUtilities.resources.dll">
+      <publishTime>02/07/2025 01:39:04</publishTime>
+    </File>
+    <File Include="it/Microsoft.TestPlatform.CommunicationUtilities.resources.dll">
+      <publishTime>10/01/2025 10:37:46</publishTime>
+    </File>
+    <File Include="it/Microsoft.TestPlatform.CoreUtilities.resources.dll">
+      <publishTime>10/01/2025 10:37:34</publishTime>
+    </File>
+    <File Include="it/Microsoft.TestPlatform.CrossPlatEngine.resources.dll">
+      <publishTime>10/01/2025 10:37:50</publishTime>
+    </File>
+    <File Include="it/Microsoft.VisualStudio.TestPlatform.Common.resources.dll">
+      <publishTime>10/01/2025 10:37:44</publishTime>
+    </File>
+    <File Include="it/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll">
+      <publishTime>10/01/2025 10:37:38</publishTime>
+    </File>
+    <File Include="it/Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll">
+      <publishTime>10/01/2025 05:32:32</publishTime>
+    </File>
+    <File Include="it/Microsoft.VisualStudio.TraceDataCollector.resources.dll">
+      <publishTime>09/26/2025 04:33:38</publishTime>
+    </File>
+    <File Include="ja/Microsoft.CodeCoverage.Core.resources.dll">
+      <publishTime>09/26/2025 04:32:36</publishTime>
+    </File>
+    <File Include="ja/Microsoft.Testing.Extensions.MSBuild.resources.dll">
+      <publishTime>10/01/2025 05:32:46</publishTime>
+    </File>
+    <File Include="ja/Microsoft.Testing.Extensions.Telemetry.resources.dll">
+      <publishTime>10/01/2025 05:32:46</publishTime>
+    </File>
+    <File Include="ja/Microsoft.Testing.Extensions.VSTestBridge.resources.dll">
+      <publishTime>10/01/2025 05:33:12</publishTime>
+    </File>
+    <File Include="ja/Microsoft.Testing.Platform.resources.dll">
+      <publishTime>10/01/2025 05:32:32</publishTime>
+    </File>
+    <File Include="ja/Microsoft.TestPlatform.AdapterUtilities.resources.dll">
+      <publishTime>02/07/2025 01:39:04</publishTime>
+    </File>
+    <File Include="ja/Microsoft.TestPlatform.CommunicationUtilities.resources.dll">
+      <publishTime>10/01/2025 10:37:46</publishTime>
+    </File>
+    <File Include="ja/Microsoft.TestPlatform.CoreUtilities.resources.dll">
+      <publishTime>10/01/2025 10:37:34</publishTime>
+    </File>
+    <File Include="ja/Microsoft.TestPlatform.CrossPlatEngine.resources.dll">
+      <publishTime>10/01/2025 10:37:50</publishTime>
+    </File>
+    <File Include="ja/Microsoft.VisualStudio.TestPlatform.Common.resources.dll">
+      <publishTime>10/01/2025 10:37:44</publishTime>
+    </File>
+    <File Include="ja/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll">
+      <publishTime>10/01/2025 10:37:38</publishTime>
+    </File>
+    <File Include="ja/Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll">
+      <publishTime>10/01/2025 05:32:32</publishTime>
+    </File>
+    <File Include="ja/Microsoft.VisualStudio.TraceDataCollector.resources.dll">
+      <publishTime>09/26/2025 04:33:38</publishTime>
+    </File>
+    <File Include="ko/Microsoft.CodeCoverage.Core.resources.dll">
+      <publishTime>09/26/2025 04:32:36</publishTime>
+    </File>
+    <File Include="ko/Microsoft.Testing.Extensions.MSBuild.resources.dll">
+      <publishTime>10/01/2025 05:32:46</publishTime>
+    </File>
+    <File Include="ko/Microsoft.Testing.Extensions.Telemetry.resources.dll">
+      <publishTime>10/01/2025 05:32:46</publishTime>
+    </File>
+    <File Include="ko/Microsoft.Testing.Extensions.VSTestBridge.resources.dll">
+      <publishTime>10/01/2025 05:33:12</publishTime>
+    </File>
+    <File Include="ko/Microsoft.Testing.Platform.resources.dll">
+      <publishTime>10/01/2025 05:32:32</publishTime>
+    </File>
+    <File Include="ko/Microsoft.TestPlatform.AdapterUtilities.resources.dll">
+      <publishTime>02/07/2025 01:39:04</publishTime>
+    </File>
+    <File Include="ko/Microsoft.TestPlatform.CommunicationUtilities.resources.dll">
+      <publishTime>10/01/2025 10:37:46</publishTime>
+    </File>
+    <File Include="ko/Microsoft.TestPlatform.CoreUtilities.resources.dll">
+      <publishTime>10/01/2025 10:37:34</publishTime>
+    </File>
+    <File Include="ko/Microsoft.TestPlatform.CrossPlatEngine.resources.dll">
+      <publishTime>10/01/2025 10:37:50</publishTime>
+    </File>
+    <File Include="ko/Microsoft.VisualStudio.TestPlatform.Common.resources.dll">
+      <publishTime>10/01/2025 10:37:44</publishTime>
+    </File>
+    <File Include="ko/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll">
+      <publishTime>10/01/2025 10:37:38</publishTime>
+    </File>
+    <File Include="ko/Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll">
+      <publishTime>10/01/2025 05:32:32</publishTime>
+    </File>
+    <File Include="ko/Microsoft.VisualStudio.TraceDataCollector.resources.dll">
+      <publishTime>09/26/2025 04:33:38</publishTime>
+    </File>
+    <File Include="libman.json">
+      <publishTime>10/03/2025 19:57:09</publishTime>
+    </File>
+    <File Include="macos/x64/Cov_x64.config">
+      <publishTime>09/26/2025 04:27:34</publishTime>
+    </File>
+    <File Include="macos/x64/libCoverageInstrumentationMethod.dylib">
+      <publishTime>09/26/2025 04:27:34</publishTime>
+    </File>
+    <File Include="macos/x64/libInstrumentationEngine.dylib">
+      <publishTime>09/26/2025 04:27:34</publishTime>
+    </File>
+    <File Include="MailKit.dll">
+      <publishTime>06/25/2025 11:25:14</publishTime>
+    </File>
+    <File Include="Microsoft.ApplicationInsights.dll">
+      <publishTime>02/18/2025 18:38:36</publishTime>
+    </File>
+    <File Include="Microsoft.AspNetCore.Authentication.JwtBearer.dll">
+      <publishTime>08/20/2025 03:50:10</publishTime>
+    </File>
+    <File Include="Microsoft.CodeCoverage.Core.dll">
+      <publishTime>09/26/2025 04:32:36</publishTime>
+    </File>
+    <File Include="Microsoft.CodeCoverage.Instrumentation.Core.dll">
+      <publishTime>09/26/2025 04:32:26</publishTime>
+    </File>
+    <File Include="Microsoft.CodeCoverage.Instrumentation.dll">
+      <publishTime>09/26/2025 04:32:38</publishTime>
+    </File>
+    <File Include="Microsoft.CodeCoverage.Interprocess.dll">
+      <publishTime>09/26/2025 04:32:42</publishTime>
+    </File>
+    <File Include="Microsoft.CodeCoverage.props">
+      <publishTime>10/01/2025 10:32:52</publishTime>
+    </File>
+    <File Include="Microsoft.CodeCoverage.targets">
+      <publishTime>10/01/2025 10:32:52</publishTime>
+    </File>
+    <File Include="Microsoft.DiaSymReader.dll">
+      <publishTime>04/28/2023 14:31:24</publishTime>
+    </File>
+    <File Include="Microsoft.EntityFrameworkCore.Abstractions.dll">
+      <publishTime>08/20/2025 00:25:54</publishTime>
+    </File>
+    <File Include="Microsoft.EntityFrameworkCore.dll">
+      <publishTime>08/20/2025 00:26:30</publishTime>
+    </File>
+    <File Include="Microsoft.EntityFrameworkCore.InMemory.dll">
+      <publishTime>08/20/2025 00:27:02</publishTime>
+    </File>
+    <File Include="Microsoft.EntityFrameworkCore.Relational.dll">
+      <publishTime>08/20/2025 00:26:50</publishTime>
+    </File>
+    <File Include="Microsoft.Extensions.Caching.Abstractions.dll">
+      <publishTime>08/19/2025 17:14:08</publishTime>
+    </File>
+    <File Include="Microsoft.Extensions.Caching.Memory.dll">
+      <publishTime>08/19/2025 17:18:12</publishTime>
+    </File>
+    <File Include="Microsoft.Extensions.Configuration.Abstractions.dll">
+      <publishTime>08/19/2025 17:14:00</publishTime>
+    </File>
+    <File Include="Microsoft.Extensions.DependencyInjection.Abstractions.dll">
+      <publishTime>08/19/2025 17:12:48</publishTime>
+    </File>
+    <File Include="Microsoft.Extensions.DependencyInjection.dll">
+      <publishTime>08/19/2025 17:13:30</publishTime>
+    </File>
+    <File Include="Microsoft.Extensions.Logging.Abstractions.dll">
+      <publishTime>08/19/2025 17:17:56</publishTime>
+    </File>
+    <File Include="Microsoft.Extensions.Logging.dll">
+      <publishTime>08/19/2025 17:18:10</publishTime>
+    </File>
+    <File Include="Microsoft.Extensions.Options.dll">
+      <publishTime>08/19/2025 17:16:56</publishTime>
+    </File>
+    <File Include="Microsoft.Extensions.Primitives.dll">
+      <publishTime>08/19/2025 17:13:06</publishTime>
+    </File>
+    <File Include="Microsoft.IdentityModel.Abstractions.dll">
+      <publishTime>08/15/2025 16:52:18</publishTime>
+    </File>
+    <File Include="Microsoft.IdentityModel.JsonWebTokens.dll">
+      <publishTime>08/15/2025 16:52:40</publishTime>
+    </File>
+    <File Include="Microsoft.IdentityModel.Logging.dll">
+      <publishTime>08/15/2025 16:51:08</publishTime>
+    </File>
+    <File Include="Microsoft.IdentityModel.Protocols.dll">
+      <publishTime>11/20/2023 20:17:02</publishTime>
+    </File>
+    <File Include="Microsoft.IdentityModel.Protocols.OpenIdConnect.dll">
+      <publishTime>11/20/2023 20:30:36</publishTime>
+    </File>
+    <File Include="Microsoft.IdentityModel.Tokens.dll">
+      <publishTime>08/15/2025 16:51:28</publishTime>
+    </File>
+    <File Include="Microsoft.OpenApi.dll">
+      <publishTime>03/06/2024 11:00:56</publishTime>
+    </File>
+    <File Include="Microsoft.Testing.Extensions.MSBuild.dll">
+      <publishTime>10/01/2025 05:32:46</publishTime>
+    </File>
+    <File Include="Microsoft.Testing.Extensions.Telemetry.dll">
+      <publishTime>10/01/2025 05:32:46</publishTime>
+    </File>
+    <File Include="Microsoft.Testing.Extensions.TrxReport.Abstractions.dll">
+      <publishTime>10/01/2025 05:32:48</publishTime>
+    </File>
+    <File Include="Microsoft.Testing.Extensions.VSTestBridge.dll">
+      <publishTime>10/01/2025 05:33:10</publishTime>
+    </File>
+    <File Include="Microsoft.Testing.Platform.dll">
+      <publishTime>10/01/2025 05:32:22</publishTime>
+    </File>
+    <File Include="Microsoft.TestPlatform.AdapterUtilities.dll">
+      <publishTime>02/07/2025 01:39:04</publishTime>
+    </File>
+    <File Include="Microsoft.TestPlatform.CommunicationUtilities.dll">
+      <publishTime>10/01/2025 10:37:46</publishTime>
+    </File>
+    <File Include="Microsoft.TestPlatform.CoreUtilities.dll">
+      <publishTime>10/01/2025 10:37:34</publishTime>
+    </File>
+    <File Include="Microsoft.TestPlatform.CrossPlatEngine.dll">
+      <publishTime>10/01/2025 10:37:50</publishTime>
+    </File>
+    <File Include="Microsoft.TestPlatform.PlatformAbstractions.dll">
+      <publishTime>10/01/2025 10:37:20</publishTime>
+    </File>
+    <File Include="Microsoft.TestPlatform.Utilities.dll">
+      <publishTime>10/01/2025 10:37:38</publishTime>
+    </File>
+    <File Include="Microsoft.VisualStudio.CodeCoverage.Shim.dll">
+      <publishTime>09/26/2025 04:32:10</publishTime>
+    </File>
+    <File Include="Microsoft.VisualStudio.TestPlatform.Common.dll">
+      <publishTime>10/01/2025 10:37:44</publishTime>
+    </File>
+    <File Include="Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll">
+      <publishTime>10/01/2025 05:34:26</publishTime>
+    </File>
+    <File Include="Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll">
+      <publishTime>10/01/2025 05:34:20</publishTime>
+    </File>
+    <File Include="Microsoft.VisualStudio.TestPlatform.ObjectModel.dll">
+      <publishTime>10/01/2025 10:37:38</publishTime>
+    </File>
+    <File Include="Microsoft.VisualStudio.TestPlatform.TestFramework.dll">
+      <publishTime>10/01/2025 05:32:26</publishTime>
+    </File>
+    <File Include="Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll">
+      <publishTime>10/01/2025 05:33:56</publishTime>
+    </File>
+    <File Include="Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml">
+      <publishTime>10/01/2025 05:33:56</publishTime>
+    </File>
+    <File Include="Microsoft.VisualStudio.TraceDataCollector.dll">
+      <publishTime>09/26/2025 04:33:38</publishTime>
+    </File>
+    <File Include="MimeKit.dll">
+      <publishTime>06/25/2025 10:47:06</publishTime>
+    </File>
+    <File Include="Mono.Cecil.dll">
+      <publishTime>07/01/2025 11:29:50</publishTime>
+    </File>
+    <File Include="Mono.Cecil.Pdb.dll">
+      <publishTime>07/01/2025 11:30:00</publishTime>
+    </File>
+    <File Include="Mono.Cecil.Rocks.dll">
+      <publishTime>07/01/2025 11:29:58</publishTime>
+    </File>
+    <File Include="MySqlConnector.dll">
+      <publishTime>11/12/2024 07:50:50</publishTime>
+    </File>
+    <File Include="Newtonsoft.Json.dll">
+      <publishTime>03/08/2023 02:09:54</publishTime>
+    </File>
+    <File Include="pl/Microsoft.CodeCoverage.Core.resources.dll">
+      <publishTime>09/26/2025 04:32:36</publishTime>
+    </File>
+    <File Include="pl/Microsoft.Testing.Extensions.MSBuild.resources.dll">
+      <publishTime>10/01/2025 05:32:46</publishTime>
+    </File>
+    <File Include="pl/Microsoft.Testing.Extensions.Telemetry.resources.dll">
+      <publishTime>10/01/2025 05:32:46</publishTime>
+    </File>
+    <File Include="pl/Microsoft.Testing.Extensions.VSTestBridge.resources.dll">
+      <publishTime>10/01/2025 05:33:12</publishTime>
+    </File>
+    <File Include="pl/Microsoft.Testing.Platform.resources.dll">
+      <publishTime>10/01/2025 05:32:32</publishTime>
+    </File>
+    <File Include="pl/Microsoft.TestPlatform.AdapterUtilities.resources.dll">
+      <publishTime>02/07/2025 01:39:04</publishTime>
+    </File>
+    <File Include="pl/Microsoft.TestPlatform.CommunicationUtilities.resources.dll">
+      <publishTime>10/01/2025 10:37:46</publishTime>
+    </File>
+    <File Include="pl/Microsoft.TestPlatform.CoreUtilities.resources.dll">
+      <publishTime>10/01/2025 10:37:34</publishTime>
+    </File>
+    <File Include="pl/Microsoft.TestPlatform.CrossPlatEngine.resources.dll">
+      <publishTime>10/01/2025 10:37:50</publishTime>
+    </File>
+    <File Include="pl/Microsoft.VisualStudio.TestPlatform.Common.resources.dll">
+      <publishTime>10/01/2025 10:37:44</publishTime>
+    </File>
+    <File Include="pl/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll">
+      <publishTime>10/01/2025 10:37:38</publishTime>
+    </File>
+    <File Include="pl/Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll">
+      <publishTime>10/01/2025 05:32:32</publishTime>
+    </File>
+    <File Include="pl/Microsoft.VisualStudio.TraceDataCollector.resources.dll">
+      <publishTime>09/26/2025 04:33:38</publishTime>
+    </File>
+    <File Include="Pomelo.EntityFrameworkCore.MySql.dll">
+      <publishTime>08/17/2025 17:09:22</publishTime>
+    </File>
+    <File Include="pt-BR/Microsoft.CodeCoverage.Core.resources.dll">
+      <publishTime>09/26/2025 04:32:36</publishTime>
+    </File>
+    <File Include="pt-BR/Microsoft.Testing.Extensions.MSBuild.resources.dll">
+      <publishTime>10/01/2025 05:32:46</publishTime>
+    </File>
+    <File Include="pt-BR/Microsoft.Testing.Extensions.Telemetry.resources.dll">
+      <publishTime>10/01/2025 05:32:46</publishTime>
+    </File>
+    <File Include="pt-BR/Microsoft.Testing.Extensions.VSTestBridge.resources.dll">
+      <publishTime>10/01/2025 05:33:12</publishTime>
+    </File>
+    <File Include="pt-BR/Microsoft.Testing.Platform.resources.dll">
+      <publishTime>10/01/2025 05:32:32</publishTime>
+    </File>
+    <File Include="pt-BR/Microsoft.TestPlatform.AdapterUtilities.resources.dll">
+      <publishTime>02/07/2025 01:39:04</publishTime>
+    </File>
+    <File Include="pt-BR/Microsoft.TestPlatform.CommunicationUtilities.resources.dll">
+      <publishTime>10/01/2025 10:37:46</publishTime>
+    </File>
+    <File Include="pt-BR/Microsoft.TestPlatform.CoreUtilities.resources.dll">
+      <publishTime>10/01/2025 10:37:34</publishTime>
+    </File>
+    <File Include="pt-BR/Microsoft.TestPlatform.CrossPlatEngine.resources.dll">
+      <publishTime>10/01/2025 10:37:50</publishTime>
+    </File>
+    <File Include="pt-BR/Microsoft.VisualStudio.TestPlatform.Common.resources.dll">
+      <publishTime>10/01/2025 10:37:44</publishTime>
+    </File>
+    <File Include="pt-BR/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll">
+      <publishTime>10/01/2025 10:37:38</publishTime>
+    </File>
+    <File Include="pt-BR/Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll">
+      <publishTime>10/01/2025 05:32:32</publishTime>
+    </File>
+    <File Include="pt-BR/Microsoft.VisualStudio.TraceDataCollector.resources.dll">
+      <publishTime>09/26/2025 04:33:38</publishTime>
+    </File>
+    <File Include="ru/Microsoft.CodeCoverage.Core.resources.dll">
+      <publishTime>09/26/2025 04:32:36</publishTime>
+    </File>
+    <File Include="ru/Microsoft.Testing.Extensions.MSBuild.resources.dll">
+      <publishTime>10/01/2025 05:32:46</publishTime>
+    </File>
+    <File Include="ru/Microsoft.Testing.Extensions.Telemetry.resources.dll">
+      <publishTime>10/01/2025 05:32:46</publishTime>
+    </File>
+    <File Include="ru/Microsoft.Testing.Extensions.VSTestBridge.resources.dll">
+      <publishTime>10/01/2025 05:33:12</publishTime>
+    </File>
+    <File Include="ru/Microsoft.Testing.Platform.resources.dll">
+      <publishTime>10/01/2025 05:32:32</publishTime>
+    </File>
+    <File Include="ru/Microsoft.TestPlatform.AdapterUtilities.resources.dll">
+      <publishTime>02/07/2025 01:39:04</publishTime>
+    </File>
+    <File Include="ru/Microsoft.TestPlatform.CommunicationUtilities.resources.dll">
+      <publishTime>10/01/2025 10:37:46</publishTime>
+    </File>
+    <File Include="ru/Microsoft.TestPlatform.CoreUtilities.resources.dll">
+      <publishTime>10/01/2025 10:37:34</publishTime>
+    </File>
+    <File Include="ru/Microsoft.TestPlatform.CrossPlatEngine.resources.dll">
+      <publishTime>10/01/2025 10:37:50</publishTime>
+    </File>
+    <File Include="ru/Microsoft.VisualStudio.TestPlatform.Common.resources.dll">
+      <publishTime>10/01/2025 10:37:44</publishTime>
+    </File>
+    <File Include="ru/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll">
+      <publishTime>10/01/2025 10:37:38</publishTime>
+    </File>
+    <File Include="ru/Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll">
+      <publishTime>10/01/2025 05:32:32</publishTime>
+    </File>
+    <File Include="ru/Microsoft.VisualStudio.TraceDataCollector.resources.dll">
+      <publishTime>09/26/2025 04:33:38</publishTime>
+    </File>
+    <File Include="runtimes/win/lib/net8.0/System.Security.Cryptography.Pkcs.dll">
+      <publishTime>09/16/2024 18:10:56</publishTime>
+    </File>
+    <File Include="Swashbuckle.AspNetCore.Swagger.dll">
+      <publishTime>05/21/2024 11:42:50</publishTime>
+    </File>
+    <File Include="Swashbuckle.AspNetCore.SwaggerGen.dll">
+      <publishTime>05/21/2024 11:42:58</publishTime>
+    </File>
+    <File Include="Swashbuckle.AspNetCore.SwaggerUI.dll">
+      <publishTime>05/21/2024 11:42:50</publishTime>
+    </File>
+    <File Include="System.Diagnostics.DiagnosticSource.dll">
+      <publishTime>08/19/2025 17:17:02</publishTime>
+    </File>
+    <File Include="System.IdentityModel.Tokens.Jwt.dll">
+      <publishTime>08/15/2025 16:51:28</publishTime>
+    </File>
+    <File Include="System.Memory.dll">
+      <publishTime>02/19/2020 05:05:18</publishTime>
+    </File>
+    <File Include="System.Security.Cryptography.Pkcs.dll">
+      <publishTime>09/16/2024 18:09:56</publishTime>
+    </File>
+    <File Include="System.Text.Json.dll">
+      <publishTime>10/14/2024 22:25:08</publishTime>
+    </File>
+    <File Include="testhost.dll">
+      <publishTime>10/01/2025 10:37:50</publishTime>
+    </File>
+    <File Include="testhost.exe">
+      <publishTime>10/01/2025 10:37:50</publishTime>
+    </File>
+    <File Include="ThirdPartyNotices.txt">
+      <publishTime>10/01/2025 10:32:52</publishTime>
+    </File>
+    <File Include="tr/Microsoft.CodeCoverage.Core.resources.dll">
+      <publishTime>09/26/2025 04:32:36</publishTime>
+    </File>
+    <File Include="tr/Microsoft.Testing.Extensions.MSBuild.resources.dll">
+      <publishTime>10/01/2025 05:32:46</publishTime>
+    </File>
+    <File Include="tr/Microsoft.Testing.Extensions.Telemetry.resources.dll">
+      <publishTime>10/01/2025 05:32:46</publishTime>
+    </File>
+    <File Include="tr/Microsoft.Testing.Extensions.VSTestBridge.resources.dll">
+      <publishTime>10/01/2025 05:33:12</publishTime>
+    </File>
+    <File Include="tr/Microsoft.Testing.Platform.resources.dll">
+      <publishTime>10/01/2025 05:32:32</publishTime>
+    </File>
+    <File Include="tr/Microsoft.TestPlatform.AdapterUtilities.resources.dll">
+      <publishTime>02/07/2025 01:39:04</publishTime>
+    </File>
+    <File Include="tr/Microsoft.TestPlatform.CommunicationUtilities.resources.dll">
+      <publishTime>10/01/2025 10:37:46</publishTime>
+    </File>
+    <File Include="tr/Microsoft.TestPlatform.CoreUtilities.resources.dll">
+      <publishTime>10/01/2025 10:37:34</publishTime>
+    </File>
+    <File Include="tr/Microsoft.TestPlatform.CrossPlatEngine.resources.dll">
+      <publishTime>10/01/2025 10:37:50</publishTime>
+    </File>
+    <File Include="tr/Microsoft.VisualStudio.TestPlatform.Common.resources.dll">
+      <publishTime>10/01/2025 10:37:44</publishTime>
+    </File>
+    <File Include="tr/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll">
+      <publishTime>10/01/2025 10:37:38</publishTime>
+    </File>
+    <File Include="tr/Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll">
+      <publishTime>10/01/2025 05:32:32</publishTime>
+    </File>
+    <File Include="tr/Microsoft.VisualStudio.TraceDataCollector.resources.dll">
+      <publishTime>09/26/2025 04:33:38</publishTime>
+    </File>
+    <File Include="ubuntu/x64/Cov_x64.config">
+      <publishTime>09/26/2025 04:27:30</publishTime>
+    </File>
+    <File Include="ubuntu/x64/libCoverageInstrumentationMethod.so">
+      <publishTime>09/26/2025 04:27:30</publishTime>
+    </File>
+    <File Include="ubuntu/x64/libInstrumentationEngine.so">
+      <publishTime>09/26/2025 04:27:30</publishTime>
+    </File>
+    <File Include="web.config">
+      <publishTime>10/09/2025 14:07:29</publishTime>
+    </File>
+    <File Include="wwwroot/favicon.ico">
+      <publishTime>08/29/2025 13:10:32</publishTime>
+    </File>
+    <File Include="wwwroot/favicon.png">
+      <publishTime>10/09/2025 14:05:35</publishTime>
+    </File>
+    <File Include="wwwroot/images/Carro_Compra.webp">
+      <publishTime>09/29/2025 18:30:44</publishTime>
+    </File>
+    <File Include="wwwroot/images/Filtro.jpg">
+      <publishTime>08/30/2025 00:25:10</publishTime>
+    </File>
+    <File Include="wwwroot/images/Foto1.jpg">
+      <publishTime>08/29/2025 20:23:50</publishTime>
+    </File>
+    <File Include="wwwroot/images/Foto2.jpg">
+      <publishTime>08/29/2025 20:26:28</publishTime>
+    </File>
+    <File Include="wwwroot/images/Foto3.jpg">
+      <publishTime>08/29/2025 20:35:42</publishTime>
+    </File>
+    <File Include="wwwroot/images/Marca1.jpg">
+      <publishTime>08/29/2025 23:06:22</publishTime>
+    </File>
+    <File Include="wwwroot/images/Marca2.jpg">
+      <publishTime>08/29/2025 23:06:12</publishTime>
+    </File>
+    <File Include="wwwroot/images/Marca3.png">
+      <publishTime>08/29/2025 23:03:32</publishTime>
+    </File>
+    <File Include="wwwroot/images/Marca4.jpg">
+      <publishTime>08/29/2025 23:07:18</publishTime>
+    </File>
+    <File Include="wwwroot/images/Marca5.jpg">
+      <publishTime>08/29/2025 23:09:52</publishTime>
+    </File>
+    <File Include="wwwroot/images/Marca6.jpg">
+      <publishTime>08/29/2025 23:10:02</publishTime>
+    </File>
+    <File Include="wwwroot/images/Repuestos.jpg">
+      <publishTime>09/06/2025 16:40:40</publishTime>
+    </File>
+    <File Include="wwwroot/index.html">
+      <publishTime>10/09/2025 14:03:12</publishTime>
+    </File>
+    <File Include="wwwroot/main-HENUQUIR.js">
+      <publishTime>10/06/2025 23:59:28</publishTime>
+    </File>
+    <File Include="wwwroot/main-POA3LU36.js">
+      <publishTime>10/09/2025 14:03:12</publishTime>
+    </File>
+    <File Include="wwwroot/main-QQCZLL64.js">
+      <publishTime>10/08/2025 17:47:13</publishTime>
+    </File>
+    <File Include="wwwroot/main-RIKCFX2W.js">
+      <publishTime>10/07/2025 00:46:27</publishTime>
+    </File>
+    <File Include="wwwroot/media/bootstrap-icons-CVBWLLHT.woff2">
+      <publishTime>10/09/2025 14:03:12</publishTime>
+    </File>
+    <File Include="wwwroot/media/bootstrap-icons-VQNJTM6Q.woff">
+      <publishTime>10/09/2025 14:03:12</publishTime>
+    </File>
+    <File Include="wwwroot/styles-RWK3J6I6.css">
+      <publishTime>10/09/2025 14:03:12</publishTime>
+    </File>
+    <File Include="x64/MicrosoftInstrumentationEngine_x64.dll">
+      <publishTime>03/22/2022 15:24:20</publishTime>
+    </File>
+    <File Include="x86/MicrosoftInstrumentationEngine_x86.dll">
+      <publishTime>03/22/2022 15:24:30</publishTime>
+    </File>
+    <File Include="zh-Hans/Microsoft.CodeCoverage.Core.resources.dll">
+      <publishTime>09/26/2025 04:32:36</publishTime>
+    </File>
+    <File Include="zh-Hans/Microsoft.Testing.Extensions.MSBuild.resources.dll">
+      <publishTime>10/01/2025 05:32:46</publishTime>
+    </File>
+    <File Include="zh-Hans/Microsoft.Testing.Extensions.Telemetry.resources.dll">
+      <publishTime>10/01/2025 05:32:46</publishTime>
+    </File>
+    <File Include="zh-Hans/Microsoft.Testing.Extensions.VSTestBridge.resources.dll">
+      <publishTime>10/01/2025 05:33:12</publishTime>
+    </File>
+    <File Include="zh-Hans/Microsoft.Testing.Platform.resources.dll">
+      <publishTime>10/01/2025 05:32:34</publishTime>
+    </File>
+    <File Include="zh-Hans/Microsoft.TestPlatform.AdapterUtilities.resources.dll">
+      <publishTime>02/07/2025 01:39:04</publishTime>
+    </File>
+    <File Include="zh-Hans/Microsoft.TestPlatform.CommunicationUtilities.resources.dll">
+      <publishTime>10/01/2025 10:37:46</publishTime>
+    </File>
+    <File Include="zh-Hans/Microsoft.TestPlatform.CoreUtilities.resources.dll">
+      <publishTime>10/01/2025 10:37:34</publishTime>
+    </File>
+    <File Include="zh-Hans/Microsoft.TestPlatform.CrossPlatEngine.resources.dll">
+      <publishTime>10/01/2025 10:37:50</publishTime>
+    </File>
+    <File Include="zh-Hans/Microsoft.VisualStudio.TestPlatform.Common.resources.dll">
+      <publishTime>10/01/2025 10:37:44</publishTime>
+    </File>
+    <File Include="zh-Hans/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll">
+      <publishTime>10/01/2025 10:37:38</publishTime>
+    </File>
+    <File Include="zh-Hans/Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll">
+      <publishTime>10/01/2025 05:32:34</publishTime>
+    </File>
+    <File Include="zh-Hans/Microsoft.VisualStudio.TraceDataCollector.resources.dll">
+      <publishTime>09/26/2025 04:33:38</publishTime>
+    </File>
+    <File Include="zh-Hant/Microsoft.CodeCoverage.Core.resources.dll">
+      <publishTime>09/26/2025 04:32:36</publishTime>
+    </File>
+    <File Include="zh-Hant/Microsoft.Testing.Extensions.MSBuild.resources.dll">
+      <publishTime>10/01/2025 05:32:46</publishTime>
+    </File>
+    <File Include="zh-Hant/Microsoft.Testing.Extensions.Telemetry.resources.dll">
+      <publishTime>10/01/2025 05:32:46</publishTime>
+    </File>
+    <File Include="zh-Hant/Microsoft.Testing.Extensions.VSTestBridge.resources.dll">
+      <publishTime>10/01/2025 05:33:12</publishTime>
+    </File>
+    <File Include="zh-Hant/Microsoft.Testing.Platform.resources.dll">
+      <publishTime>10/01/2025 05:32:34</publishTime>
+    </File>
+    <File Include="zh-Hant/Microsoft.TestPlatform.AdapterUtilities.resources.dll">
+      <publishTime>02/07/2025 01:39:04</publishTime>
+    </File>
+    <File Include="zh-Hant/Microsoft.TestPlatform.CommunicationUtilities.resources.dll">
+      <publishTime>10/01/2025 10:37:46</publishTime>
+    </File>
+    <File Include="zh-Hant/Microsoft.TestPlatform.CoreUtilities.resources.dll">
+      <publishTime>10/01/2025 10:37:34</publishTime>
+    </File>
+    <File Include="zh-Hant/Microsoft.TestPlatform.CrossPlatEngine.resources.dll">
+      <publishTime>10/01/2025 10:37:50</publishTime>
+    </File>
+    <File Include="zh-Hant/Microsoft.VisualStudio.TestPlatform.Common.resources.dll">
+      <publishTime>10/01/2025 10:37:44</publishTime>
+    </File>
+    <File Include="zh-Hant/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll">
+      <publishTime>10/01/2025 10:37:38</publishTime>
+    </File>
+    <File Include="zh-Hant/Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll">
+      <publishTime>10/01/2025 05:32:34</publishTime>
+    </File>
+    <File Include="zh-Hant/Microsoft.VisualStudio.TraceDataCollector.resources.dll">
+      <publishTime>09/26/2025 04:33:38</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

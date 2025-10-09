@@ -744,4 +744,5 @@ C:\Users\Sassa\Videos\Proyecto\Back_Repuestos\Back_Repuestos\bin\Debug\net8.0\Mi
 C:\Users\Sassa\Videos\Proyecto\Back_Repuestos\Back_Repuestos\bin\Debug\net8.0\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
 C:\Users\Sassa\Videos\Proyecto\Back_Repuestos\Back_Repuestos\obj\Debug\net8.0\Back_Repuestos.gentestingplatformentrypointinputcache.cache
 C:\Users\Sassa\Videos\Proyecto\Back_Repuestos\Back_Repuestos\obj\Debug\net8.0\Back_Repuestos.genautoregisteredextensionsinputcache.cache
-C:\Users\Sassa\Videos\Proyecto\Back_Repuestos\Back_Repuestos\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\Sassa\Videos\Proyecto\Back_Repuestos\Back_Repuestos\bin\Debug\net8.0\libman.json
+C:\Users\Sassa\Videos\Proyecto\Back_Repuestos\Back_Repuestos\bin\Debug\net8.0\Back_Repuestos.staticwebassets.runtime.json

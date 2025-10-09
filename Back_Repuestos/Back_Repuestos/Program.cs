@@ -8,25 +8,35 @@ using Microsoft.IdentityModel.Tokens;
 using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
-builder.Services.AddDbContext<AppDbContext>(options => options.UseMySql(
+
+    builder.Services.AddDbContext<AppDbContext>(options => options.UseMySql(
     builder.Configuration.GetConnectionString("DefaultConnection"),
     new MySqlServerVersion(new Version(9, 3, 0))));
 
-//Configurar CORS
+//para configurar localmente
+var MyAllowSpecificOrigins = "_myAllowSpecificOrigins";
+
 builder.Services.AddCors(options =>
 {
-    options.AddPolicy("CorsAngular",
-        policy => policy
-            .WithOrigins("http://localhost:4200") //Url del angular ojo
-            .AllowAnyMethod()
+    options.AddPolicy(name: MyAllowSpecificOrigins, policy =>
+    {
+        policy
+            //permite temporalmente todos los orígenes HTTP y HTTPS
+            .AllowAnyOrigin() 
             .AllowAnyHeader()
-    );
+            .AllowAnyMethod()
+            .WithExposedHeaders("Access-Control-Allow-Origin");
+
+    });
 });
+
+
 builder.Services.AddControllers()
     .AddJsonOptions(options =>
     {
         options.JsonSerializerOptions.PropertyNameCaseInsensitive = true;
     });
+
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
@@ -55,28 +65,32 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
         };
     }); ;
 
-builder.Services.AddAuthorization();
 
+builder.Services.AddAuthorization();
 var app = builder.Build();
+
+app.UseCors(MyAllowSpecificOrigins);
+
+if (app.Environment.IsDevelopment())
+{
+    app.UseSwagger();
+    app.UseSwaggerUI();
+}
+
+
+app.UseDefaultFiles();
+app.UseStaticFiles();
+app.UseAuthentication();
+app.UseAuthorization();
+app.MapControllers();
+app.MapFallbackToFile("index.html");
+
 using (var scope = app.Services.CreateScope())
 {
     var db = scope.ServiceProvider.GetRequiredService<AppDbContext>();
     db.Database.Migrate();
     await DatoSemilla.SeedAdminAsync(db, app.Configuration);
 }
-using (var scope = app.Services.CreateScope())
 
-    // Configure the HTTP request pipeline.
-    if (app.Environment.IsDevelopment())
-{
-    app.UseSwagger();
-    app.UseSwaggerUI();
-}
-app.UseCors("CorsAngular");
-//app.UseHttpsRedirection();
-app.UseAuthentication();
-app.UseAuthorization();
-
-app.MapControllers();
 
 app.Run();
