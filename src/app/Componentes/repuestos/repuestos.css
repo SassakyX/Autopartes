@@ -21,6 +21,7 @@
 .texto_banner h2 {
     font-size: 90px;
     margin-bottom: 120px;
+    animation: fadeInDown 1.2s ease forwards;
 }
 
 .texto-catalogo {
@@ -37,18 +38,20 @@
     gap: 20px;
     margin-top: 20px;
     padding: 10px;
+    animation: fadeIn 1s ease forwards;
 }
 
 .producto-card {
     background-color: white;
     border-radius: 14px;
-    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    box-shadow: 0 5px 5px rgba(0,0,0,0.7);
     overflow: hidden;
-    transition: transform 0.4s, box-shadow 0.4s;
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
     display: flex;
     flex-direction: column;
     cursor: pointer;
     height: 400px;
+    animation: zoomIn 0.6s ease forwards;
 
 }
 
@@ -98,6 +101,7 @@
   color: #666;
   border-radius: 10px;
   margin-top: 20px;
+  animation: fadeIn 1s ease forwards;
 }
 .panel-filtros {
   background-color: #f8f9fa;
@@ -114,4 +118,87 @@
   font-weight: bold;
   font-size: 1.2rem;
   color: #333;
+}
+.btn-primary {
+  background: linear-gradient(135deg, #007bff, #0056b3);
+  border: none;
+}
+
+.btn-primary:hover {
+  background: linear-gradient(135deg, #0056b3, #004095);
+  transform: translateY(-2px);
+}
+
+.btn-secondary {
+  background: linear-gradient(135deg, #6c757d, #495057);
+  border: none;
+}
+
+.btn-secondary:hover {
+  background: linear-gradient(135deg, #495057, #343a40);
+  transform: translateY(-2px);
+}
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes fadeInDown {
+  from { opacity: 0; transform: translateY(-20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes zoomIn {
+  from { opacity: 0; transform: scale(0.9); }
+  to { opacity: 1; transform: scale(1); }
+}
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 992px) {
+  .banner-repuestos {
+    height: 40vh;
+  }
+
+  .texto_banner h2 {
+    font-size: 3rem;
+  }
+
+  .productos-grid {
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  }
+
+  .panel-filtros {
+    margin: 0 auto 20px auto;
+  }
+}
+
+@media (max-width: 576px) {
+  .banner-repuestos {
+    height: 30vh;
+  }
+
+  .texto_banner h2 {
+    font-size: 2rem;
+  }
+
+  .buscador {
+    width: 90%;
+    margin-left: 5%;
+  }
+
+  .producto-card {
+    height: auto;
+  }
+
+  .producto-img {
+    height: 180px;
+  }
+
+  .producto-info h3 {
+    font-size: 1rem;
+  }
+
+  .producto-info p {
+    font-size: 0.85rem;
+  }
 }

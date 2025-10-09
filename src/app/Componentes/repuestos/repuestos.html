@@ -17,7 +17,8 @@
     <div><h2 class="mb-4" style="margin-left: 20px;">Productos</h2>
     <input type="text" class="form-control buscador mb-4"
              placeholder="Buscar producto..."
-             [(ngModel)]="filtroNombre">
+            (ngModelChange)="busqueda$.next($event)"
+            [(ngModel)]="filtroNombre">
     </div>
     <!-- Columna de filtros -->
     <div class="col-lg-3">
@@ -50,12 +51,14 @@
       </label>
     <!-- Precios -->
         <h6 class="mt-3">Precio</h6>
-        <input type="number" [(ngModel)]="precioMin" placeholder="Mínimo" class="form-control mb-2" style="width:120px">
-        <input type="number" [(ngModel)]="precioMax" placeholder="Máximo" class="form-control mb-2" style="width:120px">
+        <input type="number" [(ngModel)]="precioMin" placeholder="Mínimo"   class="form-control mb-2" style="width:120px">
+        <input type="number" [(ngModel)]="precioMax" placeholder="Máximo"   class="form-control mb-2" style="width:120px">
 
         <h6 class="mt-3">Stock</h6>
         <label><input type="checkbox" [(ngModel)]="soloStock"> Solo productos en stock</label>
       </div>
+              <button class="btn btn-primary mt-2" style="margin-left: 15px;" (click)="aplicarFiltros()">Aplicar filtros</button>
+              <button class="btn btn-secondary mt-2 "style="margin-left: 10px" (click)="limpiarFiltros()">Quitar filtros</button>
     </div>
 
     <!-- Columna de productos -->
@@ -74,7 +77,7 @@
           <div class="producto-info">
                 <h3>{{ p.nombre }}</h3>
                 <p>{{ p.descrpicion }}</p>
-                <p><strong>Venta:</strong> S/{{ p.precioVena }}</p>
+                <p><strong>Precio:</strong> S/{{ p.precioVena }}</p>
                 <p><strong>Stock:</strong> {{ p.stock }}</p>
                 <p><strong>Categoría:</strong> {{ p.categoria }}</p>
           </div>

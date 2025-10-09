@@ -4,6 +4,7 @@ import { Producto, ProductosServicio } from '../../servicios/Productos/productos
 import { ActivatedRoute } from '@angular/router';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
+import Swal from 'sweetalert2';
 
 @Component({
   selector: 'app-detalle-producto',
@@ -16,7 +17,7 @@ import { FormsModule } from '@angular/forms';
   producto: Producto | null = null;
 
   @ViewChild('imagen') imagen!: ElementRef<HTMLImageElement>;
-
+  cantidad: number = 1;
   constructor(
     private route: ActivatedRoute,
     private productosService: ProductosServicio,
@@ -28,6 +29,7 @@ import { FormsModule } from '@angular/forms';
     if (id) {
       this.productosService.getPorId(id).subscribe(p => {
         this.producto = p;
+        this.cantidad = p.stock > 0 ? 1 : 0;
       });
     }
   }
@@ -49,10 +51,61 @@ import { FormsModule } from '@angular/forms';
     this.imagen.nativeElement.style.transform = 'scale(1)';
     this.imagen.nativeElement.style.transformOrigin = 'center center';
   }
+
+  soloNumeros(event: KeyboardEvent) {
+    // permite solo números (teclas 0-9)
+    const charCode = event.which ? event.which : event.keyCode;
+    if (charCode < 48 || charCode > 57) {
+      event.preventDefault();
+    }
+  }
+  validarCantidad() {
+    if (!this.producto) return;
+
+    if (this.producto.stock <= 0) {
+      Swal.fire('Sin stock', 'Este producto no tiene unidades disponibles.', 'warning');
+      this.cantidad = 0;
+      return;
+    }
+
+    if (this.cantidad < 1) {
+      Swal.fire('Cantidad inválida', 'Debes ingresar una cantidad válida.', 'warning');
+      this.cantidad = 1;
+    }
+
+    if (this.cantidad > this.producto.stock) {
+      Swal.fire('Stock insuficiente', `Solo hay ${this.producto.stock} unidades disponibles.`, 'info');
+      this.cantidad = this.producto.stock;
+    }
+  }
+
   agregarAlCarrito() {
-  if (this.producto) {
-    this.carritoService.agregar(this.producto);
-    alert(`${this.producto.nombre} se agregó al carrito`);
+
+
+  if (!this.producto) {
+    alert("Error: no se ha cargado el producto.");
+    return;
+  }
+
+  if (!this.cantidad || this.cantidad < 1) {
+    alert("Debes ingresar una cantidad válida.");
+    return;
+  }
+  if (this.cantidad > this.producto.stock) {
+    alert(`Solo hay ${this.producto.stock} unidades disponibles.`);
+    this.cantidad = this.producto.stock;
+    return;
+    }
+
+  if (this.producto && this.cantidad > 0) {
+    const productocantidad = {
+      ...this.producto,
+      cantidad: this.cantidad
+    };
+    this.carritoService.agregar(productocantidad);
+    alert(`${this.producto.nombre} x${this.cantidad} se agregó al carrito`);
+  } else {
+    alert("Por favor, ingresa una cantidad válida antes de agregar al carrito.");
   }
 }
 }

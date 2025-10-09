@@ -11,7 +11,7 @@ export interface Categorias {
   providedIn: 'root'
 })
 export class CategoriasServicio {
-  private apiUrl = 'http://localhost:5298/api/Categoria';
+  private apiUrl = 'http://sassakyxx-001-site1.jtempurl.com/api/Categoria';
 
   constructor(private http: HttpClient) {}
 

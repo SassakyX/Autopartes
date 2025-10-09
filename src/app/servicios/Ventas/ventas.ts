@@ -6,7 +6,7 @@ import { Observable } from 'rxjs';
   providedIn: 'root'
 })
 export class VentasService {
-  private apiUrl = 'http://localhost:5298/api/ventas';
+  private apiUrl = 'http://sassakyxx-001-site1.jtempurl.com/api/ventas';
 
   constructor(private http: HttpClient) {}
 

@@ -4,6 +4,7 @@ import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { CategoriasServicio,Categorias } from '../../servicios/Categoria/categorias';
 import { RouterLink } from '@angular/router';
+import { debounceTime, Subject } from 'rxjs';
 
 @Component({
   selector: 'app-repuestos',
@@ -23,6 +24,7 @@ export class Repuestos implements OnInit {
   precioMin?: number;
   precioMax?: number;
   soloStock = false;
+  busqueda$ = new Subject<string>();
 
   constructor(
     private productoservicio: ProductosServicio,
@@ -35,6 +37,10 @@ export class Repuestos implements OnInit {
 
     // cargar categorías
     this.categoriasServicio.getCategorias().subscribe(data => this.categorias = data);
+    this.busqueda$.pipe(debounceTime(300)).subscribe(valor => {
+    this.filtroNombre = valor;
+    this.aplicarFiltros();
+  });
   }
   aplicarFiltros(): void {
     this.productoservicio.getProductos({
@@ -48,5 +54,16 @@ export class Repuestos implements OnInit {
       next: data => this.producto = data,
       error: err => console.error('Error en aplicar filtros', err)
     });
+  }
+
+  limpiarFiltros(): void {
+  this.filtroNombre = '';
+  this.categoriaSeleccionada = null;
+  this.precioMin = undefined;
+  this.precioMax = undefined;
+  this.soloStock = false;
+
+  // Recarga los productos originales
+  this.productoservicio.getTodos().subscribe(data => this.producto = data);
   }
 }

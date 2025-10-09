@@ -4,21 +4,37 @@
 </div>
 
 <div class="carrito-container">
+  <!-- Si no hay productos -->
   <div *ngIf="items.length === 0" class="carrito-vacio">
     <p>Tu carrito está vacío</p>
   </div>
 
+  <!-- Si hay productos -->
   <div *ngFor="let item of items; let i = index" class="carrito-item">
     <img *ngIf="item.imagenBase64"
          [src]="'data:image/png;base64,' + item.imagenBase64"
-         alt="{{ item.nombre }}">
-    <div>
+         alt="{{ item.nombre }}" class="carrito-img">
+
+    <div class="carrito-detalles">
       <h4>{{ item.nombre }}</h4>
-      <p>Precio: S/ {{ item.precioVena }}</p>
+      <p><strong>Precio unitario:</strong> S/ {{ item.precioVena }}</p>
+
+      <div class="cantidad-control">
+        <button (click)="cambiarCantidad(i, item.cantidad - 1)">-</button>
+        <input type="number"
+               [(ngModel)]="item.cantidad"
+               min="1"
+               [max]="item.stock"
+               (change)="cambiarCantidad(i, item.cantidad)" />
+        <button (click)="cambiarCantidad(i, item.cantidad + 1)">+</button>
+      </div>
+
+      <p><strong>Subtotal:</strong> S/ {{ item.precioVena * item.cantidad }}</p>
       <button class="btn-eliminar" (click)="eliminar(i)">Eliminar</button>
     </div>
   </div>
 
+  <!-- Total -->
   <div *ngIf="items.length > 0" class="carrito-footer">
     <h3>Total: S/ {{ getTotal() }}</h3>
     <div class="carrito-botones">

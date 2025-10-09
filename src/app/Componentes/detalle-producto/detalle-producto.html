@@ -13,8 +13,17 @@
       <p>{{ producto.descrpicion }}</p>
       <p><strong>Precio de Venta:</strong> S/ {{ producto.precioVena }}</p>
       <p><strong>Stock:</strong> {{ producto.stock }}</p>
+      <p *ngIf="producto.stock <= 0" style="color: red; font-weight: bold;">
+        Producto sin stock
+      </p>
       <p><strong>Categoría:</strong> {{ producto.categoria }}</p>
+      <div class="cantidad-container">
+        <label for="cantidad"><strong>Cantidad:</strong></label>
+        <input id="cantidad" type="number" [(ngModel)]="cantidad" min="0" [max]="producto.stock"  [disabled]="producto.stock <= 0"
+        (keypress)="soloNumeros($event)"
+        (change)="validarCantidad()" />
+      </div>
     </div>
-    <button class="btn-carrito" (click)="agregarAlCarrito()">Agregar al carrito</button>
+    <button class="btn-carrito" (click)="agregarAlCarrito()" [disabled]="producto.stock <= 0">Agregar al carrito</button>
   </div>
 </div>

@@ -20,7 +20,7 @@ export interface Producto {
   providedIn: 'root'
 })
 export class ProductosServicio {
-  private apiUrl = 'http://localhost:5298/api/Producto';
+  private apiUrl = 'http://sassakyxx-001-site1.jtempurl.com/api/Producto';
 
   constructor(private http: HttpClient) {}
 

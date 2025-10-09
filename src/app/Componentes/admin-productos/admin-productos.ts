@@ -6,6 +6,7 @@ import { Producto } from '../../servicios/Productos/productos';
 import { FormsModule, NgModel } from '@angular/forms';
 import { RouterModule } from "@angular/router";
 import Swal from 'sweetalert2';
+import { response } from 'express';
 
 @Component({
   selector: 'app-admin-productos',
@@ -43,7 +44,7 @@ constructor(private ProductosService : ProductosServicio, private CategoriasServ
 
   ngOnInit() {
     this.cargarProductos();
-    this.CategoriasService.getCategorias().subscribe(cats => this.categorias = cats);
+    this.cargarCategorias();
   }
   cargarCategorias() {
     this.CategoriasService.getCategorias().subscribe(cats => this.categorias = cats);
@@ -97,9 +98,9 @@ constructor(private ProductosService : ProductosServicio, private CategoriasServ
       <input id="precioVena" type="number" class="swal2-input" placeholder="Precio Venta">
       <h4 class="textoHolder">Stock</h4>
       <input id="stock" type="number" class="swal2-input" placeholder="Stock">
-      <input id="imagen" type="file" class="swal2-file">
       <h4 class="textoHolder">Categoria</h4>
       <select id="idCategoria" class="swal2-select">${optionsHtml}</select>
+      <h4 class="textoHolder">Imagen referencial</h4>
       <input id="imagen" type="file" class="swal2-file">
     `,
 
@@ -117,9 +118,9 @@ constructor(private ProductosService : ProductosServicio, private CategoriasServ
       const idCategoria = Number((document.getElementById('idCategoria') as HTMLSelectElement).value);
       const imagenInput = (document.getElementById('imagen') as HTMLInputElement);
 
-      if (!nombre || !descrpicion) {
-        Swal.showValidationMessage('Completa al menos nombre y descripción');
-        return false;
+      if (!nombre || !descrpicion || Number(precioVena) <= 0 || Number(stock) < 0) {
+      Swal.showValidationMessage('Completa todos los campos correctamente.');
+      return false;
       } return {
         nombre,
         descrpicion,
@@ -139,13 +140,17 @@ constructor(private ProductosService : ProductosServicio, private CategoriasServ
       formData.append('PrecioCompra', result.value.precioCompra.toString());
       formData.append('PrecioVena', result.value.precioVena.toString());
       formData.append('Stock', result.value.stock.toString());
-      formData.append('IdCategoria', result.value.idCategoria.toString());
-      formData.append('IdCategoria', '1');
+      formData.append('IdCategoria',result.value.idCategoria.toString());
       if (result.value.archivo) formData.append('Imagen', result.value.archivo);
-
-      this.ProductosService.crear(formData).subscribe(() => {
-        this.cargarProductos();
+      Swal.fire({
+        title: 'Guardando...',
+        text: 'Por favor espera',
+        didOpen: () => Swal.showLoading(),
+        allowOutsideClick: false
+      });
         Swal.fire('Creado', 'El producto fue agregado exitosamente', 'success');
+        this.ProductosService.crear(formData).subscribe(() => {
+        this.cargarProductos();
       });
     }
   });
@@ -212,10 +217,15 @@ constructor(private ProductosService : ProductosServicio, private CategoriasServ
       formData.append('IdCategoria', result.value.idCategoria.toString());
       formData.append('IdCategoria' ,''); //Vacío por que recupera de id categoria de vd creeme
       if (result.value.archivo) formData.append('Imagen', result.value.archivo);
+      Swal.fire({
+        title: 'Guardando...',
+        didOpen: () => Swal.showLoading(),
+        allowOutsideClick: false
+      });
 
+      Swal.fire('Actualizado', 'El producto fue editado exitosamente', 'success');
       this.ProductosService.editar(p.idProducto, formData).subscribe(() => {
-        this.cargarProductos();
-        Swal.fire('Actualizado', 'El producto fue editado exitosamente', 'success');
+      this.cargarProductos();
       });
     }
   });
@@ -268,9 +278,11 @@ constructor(private ProductosService : ProductosServicio, private CategoriasServ
         if (idx > -1) this.categorias[idx] = editada;
         this.categorias = [...this.categorias];
         Swal.fire('Actualizada', 'Categoría editada exitosamente', 'success');
+        this.cargarCategorias();
         });
       }
-    });
+    }
+  );
   }
 
   eliminarCategoria(id: number) {
