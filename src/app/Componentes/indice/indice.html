@@ -6,35 +6,35 @@
             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></button>
         </div>
      <!-- Imagenes-->
-   
+
             <div class="carousel-inner">
                 <div class="carousel-item active">
                 <img src="images/Foto1.jpg" class="d-block w-100" alt="Slide 1">
                     <div class="carousel-caption  d-block d-md-block text-start">
                         <h5>Tu auto, nuestro compromiso</h5>
-                        <p>Desde un simple respuesto hasta lo que tu maquina necesita, 
+                        <p>Desde un simple respuesto hasta lo que tu maquina necesita,
                             <br>todo en un solo lugar</p>
                     </div>
                 </div>
                 <div class="carousel-item">
-                <img src="images/Foto2.jpg" class="d-block w-100" alt="Slide 2">  
+                <img src="images/Foto2.jpg" class="d-block w-100" alt="Slide 2">
                     <div class="carousel-caption  d-block d-md-block text-start">
                         <h5>Su aliado en mantenimiento automotriz</h5>
                         <p>Todo lo que necesita su vehiculo en un solo lugar</p>
-                    </div>  
+                    </div>
                 </div>
                 <div class="carousel-item">
                 <img src="images/Foto3.jpg" class="d-block w-100" alt="Slide 3">
                     <div class="carousel-caption  d-block d-md-block text-start">
                         <h5>Confianza sobre ruedas</h5>
-                        <p>Autopartes originales y mantenimiento de calidad 
+                        <p>Autopartes originales y mantenimiento de calidad
                            <br>para un camino sin preocupaciones</p>
                     </div>
                 </div>
             </div>
- 
+
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon"></span>     
+            <span class="carousel-control-prev-icon"></span>
         </button>
         <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
             <span class="carousel-control-next-icon"></span>
@@ -50,23 +50,23 @@
         <div class="row g-3 justify-content-center boton">
             <div class="col-6 col-md-4 col-lg-2 imagenboton">
                 <button class="boton">
-                <img src="images/Marca1.jpg" class="img-fluid d-block mx-auto" alt="Marca 1">      
+                <img src="images/Marca1.jpg" class="img-fluid d-block mx-auto" alt="Marca 1">
                 </button>
-            </div>    
+            </div>
             <div class="col-6 col-md-4 col-lg-2">
                 <button class="boton">
                 <img src="images/Marca2.jpg" class="img-fluid d-block mx-auto" alt="Marca 2">
                 </button>
             </div>
             <div class="col-6 col-md-4 col-lg-2">
-                <button class="boton">  
+                <button class="boton">
                 <img src="images/Marca3.png" class="img-fluid d-block mx-auto" alt="Marca 3">
-                </button> 
+                </button>
             </div>
             <div class="col-6 col-md-4 col-lg-2">
-                <button class="boton"> 
+                <button class="boton">
                 <img src="images/Marca4.jpg" class="img-fluid d-block mx-auto" alt="Marca 4">
-                </button> 
+                </button>
             </div>
             <div class="col-6 col-md-4 col-lg-2">
                 <button class="boton">
@@ -90,50 +90,50 @@
         <!--Categorias-->
         <div class="row g-4 justify-content-center">
             <div class="col-6 col-md-3">
-                <button class="categoria-item btn">
-                    <img src="images/Filtro.jpg" alt="Filtros" class="img-fluid d-block mx auto">
+                <button class="categoria-item btn" (click)="cambiarUno(0)">
+                    <img [src]="gatos[0]" alt="Filtros" class="img-fluid d-block mx auto">
                     <h5 class="text-center mt-2 texto_categoria">Filtros</h5>
                 </button>
             </div>
             <div class="col-6 col-md-3">
-                <button class="categoria-item btn">
-                    <img src="images/Filtro.jpg" alt="Categoría 2" class="img-fluid d-block mx-auto">
+                <button class="categoria-item btn" (click)="cambiarUno(1)">
+                    <img [src]="gatos[1]" alt="Categoría 2" class="img-fluid d-block mx-auto">
                     <h5 class="text-center mt-2 texto_categoria">Categoría 2</h5>
                 </button>
             </div>
             <div class="col-6 col-md-3">
-                <button class="categoria-item btn">
-                    <img src="images/Filtro.jpg" alt="Categoría 3" class="img-fluid d-block mx-auto">
+                <button class="categoria-item btn" (click)="cambiarUno(2)">
+                    <img [src]="gatos[2]" alt="Categoría 3" class="img-fluid d-block mx-auto" >
                     <h5 class="text-center mt-2 texto_categoria">Categoría 3</h5>
                 </button>
             </div>
             <div class="col-6 col-md-3">
-                <button class="categoria-item btn">
-                    <img src="images/Filtro.jpg" alt="Categoría 4" class="img-fluid d-block mx-auto">
+                <button class="categoria-item btn" (click)="cambiarUno(3)">
+                    <img [src]="gatos[3]" alt="Categoría 4" class="img-fluid d-block mx-auto">
                     <h5 class="text-center mt-2 texto_categoria">Categoría 4</h5>
                 </button>
             </div>
             <div class="col-6 col-md-3">
-                <button class="categoria-item btn">
-                    <img src="images/Filtro.jpg" alt="Categoría 5" class="img-fluid d-block mx-auto">
+                <button class="categoria-item btn" (click)="cambiarUno(4)">
+                    <img [src]="gatos[4]" alt="Categoría 5" class="img-fluid d-block mx-auto">
                     <h5 class="text-center mt-2 texto_categoria">Categoría 5</h5>
                 </button>
             </div>
             <div class="col-6 col-md-3">
-                <button class="categoria-item btn">
-                    <img src="https://via.placeholder.com/200" alt="Categoría 6" class="img-fluid d-block mx-auto">
+                <button class="categoria-item btn" (click)="cambiarUno(5)">
+                    <img [src]="gatos[5]" alt="Categoría 6" class="img-fluid d-block mx-auto">
                     <h5 class="text-center mt-2 texto_categoria">Categoría 6</h5>
                 </button>
             </div>
             <div class="col-6 col-md-3">
-                <button class="categoria-item btn">
-                    <img src="https://via.placeholder.com/200" alt="Categoría 7" class="img-fluid d-block mx-auto">
+                <button class="categoria-item btn" (click)="cambiarUno(6)">
+                    <img [src]="gatos[6]" alt="Categoría 7" class="img-fluid d-block mx-auto">
                     <h5 class="text-center mt-2 texto_categoria">Categoría 7</h5>
                 </button>
             </div>
             <div class="col-6 col-md-3">
-                <button class="categoria-item btn">
-                    <img src="https://via.placeholder.com/200" alt="Categoría 8" class="img-fluid d-block mx-auto">
+                <button class="categoria-item btn" (click)="cambiarUno(7)">
+                    <img [src]="gatos[7]" alt="Categoría 8" class="img-fluid d-block mx-auto">
                     <h5 class="text-center mt-2 texto_categoria">Categoría 8</h5>
                 </button>
             </div>

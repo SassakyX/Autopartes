@@ -35,6 +35,12 @@ export class Repuestos implements OnInit {
     // cargar productos iniciales
     this.productoservicio.getTodos().subscribe(data => this.producto = data);
 
+
+
+
+
+
+
     // cargar categorías
     this.categoriasServicio.getCategorias().subscribe(data => this.categorias = data);
     this.busqueda$.pipe(debounceTime(300)).subscribe(valor => {

@@ -156,11 +156,17 @@
 /* ===== RESPONSIVE ===== */
 @media (max-width: 992px) {
   .banner-repuestos {
-    height: 40vh;
+    height: 50vh;
   }
+  .texto-catalogo
+  {
+    font-size: 3.1rem;
+    margin-top: 20px;
+    margin-bottom: 15px;
 
+  }
   .texto_banner h2 {
-    font-size: 3rem;
+    font-size: 4rem;
   }
 
   .productos-grid {
@@ -178,9 +184,15 @@
   }
 
   .texto_banner h2 {
-    font-size: 2rem;
+    font-size: 3rem;
   }
+  .texto-catalogo
+  {
+    font-size: 3.1rem;
 
+    margin-bottom: 120px;
+
+  }
   .buscador {
     width: 90%;
     margin-left: 5%;

@@ -3,7 +3,7 @@
   position: relative;
   height: 550px;
   overflow: hidden;
-  
+
 }
 @media (max-width: 768px) {
   .slider-container {
@@ -26,7 +26,7 @@
   width: 40px;
   height: 40px;
   z-index: 10;
-  transform: translateY(-50%); 
+  transform: translateY(-50%);
 }
 
 .carousel-caption {
@@ -67,7 +67,7 @@
 }
 .categoria-item img
 {
-    position: relative; 
+    position: relative;
     overflow: hidden;  /*Ajusta la imagen para que no se salga del botón? */
     padding: 0; /* Ajusta la imagen a los bordes por eso 0 */
     display: flex;
@@ -92,6 +92,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 270px;
     height: 250px; /* el alto del contenedor en general */
     cursor: pointer; /* transformación del puntero al pasar por la imagen o boton */
     transition: all 0.2s ease; /* el tiempo de transicion el y el ease que es un modo de animación*/

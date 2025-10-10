@@ -28,14 +28,16 @@ export class VerificarCod {
       next: (res) => {
         this.mensaje = res.mensaje;
         this.error = '';
-        console.log("Usuario guardado:", this.auth.getUsuario());
-        this.router.navigate(['/']);
+        // guarda usuario y token
+        this.auth.setUsuario(res.usuario);
+        localStorage.setItem('token', res.token);
+        localStorage.removeItem('tempUser');
+        setTimeout(() => this.router.navigate(['/']), 1000);
       },
-        error: (err) => {
-
-      this.error = err.error?.mensaje || "Error al verificar código";
-        this.mensaje = '';
-        }
+      error: (err) => {
+        console.error(err);
+        this.error = err.error?.mensaje || 'Error al verificar el código';
+      }
     });
   }
 }

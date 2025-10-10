@@ -8,7 +8,8 @@ import { BehaviorSubject } from 'rxjs';
 })
 
 export class AuthService {
-  private apiUrl = 'http://sassakyxx-001-site1.jtempurl.com/api/Auto';
+  private base = window.location.origin;
+  private apiUrl = `${this.base}/api/Auto`;;
 
 
   private usuarioSubject = new BehaviorSubject<any>(this.getUsuario());
@@ -60,21 +61,16 @@ export class AuthService {
   }
 
 
-  verificarCodigo(data: { User: string; Codigo: string }) :Observable<any>  {
-      return this.http.post(`${this.apiUrl}/verificar-codigo`, data).pipe(
-        tap((res : any) => {
-          this.setUsuario(res.usuario);
-          this.safeSet('token', res.token);
-          this.safeRemove('tempUser');
-        })
-      );
-    }
+verificarCodigo(data: { User: string; Codigo: string }) {
+  return this.http.post<any>(`${this.apiUrl}/verificar-codigo`, data);
+}
 
 
   logout() {
     this.safeRemove('usuario');
     this.safeRemove('token');
     this.safeRemove('tempUser');
+    localStorage.removeItem('rol');
     this.usuarioSubject.next(null);
   }
 }

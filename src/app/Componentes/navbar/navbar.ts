@@ -3,6 +3,7 @@ import { Component, OnInit } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { RouterLink } from '@angular/router';
 import { AuthService } from '../../servicios/AutServicio/autenticacion';
+import Swal from 'sweetalert2';
 
 @Component({
   selector: 'app-navbar',
@@ -27,6 +28,17 @@ export class Navbar implements OnInit{
 
   }
   cerrarSesion() {
+  Swal.fire({
+    icon: 'info',
+    title: 'Sesión cerrada',
+    text: 'Has cerrado sesión correctamente',
+    confirmButtonColor: '#3085d6',
+    timer: 2000,
+    timerProgressBar: true,
+    showConfirmButton: false
+    }).then(() => {
+    window.location.href = '/'; // o this.router.navigate(['/']);
+    });
     this.auth.logout();
   }
 }

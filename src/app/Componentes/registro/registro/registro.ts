@@ -1,7 +1,13 @@
+import { routes } from './../../../app.routes';
 import { Component } from '@angular/core';
 import { AuthService } from '../../../servicios/AutServicio/autenticacion';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
+import { VerificarCod } from '../../verificar-cod/verificar-cod';
+import { tap } from 'node:test/reporters';
+import Swal from 'sweetalert2';
+import { privateDecrypt } from 'crypto';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-registro',
@@ -22,10 +28,10 @@ export class Registro {
 }
   mensaje: string = '';
 
-  constructor(private auth: AuthService) {}
+  constructor(private auth: AuthService, private router: Router) {}
 
   registrar() {
-    if (this.usuario.contrasenia !== this.usuario.confirmarContrasenia) {
+    if (this.usuario.contrasenia !== this.usuario.confirmarContrasenia)  {
       this.mensaje = 'Las contraseñas no coinciden';
       return;
     }
@@ -39,23 +45,33 @@ export class Registro {
       Contrasenia: this.usuario.contrasenia
       };
 
-    this.auth.register(usuarioEnviar).subscribe({
+      this.auth.register(usuarioEnviar).subscribe({
       next: (res) => {
-        this.mensaje = res.mensaje;
-        console.log('Registro exitoso:', res);
+        localStorage.setItem('tempUser', this.usuario.user);
+
+          Swal.fire({
+          icon: 'success',
+          title: 'Código de verificacion enviado',
+          text: res.mensaje,
+          confirmButtonColor: '#28a745',
+          timer: 3500,
+          timerProgressBar: true,
+          showConfirmButton: false
+        });
+
+       setTimeout(() => {
+          this.router.navigate(['/verificarcod']);
+        }, 2000);
       },
-        error: (err) => {
-        console.error("Error completo:", err);
-        console.log("Respuesta del back:", err.error);
-        if (err.error?.errors) {
-          // Convertir el objeto { campo: [mensajes] } en un array plano
-          const errores = Object.values(err.error.errors).flat();
-          this.mensaje = errores.join(' | ');
-        } else if (err.error?.mensaje) {
-          this.mensaje = err.error.mensaje;
-        } else {
-          this.mensaje = 'Ocurrió un error inesperado';
-        }
+      error: (err) => {
+        console.error('Error completo:', err);
+        const mensaje = err.error?.mensaje || 'Ocurrió un error inesperado';
+        Swal.fire({
+          icon: 'error',
+          title: 'Error',
+          text: mensaje,
+          confirmButtonColor: '#d33'
+        });
       }
     });
   }

@@ -8,7 +8,7 @@
     <input type="email" [(ngModel)]="usuario.correo" name="correo" placeholder="Correo" required>
     <input type="text" [(ngModel)]="usuario.user" name="user" placeholder="Usuario" required>
     <input type="password" [(ngModel)]="usuario.contrasenia" name="contrasenia" placeholder="Contraseña" required>
-    <input type="password" class="form-control" [(ngModel)]="usuario.confirmarContrasenia" name="confirmarContrasenia"  placeholder="Confirmar Contrasenia" required="">
+    <input type="password" class="form-control" [(ngModel)]="usuario.confirmarContrasenia" name="confirmarContrasenia"  placeholder="Confirmar Contraseña" required="">
       <div *ngIf="usuario.contrasenia && usuario.confirmarContrasenia && usuario.contrasenia !== usuario.confirmarContrasenia" class="text-danger mt-2">
         Las contraseñas no coinciden
       </div>
