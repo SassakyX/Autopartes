@@ -4,13 +4,13 @@ import { Component } from '@angular/core';
 import { AuthService } from '../../servicios/AutServicio/autenticacion';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
-import { Router } from '@angular/router';
+import { Router, RouterModule } from '@angular/router';
 import Swal from 'sweetalert2';
 
 
 @Component({
   selector: 'app-login',
-  imports: [CommonModule,FormsModule],
+  imports: [CommonModule,FormsModule, RouterModule],
   templateUrl: './login.html',
   styleUrl: './login.css'
 })

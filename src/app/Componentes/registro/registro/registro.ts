@@ -42,7 +42,9 @@ export class Registro {
       Direccion: this.usuario.direccion,
       Correo: this.usuario.correo,
       User: this.usuario.user,
-      Contrasenia: this.usuario.contrasenia
+      Contrasenia: this.usuario.contrasenia,
+      Rol: 'cliente'
+
       };
 
       this.auth.register(usuarioEnviar).subscribe({
