@@ -6,9 +6,9 @@ namespace Back_Repuestos.Data
     public class AppDbContext : DbContext
     {
         public AppDbContext(DbContextOptions<AppDbContext> options) : base(options) { }
-    
 
 
+        public DbSet<UsuarioTemp> UsuariosTemporales { get; set; }
         public DbSet<Usuario> Usuarios { get; set; }
         public DbSet<Categoria> Categorias { get; set; }
         public DbSet<Productos> Productos { get; set; }

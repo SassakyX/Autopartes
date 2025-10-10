@@ -1,8 +1,8 @@
-wwwroot\favicon.png
 wwwroot\index.html
-wwwroot\main-POA3LU36.js
+wwwroot\main-46JNDMLD.js
 wwwroot\media\bootstrap-icons-CVBWLLHT.woff2
 wwwroot\media\bootstrap-icons-VQNJTM6Q.woff
+wwwroot\styles-RWK3J6I6.css
 wwwroot\images\Repuestos.jpg
 wwwroot\images\Marca6.jpg
 wwwroot\images\Marca5.jpg
@@ -15,4 +15,4 @@ wwwroot\images\Foto2.jpg
 wwwroot\images\Foto1.jpg
 wwwroot\images\Filtro.jpg
 wwwroot\images\Carro_Compra.webp
-wwwroot\styles-RWK3J6I6.css
+wwwroot\favicon.ico

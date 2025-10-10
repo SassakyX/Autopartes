@@ -4,6 +4,7 @@ using Back_Repuestos.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Back_Repuestos.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    partial class AppDbContextModelSnapshot : ModelSnapshot
+    [Migration("20251010050736_TempUsuario")]
+    partial class TempUsuario
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -166,55 +169,6 @@ namespace Back_Repuestos.Migrations
                         .IsUnique();
 
                     b.ToTable("Usuarios");
-                });
-
-            modelBuilder.Entity("Back_Repuestos.Modelos.UsuarioTemp", b =>
-                {
-                    b.Property<int>("IdTemporal")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    MySqlPropertyBuilderExtensions.UseMySqlIdentityColumn(b.Property<int>("IdTemporal"));
-
-                    b.Property<string>("CodigoVerificacion")
-                        .IsRequired()
-                        .HasColumnType("longtext");
-
-                    b.Property<string>("Contrasenia")
-                        .IsRequired()
-                        .HasColumnType("longtext");
-
-                    b.Property<string>("Correo")
-                        .IsRequired()
-                        .HasColumnType("longtext");
-
-                    b.Property<string>("DNI")
-                        .IsRequired()
-                        .HasMaxLength(8)
-                        .HasColumnType("varchar(8)");
-
-                    b.Property<string>("Direccion")
-                        .HasColumnType("longtext");
-
-                    b.Property<DateTime>("FechaExpira")
-                        .HasColumnType("datetime(6)");
-
-                    b.Property<string>("Nombre_apellido")
-                        .IsRequired()
-                        .HasMaxLength(100)
-                        .HasColumnType("varchar(100)");
-
-                    b.Property<string>("Rol")
-                        .IsRequired()
-                        .HasColumnType("longtext");
-
-                    b.Property<string>("User")
-                        .IsRequired()
-                        .HasColumnType("longtext");
-
-                    b.HasKey("IdTemporal");
-
-                    b.ToTable("UsuariosTemporales");
                 });
 
             modelBuilder.Entity("Back_Repuestos.Modelos.Venta", b =>

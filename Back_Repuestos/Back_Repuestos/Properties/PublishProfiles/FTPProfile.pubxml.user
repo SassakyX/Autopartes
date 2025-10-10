@@ -5,7 +5,7 @@
     <TimeStampOfAssociatedLegacyPublishXmlFile />
     <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA6QXeQezkPUW5bwwPm/eu6QAAAAACAAAAAAAQZgAAAAEAACAAAACKBfg4dMM9K20fc7CUpVjouEKWl35GXRuZqbfpjJUqZwAAAAAOgAAAAAIAACAAAABy6LKbhW092vVeQaWeZTGOoe4QDM6Com0FvZ/cysNzRCAAAADDqT77/bVZllYFWa5ZUluXHVo2D8zO5ljUvo0y2tPsGEAAAAA3twLKBAMANDJnb8CrOJwr9Kv6sS77vl8QOBJSG7O+tnkWXLv/+CyoZyYaE0wDJAODnssX3ZzoK/CutvDyrNYt</EncryptedPassword>
     <_PublishTargetUrl>ftp://win9078.site4now.net/sassakyxx-001-site1.jtempurl.com</_PublishTargetUrl>
-    <History>True|2025-10-09T19:22:38.5079633Z||;True|2025-10-09T11:52:11.1755430-05:00||;True|2025-10-07T01:03:45.7274337-05:00||;True|2025-10-07T00:14:47.4541353-05:00||;True|2025-10-06T23:33:34.2085118-05:00||;</History>
+    <History>True|2025-10-10T18:17:57.9734613Z||;True|2025-10-09T18:27:05.1808653-05:00||;True|2025-10-09T14:22:38.5079633-05:00||;True|2025-10-09T11:52:11.1755430-05:00||;True|2025-10-07T01:03:45.7274337-05:00||;True|2025-10-07T00:14:47.4541353-05:00||;True|2025-10-06T23:33:34.2085118-05:00||;</History>
     <LastFailureDetails />
   </PropertyGroup>
   <ItemGroup>
@@ -22,28 +22,28 @@
       <publishTime>09/06/2025 17:41:32</publishTime>
     </File>
     <File Include="appsettings.json">
-      <publishTime>10/09/2025 14:01:28</publishTime>
+      <publishTime>10/10/2025 13:01:19</publishTime>
     </File>
     <File Include="arm64/MicrosoftInstrumentationEngine_arm64.dll">
       <publishTime>03/22/2022 15:24:20</publishTime>
     </File>
     <File Include="Back_Repuestos.deps.json">
-      <publishTime>10/09/2025 14:07:29</publishTime>
+      <publishTime>10/10/2025 13:02:15</publishTime>
     </File>
     <File Include="Back_Repuestos.dll">
-      <publishTime>10/09/2025 14:07:25</publishTime>
+      <publishTime>10/10/2025 13:02:14</publishTime>
     </File>
     <File Include="Back_Repuestos.exe">
-      <publishTime>10/09/2025 14:07:25</publishTime>
+      <publishTime>10/10/2025 13:02:14</publishTime>
     </File>
     <File Include="Back_Repuestos.pdb">
-      <publishTime>10/09/2025 14:07:25</publishTime>
+      <publishTime>10/10/2025 13:02:14</publishTime>
     </File>
     <File Include="Back_Repuestos.runtimeconfig.json">
       <publishTime>10/06/2025 23:20:16</publishTime>
     </File>
     <File Include="Back_Repuestos.staticwebassets.endpoints.json">
-      <publishTime>10/09/2025 14:07:29</publishTime>
+      <publishTime>10/10/2025 13:02:15</publishTime>
     </File>
     <File Include="BCrypt.Net-Next.dll">
       <publishTime>03/03/2022 11:10:20</publishTime>
@@ -757,10 +757,10 @@
       <publishTime>09/26/2025 04:27:30</publishTime>
     </File>
     <File Include="web.config">
-      <publishTime>10/09/2025 14:07:29</publishTime>
+      <publishTime>10/10/2025 13:02:15</publishTime>
     </File>
     <File Include="wwwroot/favicon.ico">
-      <publishTime>08/29/2025 13:10:32</publishTime>
+      <publishTime>10/09/2025 14:05:35</publishTime>
     </File>
     <File Include="wwwroot/favicon.png">
       <publishTime>10/09/2025 14:05:35</publishTime>
@@ -802,7 +802,10 @@
       <publishTime>09/06/2025 16:40:40</publishTime>
     </File>
     <File Include="wwwroot/index.html">
-      <publishTime>10/09/2025 14:03:12</publishTime>
+      <publishTime>10/10/2025 12:57:11</publishTime>
+    </File>
+    <File Include="wwwroot/main-46JNDMLD.js">
+      <publishTime>10/10/2025 12:57:11</publishTime>
     </File>
     <File Include="wwwroot/main-HENUQUIR.js">
       <publishTime>10/06/2025 23:59:28</publishTime>
@@ -816,14 +819,17 @@
     <File Include="wwwroot/main-RIKCFX2W.js">
       <publishTime>10/07/2025 00:46:27</publishTime>
     </File>
+    <File Include="wwwroot/main-V5C7ADS5.js">
+      <publishTime>10/09/2025 18:10:28</publishTime>
+    </File>
     <File Include="wwwroot/media/bootstrap-icons-CVBWLLHT.woff2">
-      <publishTime>10/09/2025 14:03:12</publishTime>
+      <publishTime>10/10/2025 12:57:11</publishTime>
     </File>
     <File Include="wwwroot/media/bootstrap-icons-VQNJTM6Q.woff">
-      <publishTime>10/09/2025 14:03:12</publishTime>
+      <publishTime>10/10/2025 12:57:11</publishTime>
     </File>
     <File Include="wwwroot/styles-RWK3J6I6.css">
-      <publishTime>10/09/2025 14:03:12</publishTime>
+      <publishTime>10/10/2025 12:57:11</publishTime>
     </File>
     <File Include="x64/MicrosoftInstrumentationEngine_x64.dll">
       <publishTime>03/22/2022 15:24:20</publishTime>

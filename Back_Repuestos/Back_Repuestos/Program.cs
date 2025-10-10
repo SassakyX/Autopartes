@@ -13,6 +13,7 @@ var builder = WebApplication.CreateBuilder(args);
     builder.Configuration.GetConnectionString("DefaultConnection"),
     new MySqlServerVersion(new Version(9, 3, 0))));
 
+
 //para configurar localmente
 var MyAllowSpecificOrigins = "_myAllowSpecificOrigins";
 
@@ -68,6 +69,23 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
 
 builder.Services.AddAuthorization();
 var app = builder.Build();
+
+
+using (var scope = app.Services.CreateScope())
+{
+    var db = scope.ServiceProvider.GetRequiredService<AppDbContext>();
+
+    try
+    {
+        db.Database.Migrate(); //aplica todas las migraciones pendientes
+        Console.WriteLine("Migraciones aplicadas correctamente");
+    }
+    catch (Exception ex)
+    {
+        Console.WriteLine($"Error aplicando migraciones: {ex.Message}");
+    }
+}
+
 
 app.UseCors(MyAllowSpecificOrigins);
 
