@@ -148,13 +148,21 @@ constructor(private ProductosService : ProductosServicio, private CategoriasServ
         didOpen: () => Swal.showLoading(),
         allowOutsideClick: false
       });
-        Swal.fire('Creado', 'El producto fue agregado exitosamente', 'success');
-        this.ProductosService.crear(formData).subscribe(() => {
-        this.cargarProductos();
+
+      // Llamada al backend
+      this.ProductosService.crear(formData).subscribe({
+        next: (res: any) => {
+          Swal.fire('Creado', res.mensaje || 'El producto fue agregado exitosamente', 'success');
+          this.cargarProductos();
+        },
+        error: (err) => {
+          const msg = err.error?.mensaje || 'Ocurrió un error al crear el producto.';
+          Swal.fire('Error', msg, 'error');
+        }
       });
     }
   });
-  }
+}
   // la ventana emergente de editar ps xd
   abrirModalEditar(p: Producto) {
     const optionsHtml = this.categorias
@@ -215,22 +223,29 @@ constructor(private ProductosService : ProductosServicio, private CategoriasServ
       formData.append('PrecioVena', result.value.precioVena.toString());
       formData.append('Stock', result.value.stock.toString());
       formData.append('IdCategoria', result.value.idCategoria.toString());
-      formData.append('IdCategoria' ,''); //Vacío por que recupera de id categoria de vd creeme
-      if (result.value.archivo) formData.append('Imagen', result.value.archivo);
+
+
+      // Mostramos loading mientras se guarda
       Swal.fire({
         title: 'Guardando...',
+        text: 'Por favor espera',
         didOpen: () => Swal.showLoading(),
         allowOutsideClick: false
       });
 
-      Swal.fire('Actualizado', 'El producto fue editado exitosamente', 'success');
-      this.ProductosService.editar(p.idProducto, formData).subscribe(() => {
-      this.cargarProductos();
+      this.ProductosService.editar(p.idProducto, formData).subscribe({
+        next: (res: any) => {
+          Swal.fire('Actualizado', res.mensaje || 'El producto fue editado exitosamente', 'success');
+          this.cargarProductos();
+        },
+        error: (err) => {
+          const msg = err.error?.mensaje || 'Ocurrió un error al actualizar el producto.';
+          Swal.fire('Error', msg, 'error');
+        }
       });
     }
   });
-
-  }
+}
   abrirModalCrearCategoria() {
   Swal.fire({
     title: 'Nueva Categoría',

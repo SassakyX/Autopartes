@@ -28,13 +28,35 @@ export class Carrito implements OnInit {
   }
 
   eliminar(index: number) {
-    this.carritoService.eliminar(index);
-  }
-
+   Swal.fire({
+    title: '¿Eliminar producto?',
+    text: '¿Seguro que deseas quitar este producto del carrito?',
+    icon: 'warning',
+    showCancelButton: true,
+    confirmButtonText: 'Sí, eliminar',
+    cancelButtonText: 'Cancelar'
+  }).then(result => {
+    if (result.isConfirmed) {
+      this.carritoService.eliminar(index);
+      Swal.fire('Eliminado', 'El producto fue quitado del carrito', 'success');
+    }
+  });
+}
   limpiar() {
-    this.carritoService.limpiar();
+   Swal.fire({
+    title: '¿Limpiar carrito?',
+    text: '¿Seguro que deseas eliminar todos los productos del carrito?',
+    icon: 'warning',
+    showCancelButton: true,
+    confirmButtonText: 'Sí, eliminar',
+    cancelButtonText: 'Cancelar'
+  }).then(result => {
+    if (result.isConfirmed) {
+      this.carritoService.limpiar();
+      Swal.fire('Limpiado', 'El carrito fue limpiado', 'success');
+    }
+  });
   }
-
 
     getTotal() {
         return this.items.reduce((sum, i) => sum + i.precioVena * (i.cantidad || 1), 0);
