@@ -86,6 +86,14 @@ namespace Back_Repuestos.Controllers
         [HttpPost]
         public async Task<IActionResult> Crear([FromForm] CrearProductoDTO dto)
         {
+            var existe = await _context.Productos
+            .AnyAsync(p => p.Nombre.ToLower() == dto.Nombre.ToLower());
+
+            if (existe)
+            {
+                return BadRequest(new { mensaje = "Ya existe un producto con ese nombre." });
+            }
+
             var producto = new Productos
             {
                 Nombre = dto.Nombre,
@@ -115,7 +123,12 @@ namespace Back_Repuestos.Controllers
         public async Task<IActionResult> Editar(int id, [FromForm] CrearProductoDTO dto)
         {
             var producto = await _context.Productos.FindAsync(id);
-            if (producto == null) return NotFound();
+            if (producto == null)
+                return NotFound(new { mensaje = "Producto no encontrado" });
+
+            // Verificar si el nuevo nombre ya lo tiene otro producto
+            var existe = await _context.Productos
+                .AnyAsync(p => p.idProducto != id && p.Nombre.ToLower() == dto.Nombre.ToLower());
 
             producto.Nombre = dto.Nombre;
             producto.Descrpicion = dto.Descrpicion;

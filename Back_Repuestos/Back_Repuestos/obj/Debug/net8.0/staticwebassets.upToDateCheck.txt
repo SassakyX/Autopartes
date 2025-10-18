@@ -11,8 +11,8 @@ wwwroot\images\Marca4.jpg
 wwwroot\images\Marca5.jpg
 wwwroot\images\Marca6.jpg
 wwwroot\images\Repuestos.jpg
-wwwroot\index.html
-wwwroot\main-MEIDAW2D.js
-wwwroot\media\bootstrap-icons-CVBWLLHT.woff2
-wwwroot\media\bootstrap-icons-VQNJTM6Q.woff
 wwwroot\styles-RWK3J6I6.css
+wwwroot\media\bootstrap-icons-VQNJTM6Q.woff
+wwwroot\media\bootstrap-icons-CVBWLLHT.woff2
+wwwroot\main-T6UOHBO3.js
+wwwroot\index.html
