@@ -1,4 +1,10 @@
+:root {
+  --panel-offset: 0px;
+}
 /* Contenedor general centrado */
+body {
+  padding-top: 70px; /* Altura aproximada del navbar Bootstrap sirve para tener en cuenta el navbar y no se solape todo ajsdja*/
+}
 .detalle-wrapper {
   display: flex;
   justify-content: center;
@@ -81,47 +87,321 @@
 .btn-carrito:hover {
   background: #1d4ed8;
 }
+/* Formulario para reseña*/
+.formulario-reseña {
+  background: #f9fafb;
+  border-radius: 12px;
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.05);
+}
+.formulario-reseña h4 {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #17384a;
+  margin-bottom: 1rem;
+}
+.formulario-reseña .estrellas {
+  display: flex;
+  gap: 0.4rem;
+  font-size: 1.8rem;
+  color: #ccc;
+  margin-bottom: 1rem;
+}
+.formulario-reseña .fa-star,
+.formulario-reseña .fa-star-o {
+  cursor: pointer;
+  transition: transform 0.2s ease, color 0.2s ease;
+}
+.formulario-reseña .fa-star:hover,
+.formulario-reseña .fa-star-o:hover {
+  transform: scale(1.2);
+  color: #ffb400;
+}
+.fa-star {
+  color: #ffb400;
+}
+.formulario-reseña textarea {
+  width: 100%;
+  min-height: 100px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  padding: 0.8rem;
+  font-size: 1rem;
+  resize: vertical;
+  outline: none;
+  transition: border-color 0.2s ease;
+  z-index: auto;
+}
+.formulario-reseña textarea:focus {
+  border-color: #2563eb;
+  box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.2);
+}
+.formulario-reseña button {
+  margin-top: 1rem;
+  background: #2563eb;
+  color: white;
+  border: none;
+  padding: 0.8rem 1.4rem;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  width: 100%;
+  transition: background 0.3s ease, transform 0.1s ease;
+}
+.formulario-reseña button:hover {
+  background: #1e40af;
+  transform: scale(1.02);
+}
+
+.formulario-reseña button:active {
+  transform: scale(0.98);
+}
+/* ====== Panel lateral ====== */
+.panel-resenas {
+  position: fixed;
+  top: 70px;
+  right: 0;
+  width: 100%;
+  max-width: 500px;
+  height: calc(100vh - 70px);
+  background: #ffffff;
+  border-radius: 16px 0 0 16px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  padding: 2rem;
+  transform: translateX(100%);
+  transition:
+    transform 0.35s cubic-bezier(0.22, 1.03, 0.36, 1),
+    box-shadow 0.3s ease,
+    background 0.3s ease;
+  overflow-y: auto;
+  z-index: 1000;
+}
+
+.panel-resenas.abierto {
+  transform: translateX(0);
+  box-shadow: -12px 0 40px rgba(0, 0, 0, 0.35);
+  background: rgba(255, 255, 255, 0.97);
+  backdrop-filter: blur(6px);
+  z-index: 1001;
+}
+
+/* ====== Fondo oscuro ====== */
+.overlay {
+  position: fixed;
+  top: 70px;
+  left: 0;
+  width: 100%;
+  height: calc(100vh - 70px);
+  background: rgba(0, 0, 0, 0.35); /* tono oscuro en fondo */
+  backdrop-filter: blur(6px); /* el blur */
+  -webkit-backdrop-filter: blur(6px); /* soporte Safari */
+  z-index: 998;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.4s ease, backdrop-filter 0.3s ease;
+}
+.overlay.activo {
+  opacity: 1;
+  pointer-events: none;
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+}
+/* ====== Encabezado del panel ====== */
+.panel-header { /* ====== Es el total ====== */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  border-bottom: 2px solid #e0e0e0;
+  padding-bottom: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.panel-header h3 {
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: #17384a;
+}
+
+.panel-header .cerrar {
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  color: #555;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+.panel-header .cerrar:hover {
+  transform: rotate(90deg);
+}
+
+.resena-header { /* ====== Se aplica por cada reseña ====== */
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-bottom: 0.6rem;
+  padding-bottom: 0.2rem;
+  border-bottom: 1px solid #eee;
+}
+
+.resena-header strong {
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: #17384a;
+  margin-right: 8px;
+}
+
+.resena-header .fecha {
+  font-size: 0.85rem;
+  color: #777;
+  font-style: italic;
+}
 
 
+/* ====== Tooltip flotante ====== */
+.aviso-desliza {
+  position: fixed;
+  top: 50%;
+  right: 30px;
+  transform: translateY(-50%);
+  z-index: 900;
+  animation: flotarTexto 3s ease-in-out infinite;
+  pointer-events: none; /* para que no moleste al arrastrar */
+}
+.aviso-desliza .texto-aviso {
+  font-size: 1.2rem;
+  color: #9ca3af; /* gris suave */
+  letter-spacing: 0.5px;
+  font-weight: 500;
+  user-select: none;
+  animation: parpadeo 2s ease-in-out infinite;
+}
+
+
+/* animaciones */
+@keyframes flotarTexto {
+  0%, 100% {
+    transform: translateY(-50%) translateX(0);
+  }
+  50% {
+    transform: translateY(-55%) translateX(5px);
+  }
+}
+@keyframes parpadeo {
+  0%, 100% {
+    opacity: 0.6;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+@keyframes aparecer {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+
+/*Iconos*/
+.mensaje-sin-reseñas {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background: #f9fafb;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.05);
+  color: #555;
+  font-size: 1.1rem;
+  gap: 1rem;
+  animation: aparecer 0.5s ease;
+}
+.icono-no-hay {
+  width: 110px;
+  height: 110px;
+  opacity: 0.85;
+  transition: transform 0.3s ease;
+}
+
+.icono-no-hay:hover {
+  transform: scale(1.1);
+}
+/* Responsive */
 
 @media (max-width: 992px) {
   .detalle-container {
     flex-direction: column;
     align-items: center;
     text-align: center;
+    padding: 1rem;
+    gap: 1.5rem;
   }
 
   .detalle-imagen {
-    flex: none;
     width: 100%;
-    max-width: 500px;
+    max-width: 400px;
     height: auto;
-  }
-
-  .zoom-container img {
-    height: auto;
-    max-height: 400px;
   }
 
   .detalle-info {
     text-align: center;
     align-items: center;
+    font-size: 1rem;
+  }
+
+  /* Panel ocupa toda la pantalla */
+  .panel-resenas {
+    top: 0;
+    height: 100vh;
+    max-width: 100%;
+    border-radius: 0;
+    z-index: 1000;
+    padding: 1.5rem;
+    overflow-y: auto;
+  }
+
+  .overlay {
+    top: 0;
+    height: 100vh;
+  }
+
+  /* Tooltip centrado más pequeño */
+  .aviso-desliza {
+    top: auto;
+    bottom: 20px;
+    right: 20px;
+    font-size: 0.95rem;
+    transform: none;
   }
 }
 
-/* Celulares (pantallas pequeñas) */
-@media (max-width: 576px) {
+/* Celulares */
+@media (max-width: 600px) {
   .detalle-container {
-    padding: 1rem;
+    padding: 0.8rem;
     gap: 1rem;
   }
 
   .detalle-imagen {
     max-width: 100%;
-    height: auto;
   }
 
   .detalle-info {
-    font-size: 1rem;
+    font-size: 0.9rem;
+  }
+
+  .formulario-reseña textarea {
+    font-size: 0.9rem;
+    min-height: 80px;
+  }
+
+  .panel-resenas {
+    padding: 1rem;
+    height: 100vh;
+    border-radius: 0;
   }
 }
+
+

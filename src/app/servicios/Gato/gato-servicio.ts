@@ -6,7 +6,7 @@ import { Observable } from 'rxjs';
   providedIn: 'root'
 })
 export class GatoServicio {
-private apiUrl = 'https://api.thecatapi.com/v1/images/search';
+  private apiUrl = 'https://api.thecatapi.com/v1/images/search';
 
   constructor(private http: HttpClient) {}
 

@@ -9,7 +9,8 @@ import { BehaviorSubject } from 'rxjs';
 
 export class AuthService {
   private base = window.location.origin;
-  private apiUrl = `${this.base}/api/Auto`;;
+  private apiUrl = `https://sassakyxx-001-site1.jtempurl.com/api/Auto`;
+  //private apiUrl = `${this.base}/api/Auto`;
 
 
   private usuarioSubject = new BehaviorSubject<any>(this.getUsuario());
@@ -62,7 +63,20 @@ export class AuthService {
 
 
 verificarCodigo(data: { User: string; Codigo: string }) {
-  return this.http.post<any>(`${this.apiUrl}/verificar-codigo`, data);
+  //return this.http.post<any>(`${this.apiUrl}/verificar-codigo`, data).pipe(
+  return this.http.post<any>(`${this.apiUrl}/verificar-codigo`, data).pipe(
+    tap((res) => {
+      if (res.usuario) {
+        // Guardamos usuario y token reales
+        this.safeSet('usuario', JSON.stringify(res.usuario));
+        this.safeSet('token', res.token);
+        localStorage.setItem('rol', res.usuario.rol);
+
+        // Actualizamos el BehaviorSubject para que Angular lo detecte
+        this.usuarioSubject.next(res.usuario);
+      }
+    })
+  );
 }
 
 

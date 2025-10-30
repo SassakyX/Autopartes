@@ -19,7 +19,7 @@ import Swal, { SweetAlertArrayOptions } from 'sweetalert2';
 export class Carrito implements OnInit {
   items: Producto[] = [];
   total: number = 0;
-
+  procesandoCompra: boolean = false;
   constructor(private carritoService: CarritoServicio, private ventasService: VentasService, private AuthService: AuthService) {}
 
   ngOnInit(): void {
@@ -27,82 +27,98 @@ export class Carrito implements OnInit {
 
   }
 
-  eliminar(index: number) {
-   Swal.fire({
-    title: '¿Eliminar producto?',
-    text: '¿Seguro que deseas quitar este producto del carrito?',
-    icon: 'warning',
-    showCancelButton: true,
-    confirmButtonText: 'Sí, eliminar',
-    cancelButtonText: 'Cancelar'
-  }).then(result => {
-    if (result.isConfirmed) {
-      this.carritoService.eliminar(index);
-      Swal.fire('Eliminado', 'El producto fue quitado del carrito', 'success');
+    eliminar(index: number) {
+    Swal.fire({
+      title: '¿Eliminar producto?',
+      text: '¿Seguro que deseas quitar este producto del carrito?',
+      icon: 'warning',
+      showCancelButton: true,
+      confirmButtonText: 'Sí, eliminar',
+      cancelButtonText: 'Cancelar'
+    }).then(result => {
+      if (result.isConfirmed) {
+        this.carritoService.eliminar(index);
+        Swal.fire('Eliminado', 'El producto fue quitado del carrito', 'success');
+      }
+    });
     }
-  });
-}
-  limpiar() {
-   Swal.fire({
-    title: '¿Limpiar carrito?',
-    text: '¿Seguro que deseas eliminar todos los productos del carrito?',
-    icon: 'warning',
-    showCancelButton: true,
-    confirmButtonText: 'Sí, eliminar',
-    cancelButtonText: 'Cancelar'
-  }).then(result => {
-    if (result.isConfirmed) {
-      this.carritoService.limpiar();
-      Swal.fire('Limpiado', 'El carrito fue limpiado', 'success');
+    limpiar() {
+    Swal.fire({
+      title: '¿Limpiar carrito?',
+      text: '¿Seguro que deseas eliminar todos los productos del carrito?',
+      icon: 'warning',
+      showCancelButton: true,
+      confirmButtonText: 'Sí, eliminar',
+      cancelButtonText: 'Cancelar'
+    }).then(result => {
+      if (result.isConfirmed) {
+        this.carritoService.limpiar();
+        Swal.fire('Limpiado', 'El carrito fue limpiado', 'success');
+      }
+    });
     }
-  });
-  }
 
     getTotal() {
-        return this.items.reduce((sum, i) => sum + i.precioVena * (i.cantidad || 1), 0);
+      return this.items.reduce((sum, i) => sum + i.precioVena * (i.cantidad || 1), 0);
         }
-      actualizarTotal() {
-        this.total = this.carritoService.getTotal();
+    actualizarTotal() {
+      this.total = this.carritoService.getTotal();
       }
 
-      finalizarCompra() {
-        const usuario = this.AuthService.getUsuario();
-        if (!usuario) {
-          Swal.fire('Error', 'Debes iniciar sesión para comprar', 'error');
-          return;
+    finalizarCompra() {
+      const usuario = this.AuthService.getUsuario();
+       if (!usuario) {
+         Swal.fire('Error', 'Debes iniciar sesión para comprar', 'error');
+         return;
         }
 
-        if (this.items.length === 0) {
-        Swal.fire('Carrito vacío', 'Agrega productos antes de comprar', 'warning');
-        return;
-          }
-      const venta = {
-        idUsuario: usuario.idUsuario,
-        detalles: this.items.map(i => ({
+      if (this.items.length === 0) {
+       Swal.fire('Carrito vacío', 'Agrega productos antes de comprar', 'warning');
+       return;
+        }
+        this.procesandoCompra = true;
+        const venta = {
+          idUsuario: usuario.idUsuario,
+          detalles: this.items.map(i => ({
           idProducto: i.idProducto,
           cantidad: i.cantidad || 1,
           precioUnidad: i.precioVena
         }))
       };
-
+      Swal.fire({
+      title: 'Procesando compra...',
+      text: 'Por favor, espera un momento',
+      allowOutsideClick: false,
+      didOpen: () => {
+          Swal.showLoading();
+        }
+      });
 
       this.ventasService.crearVenta(venta).subscribe({
-        next: () => {
-          Swal.fire({
+      next: () => {
+        Swal.fire({
             title: "Compra realizada",
             text: "Tu pedido se ha registrado correctamente",
             icon: "success",
             confirmButtonText: "Aceptar"
-          });
-          this.items = [];
-          localStorage.removeItem('carrito');
-        },
-        error: () => {
-          Swal.fire('Error', 'No se pudo completar la compra', 'error');
+        }).then(()=>{
+        this.procesandoCompra = false;
+        });
+        this.items = [];
+        localStorage.removeItem('carrito');
+        Swal.fire({
+          icon: 'error',
+          title: 'Ups...',
+          text: 'Ocurrió un problema al procesar tu compra. Intenta nuevamente.'
+        }).then(() => {
+          this.procesandoCompra = false;
+         });
         }
       });
-    }
-      cambiarCantidad(index: number, nuevaCantidad: number) {
+     }
+
+
+    cambiarCantidad(index: number, nuevaCantidad: number) {
     if (nuevaCantidad < 1) {
       this.eliminar(index);
       return;

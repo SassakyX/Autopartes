@@ -3,7 +3,7 @@
 
   <form (ngSubmit)="registrar()">
     <input type="text" [(ngModel)]="usuario.nombre_apellido" name="nombre_apellido" placeholder="Nombre y Apellido" required>
-    <input type="text" [(ngModel)]="usuario.dni" name="dni" placeholder="DNI" required>
+    <input type="text" maxlength="8" [(ngModel)]="usuario.dni" name="dni" placeholder="DNI" required>
     <input type="text" [(ngModel)]="usuario.direccion" name="direccion" placeholder="Dirección">
     <input type="email" [(ngModel)]="usuario.correo" name="correo" placeholder="Correo" required>
     <input type="text" [(ngModel)]="usuario.user" name="user" placeholder="Usuario" required>

@@ -1,7 +1,7 @@
 <div *ngIf="producto" class="detalle-wrapper">
   <div class="detalle-container">
     <div class="detalle-imagen">
-      <div class="zoom-container" (mousemove)="onMouseMove($event)" (mouseleave)="resetZoom()">
+      <div class="zoom-container" (mousemove)="onMouseMoveImagen($event)" (mouseleave)="resetZoom()">
         <img #imagen
              [src]="'data:image/png;base64,' + producto.imagenBase64"
              alt="{{ producto.nombre }}">
@@ -25,5 +25,60 @@
       </div>
     </div>
     <button class="btn-carrito" (click)="agregarAlCarrito()" [disabled]="producto.stock <= 0">Agregar al carrito</button>
+    <div class="aviso-desliza" *ngIf="!panelAbierto">
+      <span class="texto-aviso">Desliza para ver reseñas →</span>
+    </div>
+
+
+  <!-- panel de reseñas -->
+  <div #panel class="panel-resenas" [class.abierto]="panelAbierto">
+    <div class="panel-header">
+      <h3>Opiniones de los clientes</h3>
+      <button class="cerrar" (click)="togglePanel()">✖</button>
+    </div>
+
+    <!-- promedio -->
+    <div *ngIf="promedioCalificaciones > 0" class="promedio">
+      ⭐ Promedio: {{ promedioCalificaciones.toFixed(1) }}/5
+    </div>
+      <div *ngIf="resenas.length === 0" class="mensaje-sin-reseñas">
+        <img src="images/Noencontrado.png" alt="candado" class="icono-no-hay">
+         <h2>Aún no hay reseñas para este producto.</h2>
+    </div>
+    <!-- formulario -->
+    <div *ngIf="haCompradoProducto; else noPuede" class="formulario-reseña">
+      <h4>Deja tu reseña</h4>
+      <div class="estrellas">
+        <i *ngFor="let e of [1,2,3,4,5]" class="fa"
+           [ngClass]="{'fa-star': e <= calificacionSeleccionada, 'fa-star-o': e > calificacionSeleccionada}"
+           (click)="seleccionarCalificacion(e)"></i>
+      </div>
+      <textarea [(ngModel)]="comentario" placeholder="Escribe tu comentario..."></textarea>
+      <button (click)="enviarResena()">Enviar</button>
+    </div>
+
+
+     <!-- si no ha comprado -->
+      <ng-template #noPuede>
+        <div class="aviso-no-compra">
+          <p style="color: red;">Solo los clientes que compraron este producto pueden dejar una reseña.</p>
+        </div>
+      </ng-template>
+
+
+
+    <!-- lista de reseñas -->
+    <div *ngFor="let r of resenas" class="resena">
+      <div class="resena-header">
+        <strong>{{ r.usuario }}</strong>
+        <span>{{ r.fecha | date:'dd/MM/yyyy HH:mm' }}</span>
+      </div>
+      <div class="resena-estrellas">
+        <i *ngFor="let e of [1,2,3,4,5]" class="fa"
+           [ngClass]="{'fa-star': e <= r.estrellas, 'fa-star-o': e > r.estrellas}"></i>
+      </div>
+      <p>{{ r.comentario || '(Sin comentario)' }}</p>
+    </div>
   </div>
+  <div class="overlay" [class.activo]="panelAbierto" (click)="togglePanel()"></div>
 </div>

@@ -39,7 +39,7 @@
     <h3>Total: S/ {{ getTotal() }}</h3>
     <div class="carrito-botones">
       <button class="btn-vaciar" (click)="limpiar()">Vaciar carrito</button>
-      <button class="btn-comprar" (click)="finalizarCompra()">Finalizar compra</button>
+      <button class="btn-comprar" [disabled]="procesandoCompra"  (click)="finalizarCompra()">Finalizar compra</button>
     </div>
   </div>
 </div>
