@@ -5,6 +5,7 @@ C:\Users\Sassa\Videos\Proyecto\Back_Repuestos\Back_Repuestos\bin\Release\net8.0\
 C:\Users\Sassa\Videos\Proyecto\Back_Repuestos\Back_Repuestos\bin\Release\net8.0\appsettings.json
 C:\Users\Sassa\Videos\Proyecto\Back_Repuestos\Back_Repuestos\bin\Release\net8.0\libman.json
 C:\Users\Sassa\Videos\Proyecto\Back_Repuestos\Back_Repuestos\bin\Release\net8.0\es\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.resources.dll
+C:\Users\Sassa\Videos\Proyecto\Back_Repuestos\Back_Repuestos\bin\Release\net8.0\Back_Repuestos.staticwebassets.runtime.json
 C:\Users\Sassa\Videos\Proyecto\Back_Repuestos\Back_Repuestos\bin\Release\net8.0\Back_Repuestos.staticwebassets.endpoints.json
 C:\Users\Sassa\Videos\Proyecto\Back_Repuestos\Back_Repuestos\bin\Release\net8.0\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
 C:\Users\Sassa\Videos\Proyecto\Back_Repuestos\Back_Repuestos\bin\Release\net8.0\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
@@ -313,11 +314,10 @@ C:\Users\Sassa\Videos\Proyecto\Back_Repuestos\Back_Repuestos\obj\Release\net8.0\
 C:\Users\Sassa\Videos\Proyecto\Back_Repuestos\Back_Repuestos\obj\Release\net8.0\staticwebassets.build.json.cache
 C:\Users\Sassa\Videos\Proyecto\Back_Repuestos\Back_Repuestos\obj\Release\net8.0\staticwebassets.development.json
 C:\Users\Sassa\Videos\Proyecto\Back_Repuestos\Back_Repuestos\obj\Release\net8.0\staticwebassets.build.endpoints.json
+C:\Users\Sassa\Videos\Proyecto\Back_Repuestos\Back_Repuestos\obj\Release\net8.0\staticwebassets.upToDateCheck.txt
 C:\Users\Sassa\Videos\Proyecto\Back_Repuestos\Back_Repuestos\obj\Release\net8.0\Back_Rep.59747D54.Up2Date
 C:\Users\Sassa\Videos\Proyecto\Back_Repuestos\Back_Repuestos\obj\Release\net8.0\Back_Repuestos.dll
 C:\Users\Sassa\Videos\Proyecto\Back_Repuestos\Back_Repuestos\obj\Release\net8.0\refint\Back_Repuestos.dll
 C:\Users\Sassa\Videos\Proyecto\Back_Repuestos\Back_Repuestos\obj\Release\net8.0\Back_Repuestos.pdb
 C:\Users\Sassa\Videos\Proyecto\Back_Repuestos\Back_Repuestos\obj\Release\net8.0\Back_Repuestos.genruntimeconfig.cache
 C:\Users\Sassa\Videos\Proyecto\Back_Repuestos\Back_Repuestos\obj\Release\net8.0\ref\Back_Repuestos.dll
-C:\Users\Sassa\Videos\Proyecto\Back_Repuestos\Back_Repuestos\bin\Release\net8.0\Back_Repuestos.staticwebassets.runtime.json
-C:\Users\Sassa\Videos\Proyecto\Back_Repuestos\Back_Repuestos\obj\Release\net8.0\staticwebassets.upToDateCheck.txt

@@ -515,7 +515,6 @@ C:\Users\Sassa\Videos\Proyecto\Back_Repuestos\Pruebas\obj\Debug\net8.0\Pruebas.g
 C:\Users\Sassa\Videos\Proyecto\Back_Repuestos\Pruebas\obj\Debug\net8.0\Pruebas.AssemblyInfoInputs.cache
 C:\Users\Sassa\Videos\Proyecto\Back_Repuestos\Pruebas\obj\Debug\net8.0\Pruebas.AssemblyInfo.cs
 C:\Users\Sassa\Videos\Proyecto\Back_Repuestos\Pruebas\obj\Debug\net8.0\Pruebas.csproj.CoreCompileInputs.cache
-C:\Users\Sassa\Videos\Proyecto\Back_Repuestos\Pruebas\obj\Debug\net8.0\Pruebas.sourcelink.json
 C:\Users\Sassa\Videos\Proyecto\Back_Repuestos\Pruebas\obj\Debug\net8.0\Pruebas.csproj.Up2Date
 C:\Users\Sassa\Videos\Proyecto\Back_Repuestos\Pruebas\obj\Debug\net8.0\Pruebas.dll
 C:\Users\Sassa\Videos\Proyecto\Back_Repuestos\Pruebas\obj\Debug\net8.0\refint\Pruebas.dll
