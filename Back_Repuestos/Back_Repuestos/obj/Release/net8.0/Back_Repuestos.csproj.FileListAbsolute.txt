@@ -305,7 +305,6 @@ C:\Users\Sassa\Videos\Proyecto\Back_Repuestos\Back_Repuestos\obj\Release\net8.0\
 C:\Users\Sassa\Videos\Proyecto\Back_Repuestos\Back_Repuestos\obj\Release\net8.0\Back_Repuestos.csproj.CoreCompileInputs.cache
 C:\Users\Sassa\Videos\Proyecto\Back_Repuestos\Back_Repuestos\obj\Release\net8.0\Back_Repuestos.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\Sassa\Videos\Proyecto\Back_Repuestos\Back_Repuestos\obj\Release\net8.0\Back_Repuestos.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\Sassa\Videos\Proyecto\Back_Repuestos\Back_Repuestos\obj\Release\net8.0\Back_Repuestos.sourcelink.json
 C:\Users\Sassa\Videos\Proyecto\Back_Repuestos\Back_Repuestos\obj\Release\net8.0\rjimswa.dswa.cache.json
 C:\Users\Sassa\Videos\Proyecto\Back_Repuestos\Back_Repuestos\obj\Release\net8.0\rjsmrazor.dswa.cache.json
 C:\Users\Sassa\Videos\Proyecto\Back_Repuestos\Back_Repuestos\obj\Release\net8.0\rjsmcshtml.dswa.cache.json

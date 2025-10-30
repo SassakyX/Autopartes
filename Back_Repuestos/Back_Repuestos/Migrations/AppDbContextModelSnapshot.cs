@@ -71,7 +71,7 @@ namespace Back_Repuestos.Migrations
 
                     b.HasIndex("IdVenta");
 
-                    b.ToTable("detalleVentas");
+                    b.ToTable("DetalleVentas");
                 });
 
             modelBuilder.Entity("Back_Repuestos.Modelos.Productos", b =>
@@ -110,6 +110,39 @@ namespace Back_Repuestos.Migrations
                     b.HasIndex("IdCategoria");
 
                     b.ToTable("Productos");
+                });
+
+            modelBuilder.Entity("Back_Repuestos.Modelos.Resena", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    MySqlPropertyBuilderExtensions.UseMySqlIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Comentario")
+                        .IsRequired()
+                        .HasColumnType("longtext");
+
+                    b.Property<int>("Estrellas")
+                        .HasColumnType("int");
+
+                    b.Property<DateTime>("Fecha")
+                        .HasColumnType("datetime(6)");
+
+                    b.Property<int>("ProductoId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("UsuarioId")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("ProductoId");
+
+                    b.HasIndex("UsuarioId");
+
+                    b.ToTable("Resenas");
                 });
 
             modelBuilder.Entity("Back_Repuestos.Modelos.Usuario", b =>
@@ -274,6 +307,25 @@ namespace Back_Repuestos.Migrations
                         .IsRequired();
 
                     b.Navigation("Categoria");
+                });
+
+            modelBuilder.Entity("Back_Repuestos.Modelos.Resena", b =>
+                {
+                    b.HasOne("Back_Repuestos.Modelos.Productos", "Producto")
+                        .WithMany()
+                        .HasForeignKey("ProductoId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("Back_Repuestos.Modelos.Usuario", "Usuario")
+                        .WithMany()
+                        .HasForeignKey("UsuarioId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Producto");
+
+                    b.Navigation("Usuario");
                 });
 
             modelBuilder.Entity("Back_Repuestos.Modelos.Venta", b =>

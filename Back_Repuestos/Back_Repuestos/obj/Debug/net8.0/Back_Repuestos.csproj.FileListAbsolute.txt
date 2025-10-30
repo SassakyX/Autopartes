@@ -559,7 +559,6 @@ C:\Users\Sassa\Videos\Proyecto\Back_Repuestos\Back_Repuestos\obj\Debug\net8.0\Ba
 C:\Users\Sassa\Videos\Proyecto\Back_Repuestos\Back_Repuestos\obj\Debug\net8.0\Back_Repuestos.csproj.CoreCompileInputs.cache
 C:\Users\Sassa\Videos\Proyecto\Back_Repuestos\Back_Repuestos\obj\Debug\net8.0\Back_Repuestos.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\Sassa\Videos\Proyecto\Back_Repuestos\Back_Repuestos\obj\Debug\net8.0\Back_Repuestos.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\Sassa\Videos\Proyecto\Back_Repuestos\Back_Repuestos\obj\Debug\net8.0\Back_Repuestos.sourcelink.json
 C:\Users\Sassa\Videos\Proyecto\Back_Repuestos\Back_Repuestos\obj\Debug\net8.0\rjimswa.dswa.cache.json
 C:\Users\Sassa\Videos\Proyecto\Back_Repuestos\Back_Repuestos\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
 C:\Users\Sassa\Videos\Proyecto\Back_Repuestos\Back_Repuestos\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
@@ -746,4 +745,3 @@ C:\Users\Sassa\Videos\Proyecto\Back_Repuestos\Back_Repuestos\obj\Debug\net8.0\Ba
 C:\Users\Sassa\Videos\Proyecto\Back_Repuestos\Back_Repuestos\obj\Debug\net8.0\Back_Repuestos.genautoregisteredextensionsinputcache.cache
 C:\Users\Sassa\Videos\Proyecto\Back_Repuestos\Back_Repuestos\bin\Debug\net8.0\libman.json
 C:\Users\Sassa\Videos\Proyecto\Back_Repuestos\Back_Repuestos\bin\Debug\net8.0\Back_Repuestos.staticwebassets.runtime.json
-C:\Users\Sassa\Videos\Proyecto\Back_Repuestos\Back_Repuestos\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

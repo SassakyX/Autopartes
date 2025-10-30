@@ -1,4 +1,5 @@
-﻿using Back_Repuestos.Modelos;
+﻿using Back_Repuestos.Controllers;
+using Back_Repuestos.Modelos;
 using Microsoft.EntityFrameworkCore;
 
 namespace Back_Repuestos.Data
@@ -13,8 +14,9 @@ namespace Back_Repuestos.Data
         public DbSet<Categoria> Categorias { get; set; }
         public DbSet<Productos> Productos { get; set; }
         public DbSet<Venta> Ventas { get; set; }
-        public DbSet<DetalleVenta> detalleVentas { get; set; }
+        public DbSet<DetalleVenta> DetalleVentas { get; set; }
 
+        public DbSet<Resena> Resenas { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
