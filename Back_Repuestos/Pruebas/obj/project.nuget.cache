@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "HsxuuIyomP4=",
+  "dgSpecHash": "TnwKbyYL1kA=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Sassa\\Videos\\Proyecto\\Back_Repuestos\\Pruebas\\Pruebas.csproj",
+  "projectFilePath": "C:\\Users\\Sassa\\Videos\\Autopartes\\Back\\Autopartes\\Back_Repuestos\\Pruebas\\Pruebas.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Sassa\\.nuget\\packages\\bcrypt.net-next\\4.0.3\\bcrypt.net-next.4.0.3.nupkg.sha512",
     "C:\\Users\\Sassa\\.nuget\\packages\\bouncycastle.cryptography\\2.5.1\\bouncycastle.cryptography.2.5.1.nupkg.sha512",

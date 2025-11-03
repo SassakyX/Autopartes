@@ -1,0 +1,93 @@
+    CREATE TABLE Categorias (
+        IdCategoria INT IDENTITY(1,1) NOT NULL,
+        Nombre NVARCHAR(MAX) NOT NULL,
+        Desctripcion NVARCHAR(MAX) NULL,
+        CONSTRAINT PK_Categorias PRIMARY KEY (IdCategoria)
+    );
+
+    CREATE TABLE Usuarios (
+        IdUsuario INT IDENTITY(1,1) NOT NULL,
+        Nombre_apellido NVARCHAR(100) NOT NULL,
+        DNI NVARCHAR(20) NOT NULL,
+        Direccion NVARCHAR(255) NULL,
+        Correo NVARCHAR(100) NOT NULL,
+        [User] NVARCHAR(50) NOT NULL,
+        Contrasenia NVARCHAR(100) NOT NULL,
+        Rol NVARCHAR(20) NOT NULL,
+        CodigoVerificacion NVARCHAR(MAX) NULL,
+        CodigoExpira DATETIME2(6) NULL,
+        CONSTRAINT PK_Usuarios PRIMARY KEY (IdUsuario)
+    );
+
+    CREATE TABLE UsuariosTemporales (
+        IdTemporal INT IDENTITY(1,1) NOT NULL,
+        Nombre_apellido NVARCHAR(100) NOT NULL,
+        DNI NVARCHAR(8) NOT NULL,
+        Direccion NVARCHAR(MAX) NULL,
+        Correo NVARCHAR(MAX) NOT NULL,
+        [User] NVARCHAR(MAX) NOT NULL,
+        Contrasenia NVARCHAR(MAX) NOT NULL,
+        Rol NVARCHAR(MAX) NOT NULL,
+        CodigoVerificacion NVARCHAR(MAX) NOT NULL,
+        FechaExpira DATETIME2(6) NOT NULL,
+        CONSTRAINT PK_UsuariosTemporales PRIMARY KEY (IdTemporal)
+    );
+
+    CREATE TABLE Productos (
+        IdProducto INT IDENTITY(1,1) NOT NULL,
+        Nombre NVARCHAR(MAX) NOT NULL,
+        Descrpicion NVARCHAR(MAX) NOT NULL,
+        PrecioCompra DECIMAL(18,2) NOT NULL,
+        PrecioVena DECIMAL(18,2) NOT NULL,
+        Stock INT NOT NULL,
+        Imagen VARBINARY(MAX) NULL,
+        IdCategoria INT NOT NULL,
+        CONSTRAINT PK_Productos PRIMARY KEY (IdProducto),
+        CONSTRAINT FK_Productos_Categorias_IdCategoria 
+            FOREIGN KEY (IdCategoria) REFERENCES Categorias(IdCategoria) 
+            ON DELETE CASCADE
+    );
+
+    CREATE TABLE Ventas (
+        IdVenta INT IDENTITY(1,1) NOT NULL,
+        Fecha DATETIME2(6) NOT NULL,
+        Total INT NOT NULL,
+        IdUsuario INT NOT NULL,
+        Estado NVARCHAR(20) NOT NULL,
+        CONSTRAINT PK_Ventas PRIMARY KEY (IdVenta),
+        CONSTRAINT FK_Ventas_Usuarios_IdUsuario 
+            FOREIGN KEY (IdUsuario) REFERENCES Usuarios(IdUsuario) 
+            ON DELETE CASCADE
+    );
+
+    CREATE TABLE Resenas (
+        Id INT IDENTITY(1,1) NOT NULL,
+        ProductoId INT NOT NULL,
+        UsuarioId INT NOT NULL,
+        Estrellas INT NOT NULL,
+        Comentario NVARCHAR(MAX) NOT NULL,
+        Fecha DATETIME2(6) NOT NULL,
+        CONSTRAINT PK_Resenas PRIMARY KEY (Id),
+        CONSTRAINT FK_Resenas_Productos_ProductoId 
+            FOREIGN KEY (ProductoId) REFERENCES Productos(IdProducto) 
+            ON DELETE CASCADE,
+        CONSTRAINT FK_Resenas_Usuarios_UsuarioId 
+            FOREIGN KEY (UsuarioId) REFERENCES Usuarios(IdUsuario) 
+            ON DELETE CASCADE
+    );
+
+    CREATE TABLE DetalleVentas (
+        IdDventa INT IDENTITY(1,1) NOT NULL,
+        Cantidad INT NOT NULL,
+        Precio_unidad INT NOT NULL,
+        Subtotal DECIMAL(18,2) NOT NULL,
+        IdVenta INT NOT NULL,
+        IdProducto INT NOT NULL,
+        CONSTRAINT PK_DetalleVentas PRIMARY KEY (IdDventa),
+        CONSTRAINT FK_DetalleVentas_Productos_IdProducto 
+            FOREIGN KEY (IdProducto) REFERENCES Productos(IdProducto) 
+            ON DELETE CASCADE,
+        CONSTRAINT FK_DetalleVentas_Ventas_IdVenta 
+            FOREIGN KEY (IdVenta) REFERENCES Ventas(IdVenta) 
+            ON DELETE CASCADE
+    );
