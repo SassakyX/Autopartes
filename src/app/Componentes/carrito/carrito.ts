@@ -101,11 +101,15 @@ export class Carrito implements OnInit {
             text: "Tu pedido se ha registrado correctamente",
             icon: "success",
             confirmButtonText: "Aceptar"
+
         }).then(()=>{
         this.procesandoCompra = false;
         });
+
         this.items = [];
         localStorage.removeItem('carrito');
+        },
+        error: () => {
         Swal.fire({
           icon: 'error',
           title: 'Ups...',

@@ -9,8 +9,8 @@ import { BehaviorSubject } from 'rxjs';
 
 export class AuthService {
   private base = window.location.origin;
-  private apiUrl = `https://sassakyxx-001-site1.jtempurl.com/api/Auto`;
-  //private apiUrl = `${this.base}/api/Auto`;
+  //private apiUrl = `https://sassakyxx-001-site1.jtempurl.com/api/Auto`;
+  private apiUrl = `${this.base}/api/Auto`;
 
 
   private usuarioSubject = new BehaviorSubject<any>(this.getUsuario());

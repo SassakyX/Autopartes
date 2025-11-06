@@ -50,9 +50,7 @@ export class CarritoServicio {
     this.guardar();
   }
 
-  obtenerItems(): Producto[] {
-    return this.items;
-  }
+
   getTotal(): number {
   return this.items.reduce(
     (total, item) => total + (item.precioVena * item.cantidad),

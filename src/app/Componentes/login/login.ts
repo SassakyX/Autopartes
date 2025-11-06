@@ -20,12 +20,22 @@ export class Login {
     Contrasenia: '',
   };
   mensaje = '';
+  procesandoLogin: boolean = false;
 
   constructor(private auth: AuthService, private router:Router) {}
+  flashMensaje() {
+      const msgElement = document.querySelector('.alert');
+      if (!msgElement) return;
 
+      msgElement.classList.add('flash');
+      setTimeout(() => msgElement.classList.remove('flash'), 500);
+    }
   iniciarSesion() {
+      this.procesandoLogin = true;
+      this.mensaje = '';
       this.auth.login(this.credenciales).subscribe({
         next: (res) => {
+          this.procesandoLogin = false;
           if (res?.token) {
             // login completo (sin 2FA)
             localStorage.setItem('token', res.token);
@@ -49,8 +59,12 @@ export class Login {
         },
         error: (err) => {
           console.error(err);
+          this.procesandoLogin = false;
           this.mensaje = err.error?.mensaje || 'Credenciales inválidas';
+          this.flashMensaje();
         }
       });
+
     }
+
   }
