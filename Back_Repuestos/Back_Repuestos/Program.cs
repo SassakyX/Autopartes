@@ -12,7 +12,13 @@ var builder = WebApplication.CreateBuilder(args);
     builder.Services.AddDbContext<AppDbContext>(options => options.UseMySql(
     builder.Configuration.GetConnectionString("DefaultConnection"),
     new MySqlServerVersion(new Version(9, 3, 0))));
-
+//Servicios
+    builder.Services.AddScoped<AuthServicio>();
+    builder.Services.AddScoped(typeof(CategoriaServicio));
+    builder.Services.AddScoped<ProductoServicio>();
+    builder.Services.AddScoped<ResenaService>();
+    builder.Services.AddScoped<VentasService>();
+    builder.Services.AddScoped<ILogger<VentasService>, Logger<VentasService>>();
 
 //para configurar localmente
 var MyAllowSpecificOrigins = "_myAllowSpecificOrigins";

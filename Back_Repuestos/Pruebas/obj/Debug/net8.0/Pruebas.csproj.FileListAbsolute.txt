@@ -863,3 +863,5 @@ C:\Users\Sassa\Videos\Autopartes\Back\Autopartes\Back_Repuestos\Pruebas\obj\Debu
 C:\Users\Sassa\Videos\Autopartes\Back\Autopartes\Back_Repuestos\Pruebas\obj\Debug\net8.0\Pruebas.pdb
 C:\Users\Sassa\Videos\Autopartes\Back\Autopartes\Back_Repuestos\Pruebas\obj\Debug\net8.0\Pruebas.genruntimeconfig.cache
 C:\Users\Sassa\Videos\Autopartes\Back\Autopartes\Back_Repuestos\Pruebas\obj\Debug\net8.0\ref\Pruebas.dll
+C:\Users\Sassa\Videos\Proyecto\Back_Repuestos\Pruebas\bin\Debug\net8.0\Castle.Core.dll
+C:\Users\Sassa\Videos\Proyecto\Back_Repuestos\Pruebas\bin\Debug\net8.0\Moq.dll

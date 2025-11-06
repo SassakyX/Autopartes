@@ -1,8 +1,9 @@
 ﻿using Back_Repuestos.Data;
-using Microsoft.AspNetCore.Mvc;
 using Back_Repuestos.DTO;
-using Microsoft.EntityFrameworkCore;
 using Back_Repuestos.Modelos;
+using Back_Repuestos.Services;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
 
 namespace Back_Repuestos.Controllers
@@ -11,151 +12,75 @@ namespace Back_Repuestos.Controllers
     [Route("api/[controller]")]
     public class VentasController : ControllerBase
     {
-        private readonly AppDbContext _context;
+        private readonly VentasService _ventaService;
+        private readonly ILogger<VentasController> _logger;
 
-        public VentasController(AppDbContext context)
+        public VentasController(VentasService ventaService, ILogger<VentasController> logger)
         {
-            _context = context;
+            _ventaService = ventaService;
+            _logger = logger;
         }
 
         [HttpPost("crear")]
         public async Task<IActionResult> CrearVenta([FromBody] PedidoCrearDTO request)
         {
-            var usuario = await _context.Usuarios.FirstOrDefaultAsync(u => u.IdUsuario == request.IdUsuario);
-            if (usuario == null)
-                return BadRequest(new { mensaje = "Usuario no encontrado" });
-
-            var venta = new Venta
+            try
             {
-                Fecha = DateTime.UtcNow,
-                IdUsuario = usuario.IdUsuario,
-                Total = request.Detalles.Sum(d => d.Cantidad * d.PrecioUnidad),
-                Estado = "Pendiente",
-                DetalleVentas = request.Detalles.Select(d => new DetalleVenta
-                {
-                    IdProducto = d.IdProducto,
-                    Cantidad = d.Cantidad,
-                    Precio_unidad = d.PrecioUnidad,
-                    Subtotal = d.Cantidad * d.PrecioUnidad
-                }).ToList()
-            };
-
-            _context.Ventas.Add(venta);
-            await _context.SaveChangesAsync();
-
-            return Ok(new { mensaje = "Venta registrada correctamente", venta.IdVenta, venta.Estado });
+                var venta = await _ventaService.CrearVentaAsync(request);
+                return Ok(new { mensaje = "Venta registrada correctamente", venta.IdVenta, venta.Estado });
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex, "Error en creación de venta");
+                return StatusCode(500, new { mensaje = ex.Message });
+            }
         }
 
         [HttpPut("{id}/estado")]
         public async Task<IActionResult> CambiarEstado(int id, [FromBody] string nuevoEstado)
         {
-            var venta = await _context.Ventas
-                .Include(v => v.DetalleVentas)
-                .ThenInclude(d => d.Producto)
-                .FirstOrDefaultAsync(v => v.IdVenta == id);
-
-            if (venta == null)
-                return NotFound(new { mensaje = "Venta no encontrada" });
-
-            // Si ya está finalizado o cancelado, ya no podria mopdificar
-            if (venta.Estado == "Finalizado" || venta.Estado == "Cancelado")
-                return BadRequest(new { mensaje = "Esta venta ya no se puede modificar." });
-
-            // Si se intenta pasar a Finalizado, verificar stock primero
-            if (nuevoEstado == "Finalizado")
+            try
             {
-                foreach (var det in venta.DetalleVentas!)
-                {
-                    if (det.Producto == null) continue;
-
-                    if (det.Producto.stock < det.Cantidad)
-                    {
-                        return BadRequest(new
-                        {
-                            mensaje = $"Stock insuficiente para el producto '{det.Producto.Nombre}'. " +
-                                      $"Stock actual: {det.Producto.stock}, requerido: {det.Cantidad}"
-                        });
-                    }
-                }
-
-                // Si hay stock suficiente, descontamos
-                foreach (var det in venta.DetalleVentas!)
-                {
-                    if (det.Producto != null)
-                    {
-                        det.Producto.stock -= det.Cantidad;
-                    }
-                }
+                var resultado = await _ventaService.CambiarEstadoAsync(id, nuevoEstado);
+                if (!resultado.Exito) return BadRequest(new { mensaje = resultado.Mensaje });
+                return Ok(new { mensaje = resultado.Mensaje });
             }
-
-            // Actualizamos estado
-            venta.Estado = nuevoEstado;
-            await _context.SaveChangesAsync();
-
-            return Ok(new { mensaje = $"Estado cambiado a {nuevoEstado}" });
+            catch (Exception ex)
+            {
+                _logger.LogError(ex, "Error al cambiar estado de venta");
+                return StatusCode(500, new { mensaje = ex.Message });
+            }
         }
-
-
 
         [HttpGet]
         public async Task<IActionResult> GetVentas()
         {
-            var ventas = await _context.Ventas
-                .Include(v => v.Usuario)
-                .Include(v => v.DetalleVentas)
-                .ThenInclude(d => d.Producto)
-                .Select(v => new PedidoDTO
-                {
-                    IdVenta = v.IdVenta,
-                    Fecha = v.Fecha,
-                    Total = v.Total,
-                    Estado = v.Estado,
-                    UsuarioNombre = v.Usuario != null ? v.Usuario.Nombre_apellido : "Desconocido",
-                    UsuarioCorreo = v.Usuario != null ? v.Usuario.Correo : string.Empty,
-                    Detalles = v.DetalleVentas!.Select(d => new DetalleVentaDTO
-                    {
-                        Cantidad = d.Cantidad,
-                        PrecioUnidad = d.Precio_unidad,
-                        Subtotal = d.Subtotal,
-                        ProductoNombre = d.Producto != null ? d.Producto.Nombre : "Sin nombre"
-                    }).ToList()
-                })
-                .ToListAsync();
-
-            return Ok(ventas);
+            try
+            {
+                var ventas = await _ventaService.ObtenerVentasAsync();
+                return Ok(ventas);
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex, "Error al obtener ventas");
+                return StatusCode(500, new { mensaje = ex.Message });
+            }
         }
 
         [HttpGet("usuario/{idUsuario}")]
         public async Task<IActionResult> GetVentasPorUsuario(int idUsuario)
         {
-            var ventas = await _context.Ventas
-                .Where(v => v.IdUsuario == idUsuario)
-                .Include(v => v.DetalleVentas)
-                .ThenInclude(d => d.Producto)
-                .Select(v => new PedidoDTO
-                {
-                    IdVenta = v.IdVenta,
-                    Fecha = v.Fecha,
-                    Total = v.Total,
-                    Estado = v.Estado,
-                    UsuarioNombre = v.Usuario != null ? v.Usuario.Nombre_apellido : "Desconocido",
-                    UsuarioCorreo = v.Usuario != null ? v.Usuario.Correo : string.Empty,
-                    Detalles = v.DetalleVentas!.Select(d => new DetalleVentaDTO
-                    {
-                        Cantidad = d.Cantidad,
-                        PrecioUnidad = d.Precio_unidad,
-                        Subtotal = d.Subtotal,
-                        ProductoNombre = d.Producto != null ? d.Producto.Nombre : "Sin nombre"
-                    }).ToList()
-                })
-                .ToListAsync();
-
-            if (!ventas.Any())
-                return NotFound(new { mensaje = "No se encontraron ventas para este usuario" });
-
-            return Ok(ventas);
+            try
+            {
+                var ventas = await _ventaService.ObtenerVentasPorUsuarioAsync(idUsuario);
+                if (!ventas.Any()) return NotFound(new { mensaje = "No se encontraron ventas para este usuario" });
+                return Ok(ventas);
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex, "Error al obtener ventas por usuario");
+                return StatusCode(500, new { mensaje = ex.Message });
+            }
         }
-       
     }
 }
-

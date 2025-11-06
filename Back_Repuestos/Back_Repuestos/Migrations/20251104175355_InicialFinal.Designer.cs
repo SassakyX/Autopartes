@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Back_Repuestos.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20251103181142_Actual")]
-    partial class Actual
+    [Migration("20251104175355_InicialFinal")]
+    partial class InicialFinal
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

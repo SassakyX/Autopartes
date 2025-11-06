@@ -49,46 +49,55 @@ namespace Pruebas
                     Contrasenia = "12345",
                     rol = "Cliente"
                 };
+                var producto2 = new Productos
+                {
+                    idProducto = 2,
+                    Nombre = "Filtro 2",
+                    PrecioVena = 20
+                };
 
-            var producto = new Productos
-            {
-                idProducto = 1,
-                Nombre = "Filtro 1",
-                PrecioVena = 15
-            };
-            ctx.Usuarios.Add(usuario);
-            ctx.Productos.Add(producto);
-            await ctx.SaveChangesAsync();
-            var venta = new Venta
-            {
+                var producto = new Productos
+                {
+                    idProducto = 1,
+                    Nombre = "Filtro 1",
+                    PrecioVena = 15
+                };
+                ctx.Usuarios.Add(usuario);
+                ctx.Productos.Add(producto2);
+                ctx.Productos.Add(producto);
+                await ctx.SaveChangesAsync();
+                var venta = new Venta
+                {
                 IdVenta = 1,
                 IdUsuario = 1,
                 Fecha = DateTime.Now,
                 Total = 30,
-                Estado = "Completado",
+                Estado = "Finalizado",
                 Usuario = usuario,
                 DetalleVentas = new List<DetalleVenta>
-            {
-                new DetalleVenta
+
                 {
+                new DetalleVenta
+                    {
                     IdProducto = 1,
                     Cantidad = 2,
                     Precio_unidad = 15,
                     Subtotal = 30,
                     Producto = producto
+                    }
                 }
-            }
-            };
-            ctx.Ventas.Add(venta);
-            await ctx.SaveChangesAsync();
-        }
-            catch (Exception ex)
-            {
-                Console.WriteLine($"Error en SeedVentasData: {ex.GetType().Name} → {ex.Message}");
-                if (ex.InnerException != null)
-                    Console.WriteLine($"Inner: {ex.InnerException.Message}");
-                throw;
-            }
+                };
+
+                ctx.Ventas.Add(venta);
+                await ctx.SaveChangesAsync();
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine($"Error en SeedVentasData: {ex.GetType().Name} → {ex.Message}");
+                    if (ex.InnerException != null)
+                        Console.WriteLine($"Inner: {ex.InnerException.Message}");
+                    throw;
+                }
 
         }
     }

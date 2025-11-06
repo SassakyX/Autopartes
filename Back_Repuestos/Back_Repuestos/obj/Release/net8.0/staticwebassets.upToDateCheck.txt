@@ -13,7 +13,7 @@ wwwroot\images\Marca6.jpg
 wwwroot\images\Noencontrado.png
 wwwroot\images\Repuestos.jpg
 wwwroot\index.html
-wwwroot\main-N7QBNISR.js
+wwwroot\main-BE6NI64T.js
 wwwroot\media\bootstrap-icons-CVBWLLHT.woff2
 wwwroot\media\bootstrap-icons-VQNJTM6Q.woff
 wwwroot\styles-RWK3J6I6.css

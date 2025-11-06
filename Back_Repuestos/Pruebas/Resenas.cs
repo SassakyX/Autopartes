@@ -1,7 +1,12 @@
 ﻿using Back_Repuestos.Controllers;
+using Back_Repuestos.Data;
 using Back_Repuestos.DTO;
 using Back_Repuestos.Modelos;
+using Back_Repuestos.Services;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Logging;
+using Moq;
 
 namespace Pruebas
 {
@@ -9,81 +14,74 @@ namespace Pruebas
     [TestClass]
     public class ResenasTests
     {
-        [TestMethod]
-        public async Task CrearResena_BadRequest_SiNoHaComprado()
+        private AppDbContext GetInMemoryDb()
         {
-            // Arranca
-            var context = TestHelper.NewInMemoryDb();
-            var controller = new ResenasController(context);
+            return TestHelper.NewInMemoryDb();
+        }
 
-            var dto = new ReseñaDto
+        private ResenaService CrearServicio(AppDbContext context)
+        {
+            var loggerMock = new Mock<ILogger<ResenaService>>();
+            return new ResenaService(context, loggerMock.Object);
+        }
+
+        [TestMethod]
+        public async Task CrearResena_DeberiaFallar_SiNoHaComprado()
+        {
+            // Arrange
+            var context = GetInMemoryDb();
+
+            // Sembramos usuario, productos y ventas
+            await TestHelper.SeedVentasData(context);
+
+            var service = CrearServicio(context);
+
+            var dto = new ResenaDto
             {
-                UsuarioId = 1,
-                ProductoId = 100,
+                UsuarioId = 1,       // Usuario que ya existe
+                ProductoId = 2,    // Producto que no compró
                 Estrellas = 4,
                 Comentario = "Buen producto"
+                
             };
 
-            // Act
-            var resultado = await controller.CrearReseña(dto);
-
-            // Assert
-            Assert.IsInstanceOfType(resultado, typeof(BadRequestObjectResult));
-
-            var badRequest = resultado as BadRequestObjectResult;
-            Assert.IsNotNull(badRequest);
-            Assert.AreEqual("Solo los usuarios que han comprado este producto pueden calificarlo.", badRequest.Value);
+            // Act & Assert
+            await Assert.ThrowsExceptionAsync<InvalidOperationException>(async () =>
+            {
+                await service.CrearResenaAsync(dto);
+            });
         }
 
         [TestMethod]
         public async Task CrearResena_DeberiaCrearResena_SiUsuarioHaComprado()
         {
-            // Arranca
-            var context = TestHelper.NewInMemoryDb();
+            // Arrange
+            var context = GetInMemoryDb();
 
-            // Simulamos venta existente en la ram 
-            var venta = new Venta
+            // Sembramos usuario, productos y ventas
+            await TestHelper.SeedVentasData(context);
+
+            var service = CrearServicio(context);
+
+            var dto = new ResenaDto
             {
-                IdUsuario = 1,
-                Estado = "Finalizado",
-                DetalleVentas = new List<DetalleVenta>
-                {
-                    new DetalleVenta { IdProducto = 100, Cantidad = 1, Precio_unidad = 50 }
-                }
-            };
-            context.Ventas.Add(venta);
-            await context.SaveChangesAsync();
-
-            var controller = new ResenasController(context);
-
-            var dto = new ReseñaDto
-            {
-                UsuarioId = 1,
-                ProductoId = 100,
+                UsuarioId = 1,      // Usuario que existe y compró producto 100
+                ProductoId = 1,
                 Estrellas = 5,
                 Comentario = "Excelente compra"
             };
 
-         
-            var resultado = await controller.CrearReseña(dto);
+            // Act
+            var resultado = await service.CrearResenaAsync(dto);
 
             // Assert
-            Assert.IsInstanceOfType(resultado, typeof(OkObjectResult));
+            Assert.IsNotNull(resultado);
+            Assert.AreEqual(5, resultado.Estrellas);
+            Assert.AreEqual("Excelente compra", resultado.Comentario);
+            Assert.AreEqual(1, resultado.UsuarioId);
 
-            var ok = resultado as OkObjectResult;
-            Assert.IsNotNull(ok);
-            Assert.IsInstanceOfType(ok.Value, typeof(Resena));
-
-            var resena = ok.Value as Resena;
-            Assert.AreEqual(5, resena.Estrellas);
-            Assert.AreEqual("Excelente compra", resena.Comentario);
-            Assert.AreEqual(1, resena.UsuarioId);
-
-            // Confirmar 
-            var cantidad = context.Resenas.Count();
+            var cantidad = await context.Resenas.CountAsync();
             Assert.AreEqual(1, cantidad);
         }
     }
 }
-
-

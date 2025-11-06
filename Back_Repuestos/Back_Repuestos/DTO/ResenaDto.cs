@@ -1,6 +1,6 @@
 ﻿namespace Back_Repuestos.DTO
 {
-    public class ReseñaDto
+    public class ResenaDto
     {
         public int ProductoId { get; set; }
         public int UsuarioId { get; set; }

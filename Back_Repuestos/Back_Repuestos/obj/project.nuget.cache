@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "UdOe++uXbhc=",
+  "dgSpecHash": "tUa1kKO2XhQ=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Sassa\\Videos\\Autopartes\\Back\\Autopartes\\Back_Repuestos\\Back_repuestos\\Back_Repuestos.csproj",
+  "projectFilePath": "C:\\Users\\Sassa\\Videos\\Proyecto\\Back_Repuestos\\Back_Repuestos\\Back_Repuestos.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Sassa\\.nuget\\packages\\bcrypt.net-next\\4.0.3\\bcrypt.net-next.4.0.3.nupkg.sha512",
     "C:\\Users\\Sassa\\.nuget\\packages\\bouncycastle.cryptography\\2.5.1\\bouncycastle.cryptography.2.5.1.nupkg.sha512",
@@ -26,7 +26,7 @@
     "C:\\Users\\Sassa\\.nuget\\packages\\microsoft.entityframeworkcore.design\\9.0.9\\microsoft.entityframeworkcore.design.9.0.9.nupkg.sha512",
     "C:\\Users\\Sassa\\.nuget\\packages\\microsoft.entityframeworkcore.inmemory\\9.0.9\\microsoft.entityframeworkcore.inmemory.9.0.9.nupkg.sha512",
     "C:\\Users\\Sassa\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\9.0.9\\microsoft.entityframeworkcore.relational.9.0.9.nupkg.sha512",
-    "C:\\Users\\Sassa\\.nuget\\packages\\microsoft.entityframeworkcore.tools\\9.0.8\\microsoft.entityframeworkcore.tools.9.0.8.nupkg.sha512",
+    "C:\\Users\\Sassa\\.nuget\\packages\\microsoft.entityframeworkcore.tools\\9.0.0\\microsoft.entityframeworkcore.tools.9.0.0.nupkg.sha512",
     "C:\\Users\\Sassa\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
     "C:\\Users\\Sassa\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\9.0.9\\microsoft.extensions.caching.abstractions.9.0.9.nupkg.sha512",
     "C:\\Users\\Sassa\\.nuget\\packages\\microsoft.extensions.caching.memory\\9.0.9\\microsoft.extensions.caching.memory.9.0.9.nupkg.sha512",

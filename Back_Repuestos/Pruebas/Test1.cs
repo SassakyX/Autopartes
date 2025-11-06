@@ -2,6 +2,7 @@
 using Back_Repuestos.Controllers;
 using Back_Repuestos.DTO;
 using Back_Repuestos.Modelos;
+using Back_Repuestos.Services;
 using Microsoft.AspNetCore.Mvc;
 using static Pruebas.TestHelper;
 
@@ -24,7 +25,7 @@ namespace Pruebas
             var correo = new TestHelper.FakeCorreoService();
 
             // Controlador real con dependencias falsas
-            var controller = new AutoController(ctx, correo);
+            var Servicio = new AuthServicio(ctx, correo);
 
             // Sembrar usuario en la ram
             var user = new Usuario
@@ -43,7 +44,7 @@ namespace Pruebas
             var dto = new LoginDTO { User = "admin", Contrasenia = "Admin123$" };
 
             //  Ejecutar acción
-            var result = await controller.Login(dto);
+            var result = await Servicio.LoginAsync(dto);
 
             //  Verificar resultado
             Assert.IsInstanceOfType(result, typeof(OkObjectResult));
@@ -69,11 +70,11 @@ namespace Pruebas
         {
             var ctx = TestHelper.NewInMemoryDb();
             var Correo = new FakeCorreoService();
-            var controller = new AutoController(ctx, Correo);
+            var Servicio = new AuthServicio(ctx, Correo);
 
             var dto = new LoginDTO { User = "nadie", Contrasenia = "123" };
 
-            var result = await controller.Login(dto);
+            var result = await Servicio.LoginAsync(dto);
 
             Assert.IsInstanceOfType(result, typeof(UnauthorizedObjectResult));
             Assert.IsFalse(Correo.llamado);

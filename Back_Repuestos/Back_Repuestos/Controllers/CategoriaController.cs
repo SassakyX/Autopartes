@@ -1,5 +1,6 @@
 ﻿using Back_Repuestos.Data;
 using Back_Repuestos.Modelos;
+using Back_Repuestos.Services;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
@@ -9,54 +10,40 @@ namespace Back_Repuestos.Controllers
     [Route("api/[controller]")]
     public class CategoriaController : ControllerBase
     {
-        private readonly AppDbContext _context;
+        private readonly CategoriaServicio _service;
 
-        public CategoriaController(AppDbContext context)
+        public CategoriaController(CategoriaServicio service)
         {
-            _context = context;
+            _service = service;
         }
 
-        // GET: api/Categoria
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<object>>> GetCategorias()
+        public async Task<IActionResult> GetCategorias()
         {
-            var categorias = await _context.Categorias
-                .Select(c => new {
-                    c.IdCategoria,
-                    c.Nombre
-                })
-                .ToListAsync();
-
+            var categorias = await _service.ObtenerCategoriasAsync();
             return Ok(categorias);
         }
+
         [HttpPost]
-        public async Task<IActionResult> Crear([FromBody] Categoria dto)
+        public async Task<IActionResult> Crear([FromBody] Categoria categoria)
         {
-            _context.Categorias.Add(dto);
-            await _context.SaveChangesAsync();
-            return Ok(dto);
+            var nueva = await _service.CrearCategoriaAsync(categoria);
+            return Ok(nueva);
         }
 
         [HttpPut("{id}")]
-        public async Task<IActionResult> Editar(int id, [FromBody] Categoria dto)
+        public async Task<IActionResult> Editar(int id, [FromBody] Categoria categoria)
         {
-            var cat = await _context.Categorias.FindAsync(id);
-            if (cat == null) return NotFound();
-            cat.Nombre = dto.Nombre;
-            await _context.SaveChangesAsync();
-            return Ok(cat);
+            var editada = await _service.EditarCategoriaAsync(id, categoria);
+            return Ok(editada);
         }
 
         [HttpDelete("{id}")]
         public async Task<IActionResult> Eliminar(int id)
         {
-            var cat = await _context.Categorias.FindAsync(id);
-            if (cat == null) return NotFound();
-            _context.Categorias.Remove(cat);
-            await _context.SaveChangesAsync();
-            return Ok();
+            var mensaje = await _service.EliminarCategoriaAsync(id);
+            return Ok(new { mensaje });
         }
     }
-
 }
 
