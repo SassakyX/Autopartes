@@ -1,4 +1,4 @@
-using Back_Repuestos.Data;
+﻿using Back_Repuestos.Data;
 using Back_Repuestos.Dato_semilla;
 using Back_Repuestos.Modelos;
 using Back_Repuestos.Services;
@@ -28,7 +28,7 @@ builder.Services.AddCors(options =>
     options.AddPolicy(name: MyAllowSpecificOrigins, policy =>
     {
         policy
-            //permite temporalmente todos los or�genes HTTP y HTTPS
+            //permite temporalmente todos los orígenes HTTP y HTTPS
             .AllowAnyOrigin() 
             .AllowAnyHeader()
             .AllowAnyMethod()

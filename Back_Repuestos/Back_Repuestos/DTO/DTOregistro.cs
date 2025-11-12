@@ -23,7 +23,7 @@ namespace Back_Repuestos.DTO
 
 
         [Required(ErrorMessage = "La contraseña es obligatoria")]
-        [MinLength(5, ErrorMessage = "La contraseña debe tener al menos 5 caracteres")]
+        [MinLength(8, ErrorMessage = "La contraseña debe tener al menos 8 caracteres")]
         public string Contrasenia { get; set; } = string.Empty;
 
         public string Rol { get; set; } = "cliente";

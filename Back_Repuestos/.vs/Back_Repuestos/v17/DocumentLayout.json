@@ -1,150 +1,162 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Sassa\\Videos\\Proyecto\\Back_Repuestos\\",
+  "WorkspaceRootPath": "C:\\Users\\Sassa\\Videos\\Proyecto_Refactorizado\\Autopartes\\Back_Repuestos\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{95182C79-4FC7-4E62-9165-A13083D0CEF2}|Back_Repuestos\\Back_Repuestos.csproj|c:\\users\\sassa\\videos\\proyecto\\back_repuestos\\back_repuestos\\services\\ventasservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{95182C79-4FC7-4E62-9165-A13083D0CEF2}|Back_Repuestos\\Back_Repuestos.csproj|solutionrelative:back_repuestos\\services\\ventasservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{95182C79-4FC7-4E62-9165-A13083D0CEF2}|Back_Repuestos\\Back_Repuestos.csproj|c:\\users\\sassa\\videos\\proyecto\\back_repuestos\\back_repuestos\\controllers\\ventacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{95182C79-4FC7-4E62-9165-A13083D0CEF2}|Back_Repuestos\\Back_Repuestos.csproj|solutionrelative:back_repuestos\\controllers\\ventacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{95182C79-4FC7-4E62-9165-A13083D0CEF2}|Back_Repuestos\\Back_Repuestos.csproj|c:\\users\\sassa\\videos\\proyecto\\back_repuestos\\back_repuestos\\services\\resenaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{95182C79-4FC7-4E62-9165-A13083D0CEF2}|Back_Repuestos\\Back_Repuestos.csproj|solutionrelative:back_repuestos\\services\\resenaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{95182C79-4FC7-4E62-9165-A13083D0CEF2}|Back_Repuestos\\Back_Repuestos.csproj|c:\\users\\sassa\\videos\\proyecto\\back_repuestos\\back_repuestos\\controllers\\resenacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{95182C79-4FC7-4E62-9165-A13083D0CEF2}|Back_Repuestos\\Back_Repuestos.csproj|solutionrelative:back_repuestos\\controllers\\resenacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{95182C79-4FC7-4E62-9165-A13083D0CEF2}|Back_Repuestos\\Back_Repuestos.csproj|c:\\users\\sassa\\videos\\proyecto\\back_repuestos\\back_repuestos\\services\\productoservicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{95182C79-4FC7-4E62-9165-A13083D0CEF2}|Back_Repuestos\\Back_Repuestos.csproj|solutionrelative:back_repuestos\\services\\productoservicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{95182C79-4FC7-4E62-9165-A13083D0CEF2}|Back_Repuestos\\Back_Repuestos.csproj|c:\\users\\sassa\\videos\\proyecto\\back_repuestos\\back_repuestos\\controllers\\productocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{95182C79-4FC7-4E62-9165-A13083D0CEF2}|Back_Repuestos\\Back_Repuestos.csproj|solutionrelative:back_repuestos\\controllers\\productocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D0652C6A-C7D4-FCE0-DB38-D2D09879E1A8}|Pruebas\\Pruebas.csproj|c:\\users\\sassa\\videos\\proyecto\\back_repuestos\\pruebas\\pruebaobtenerventas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D0652C6A-C7D4-FCE0-DB38-D2D09879E1A8}|Pruebas\\Pruebas.csproj|solutionrelative:pruebas\\pruebaobtenerventas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{95182C79-4FC7-4E62-9165-A13083D0CEF2}|Back_Repuestos\\Back_Repuestos.csproj|c:\\users\\sassa\\videos\\proyecto\\back_repuestos\\back_repuestos\\services\\authservicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{95182C79-4FC7-4E62-9165-A13083D0CEF2}|Back_Repuestos\\Back_Repuestos.csproj|solutionrelative:back_repuestos\\services\\authservicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D0652C6A-C7D4-FCE0-DB38-D2D09879E1A8}|Pruebas\\Pruebas.csproj|c:\\users\\sassa\\videos\\proyecto\\back_repuestos\\pruebas\\productos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D0652C6A-C7D4-FCE0-DB38-D2D09879E1A8}|Pruebas\\Pruebas.csproj|solutionrelative:pruebas\\productos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D0652C6A-C7D4-FCE0-DB38-D2D09879E1A8}|Pruebas\\Pruebas.csproj|c:\\users\\sassa\\videos\\proyecto\\back_repuestos\\pruebas\\test1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D0652C6A-C7D4-FCE0-DB38-D2D09879E1A8}|Pruebas\\Pruebas.csproj|solutionrelative:pruebas\\test1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D0652C6A-C7D4-FCE0-DB38-D2D09879E1A8}|Pruebas\\Pruebas.csproj|c:\\users\\sassa\\videos\\proyecto\\back_repuestos\\pruebas\\resenas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D0652C6A-C7D4-FCE0-DB38-D2D09879E1A8}|Pruebas\\Pruebas.csproj|solutionrelative:pruebas\\resenas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D0652C6A-C7D4-FCE0-DB38-D2D09879E1A8}|Pruebas\\Pruebas.csproj|c:\\users\\sassa\\videos\\proyecto\\back_repuestos\\pruebas\\testhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D0652C6A-C7D4-FCE0-DB38-D2D09879E1A8}|Pruebas\\Pruebas.csproj|solutionrelative:pruebas\\testhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D0652C6A-C7D4-FCE0-DB38-D2D09879E1A8}|Pruebas\\Pruebas.csproj|c:\\users\\sassa\\videos\\proyecto\\back_repuestos\\pruebas\\mstestsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D0652C6A-C7D4-FCE0-DB38-D2D09879E1A8}|Pruebas\\Pruebas.csproj|solutionrelative:pruebas\\mstestsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D0652C6A-C7D4-FCE0-DB38-D2D09879E1A8}|Pruebas\\Pruebas.csproj|c:\\users\\sassa\\videos\\proyecto\\back_repuestos\\pruebas\\crudcategorias.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D0652C6A-C7D4-FCE0-DB38-D2D09879E1A8}|Pruebas\\Pruebas.csproj|solutionrelative:pruebas\\crudcategorias.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D0652C6A-C7D4-FCE0-DB38-D2D09879E1A8}|Pruebas\\Pruebas.csproj|c:\\users\\sassa\\videos\\proyecto\\back_repuestos\\pruebas\\pruebas.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{D0652C6A-C7D4-FCE0-DB38-D2D09879E1A8}|Pruebas\\Pruebas.csproj|solutionrelative:pruebas\\pruebas.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{95182C79-4FC7-4E62-9165-A13083D0CEF2}|Back_Repuestos\\Back_Repuestos.csproj|c:\\users\\sassa\\videos\\proyecto\\back_repuestos\\back_repuestos\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{95182C79-4FC7-4E62-9165-A13083D0CEF2}|Back_Repuestos\\Back_Repuestos.csproj|solutionrelative:back_repuestos\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{95182C79-4FC7-4E62-9165-A13083D0CEF2}|Back_Repuestos\\Back_Repuestos.csproj|c:\\users\\sassa\\videos\\proyecto\\back_repuestos\\back_repuestos\\modelos\\productos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{95182C79-4FC7-4E62-9165-A13083D0CEF2}|Back_Repuestos\\Back_Repuestos.csproj|solutionrelative:back_repuestos\\modelos\\productos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{95182C79-4FC7-4E62-9165-A13083D0CEF2}|Back_Repuestos\\Back_Repuestos.csproj|c:\\users\\sassa\\videos\\proyecto\\back_repuestos\\back_repuestos\\dato semilla\\datosemilla.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{95182C79-4FC7-4E62-9165-A13083D0CEF2}|Back_Repuestos\\Back_Repuestos.csproj|c:\\users\\sassa\\videos\\proyecto_refactorizado\\autopartes\\back_repuestos\\back_repuestos\\dato semilla\\datosemilla.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{95182C79-4FC7-4E62-9165-A13083D0CEF2}|Back_Repuestos\\Back_Repuestos.csproj|solutionrelative:back_repuestos\\dato semilla\\datosemilla.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{95182C79-4FC7-4E62-9165-A13083D0CEF2}|Back_Repuestos\\Back_Repuestos.csproj|c:\\users\\sassa\\videos\\proyecto\\back_repuestos\\back_repuestos\\controllers\\autocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{95182C79-4FC7-4E62-9165-A13083D0CEF2}|Back_Repuestos\\Back_Repuestos.csproj|solutionrelative:back_repuestos\\controllers\\autocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{95182C79-4FC7-4E62-9165-A13083D0CEF2}|Back_Repuestos\\Back_Repuestos.csproj|c:\\users\\sassa\\videos\\proyecto\\back_repuestos\\back_repuestos\\services\\categoriaservicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{95182C79-4FC7-4E62-9165-A13083D0CEF2}|Back_Repuestos\\Back_Repuestos.csproj|solutionrelative:back_repuestos\\services\\categoriaservicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{95182C79-4FC7-4E62-9165-A13083D0CEF2}|Back_Repuestos\\Back_Repuestos.csproj|c:\\users\\sassa\\videos\\proyecto\\back_repuestos\\back_repuestos\\controllers\\categoriacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{95182C79-4FC7-4E62-9165-A13083D0CEF2}|Back_Repuestos\\Back_Repuestos.csproj|solutionrelative:back_repuestos\\controllers\\categoriacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{95182C79-4FC7-4E62-9165-A13083D0CEF2}|Back_Repuestos\\Back_Repuestos.csproj|c:\\users\\sassa\\videos\\proyecto\\back_repuestos\\back_repuestos\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{95182C79-4FC7-4E62-9165-A13083D0CEF2}|Back_Repuestos\\Back_Repuestos.csproj|solutionrelative:back_repuestos\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Sassa\\AppData\\Local\\Temp\\.vsdbgsrc\\ef09dbe393a78b07775aa474926c634f3130913b6c3517790e6a98317aa81f96\\ServiceProvider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{95182C79-4FC7-4E62-9165-A13083D0CEF2}|Back_Repuestos\\Back_Repuestos.csproj|c:\\users\\sassa\\videos\\proyecto\\back_repuestos\\back_repuestos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{95182C79-4FC7-4E62-9165-A13083D0CEF2}|Back_Repuestos\\Back_Repuestos.csproj|solutionrelative:back_repuestos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{95182C79-4FC7-4E62-9165-A13083D0CEF2}|Back_Repuestos\\Back_Repuestos.csproj|c:\\users\\sassa\\videos\\proyecto\\back_repuestos\\back_repuestos\\middleware\\excepciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{95182C79-4FC7-4E62-9165-A13083D0CEF2}|Back_Repuestos\\Back_Repuestos.csproj|c:\\users\\sassa\\videos\\proyecto_refactorizado\\autopartes\\back_repuestos\\back_repuestos\\middleware\\excepciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{95182C79-4FC7-4E62-9165-A13083D0CEF2}|Back_Repuestos\\Back_Repuestos.csproj|solutionrelative:back_repuestos\\middleware\\excepciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{95182C79-4FC7-4E62-9165-A13083D0CEF2}|Back_Repuestos\\Back_Repuestos.csproj|c:\\users\\sassa\\videos\\proyecto\\back_repuestos\\back_repuestos\\dto\\pedidodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{95182C79-4FC7-4E62-9165-A13083D0CEF2}|Back_Repuestos\\Back_Repuestos.csproj|c:\\users\\sassa\\videos\\proyecto_refactorizado\\autopartes\\back_repuestos\\back_repuestos\\services\\productoservicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95182C79-4FC7-4E62-9165-A13083D0CEF2}|Back_Repuestos\\Back_Repuestos.csproj|solutionrelative:back_repuestos\\services\\productoservicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95182C79-4FC7-4E62-9165-A13083D0CEF2}|Back_Repuestos\\Back_Repuestos.csproj|c:\\users\\sassa\\videos\\proyecto_refactorizado\\autopartes\\back_repuestos\\back_repuestos\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{95182C79-4FC7-4E62-9165-A13083D0CEF2}|Back_Repuestos\\Back_Repuestos.csproj|solutionrelative:back_repuestos\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95182C79-4FC7-4E62-9165-A13083D0CEF2}|Back_Repuestos\\Back_Repuestos.csproj|c:\\users\\sassa\\videos\\proyecto_refactorizado\\autopartes\\back_repuestos\\back_repuestos\\back_repuestos.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{95182C79-4FC7-4E62-9165-A13083D0CEF2}|Back_Repuestos\\Back_Repuestos.csproj|solutionrelative:back_repuestos\\back_repuestos.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95182C79-4FC7-4E62-9165-A13083D0CEF2}|Back_Repuestos\\Back_Repuestos.csproj|c:\\users\\sassa\\videos\\proyecto_refactorizado\\autopartes\\back_repuestos\\back_repuestos\\dto\\dtoverificacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95182C79-4FC7-4E62-9165-A13083D0CEF2}|Back_Repuestos\\Back_Repuestos.csproj|solutionrelative:back_repuestos\\dto\\dtoverificacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95182C79-4FC7-4E62-9165-A13083D0CEF2}|Back_Repuestos\\Back_Repuestos.csproj|c:\\users\\sassa\\videos\\proyecto_refactorizado\\autopartes\\back_repuestos\\back_repuestos\\services\\authservicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95182C79-4FC7-4E62-9165-A13083D0CEF2}|Back_Repuestos\\Back_Repuestos.csproj|solutionrelative:back_repuestos\\services\\authservicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95182C79-4FC7-4E62-9165-A13083D0CEF2}|Back_Repuestos\\Back_Repuestos.csproj|c:\\users\\sassa\\videos\\proyecto_refactorizado\\autopartes\\back_repuestos\\back_repuestos\\dto\\dtoregistro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95182C79-4FC7-4E62-9165-A13083D0CEF2}|Back_Repuestos\\Back_Repuestos.csproj|solutionrelative:back_repuestos\\dto\\dtoregistro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95182C79-4FC7-4E62-9165-A13083D0CEF2}|Back_Repuestos\\Back_Repuestos.csproj|c:\\users\\sassa\\videos\\proyecto_refactorizado\\autopartes\\back_repuestos\\back_repuestos\\modelos\\productos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95182C79-4FC7-4E62-9165-A13083D0CEF2}|Back_Repuestos\\Back_Repuestos.csproj|solutionrelative:back_repuestos\\modelos\\productos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95182C79-4FC7-4E62-9165-A13083D0CEF2}|Back_Repuestos\\Back_Repuestos.csproj|c:\\users\\sassa\\videos\\proyecto_refactorizado\\autopartes\\back_repuestos\\back_repuestos\\modelos\\usuariotemp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95182C79-4FC7-4E62-9165-A13083D0CEF2}|Back_Repuestos\\Back_Repuestos.csproj|solutionrelative:back_repuestos\\modelos\\usuariotemp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95182C79-4FC7-4E62-9165-A13083D0CEF2}|Back_Repuestos\\Back_Repuestos.csproj|c:\\users\\sassa\\videos\\proyecto_refactorizado\\autopartes\\back_repuestos\\back_repuestos\\modelos\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95182C79-4FC7-4E62-9165-A13083D0CEF2}|Back_Repuestos\\Back_Repuestos.csproj|solutionrelative:back_repuestos\\modelos\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95182C79-4FC7-4E62-9165-A13083D0CEF2}|Back_Repuestos\\Back_Repuestos.csproj|c:\\users\\sassa\\videos\\proyecto_refactorizado\\autopartes\\back_repuestos\\back_repuestos\\modelos\\venta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95182C79-4FC7-4E62-9165-A13083D0CEF2}|Back_Repuestos\\Back_Repuestos.csproj|solutionrelative:back_repuestos\\modelos\\venta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95182C79-4FC7-4E62-9165-A13083D0CEF2}|Back_Repuestos\\Back_Repuestos.csproj|c:\\users\\sassa\\videos\\proyecto_refactorizado\\autopartes\\back_repuestos\\back_repuestos\\dto\\dtoproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95182C79-4FC7-4E62-9165-A13083D0CEF2}|Back_Repuestos\\Back_Repuestos.csproj|solutionrelative:back_repuestos\\dto\\dtoproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95182C79-4FC7-4E62-9165-A13083D0CEF2}|Back_Repuestos\\Back_Repuestos.csproj|c:\\users\\sassa\\videos\\proyecto_refactorizado\\autopartes\\back_repuestos\\back_repuestos\\dto\\pedidodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{95182C79-4FC7-4E62-9165-A13083D0CEF2}|Back_Repuestos\\Back_Repuestos.csproj|solutionrelative:back_repuestos\\dto\\pedidodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{95182C79-4FC7-4E62-9165-A13083D0CEF2}|Back_Repuestos\\Back_Repuestos.csproj|c:\\users\\sassa\\videos\\proyecto\\back_repuestos\\back_repuestos\\dto\\resenadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{95182C79-4FC7-4E62-9165-A13083D0CEF2}|Back_Repuestos\\Back_Repuestos.csproj|c:\\users\\sassa\\videos\\proyecto_refactorizado\\autopartes\\back_repuestos\\back_repuestos\\dto\\resenadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{95182C79-4FC7-4E62-9165-A13083D0CEF2}|Back_Repuestos\\Back_Repuestos.csproj|solutionrelative:back_repuestos\\dto\\resenadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{95182C79-4FC7-4E62-9165-A13083D0CEF2}|Back_Repuestos\\Back_Repuestos.csproj|c:\\users\\sassa\\videos\\proyecto\\back_repuestos\\back_repuestos\\services\\correoservicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{95182C79-4FC7-4E62-9165-A13083D0CEF2}|Back_Repuestos\\Back_Repuestos.csproj|solutionrelative:back_repuestos\\services\\correoservicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{95182C79-4FC7-4E62-9165-A13083D0CEF2}|Back_Repuestos\\Back_Repuestos.csproj|c:\\users\\sassa\\videos\\proyecto_refactorizado\\autopartes\\back_repuestos\\back_repuestos\\controllers\\autocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95182C79-4FC7-4E62-9165-A13083D0CEF2}|Back_Repuestos\\Back_Repuestos.csproj|solutionrelative:back_repuestos\\controllers\\autocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Sassa\\.nuget\\packages\\microsoft.net.test.sdk\\18.0.0\\build\\net8.0\\Microsoft.NET.Test.Sdk.Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{95182C79-4FC7-4E62-9165-A13083D0CEF2}|Back_Repuestos\\Back_Repuestos.csproj|c:\\users\\sassa\\videos\\proyecto\\back_repuestos\\back_repuestos\\back_repuestos.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "AbsoluteMoniker": "D:0:0:{95182C79-4FC7-4E62-9165-A13083D0CEF2}|Back_Repuestos\\Back_Repuestos.csproj|c:\\users\\sassa\\videos\\proyecto_refactorizado\\autopartes\\back_repuestos\\back_repuestos\\controllers\\ventacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95182C79-4FC7-4E62-9165-A13083D0CEF2}|Back_Repuestos\\Back_Repuestos.csproj|solutionrelative:back_repuestos\\controllers\\ventacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95182C79-4FC7-4E62-9165-A13083D0CEF2}|Back_Repuestos\\Back_Repuestos.csproj|c:\\users\\sassa\\videos\\proyecto_refactorizado\\autopartes\\back_repuestos\\back_repuestos\\controllers\\resenacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95182C79-4FC7-4E62-9165-A13083D0CEF2}|Back_Repuestos\\Back_Repuestos.csproj|solutionrelative:back_repuestos\\controllers\\resenacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95182C79-4FC7-4E62-9165-A13083D0CEF2}|Back_Repuestos\\Back_Repuestos.csproj|c:\\users\\sassa\\videos\\proyecto_refactorizado\\autopartes\\back_repuestos\\back_repuestos\\controllers\\productocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95182C79-4FC7-4E62-9165-A13083D0CEF2}|Back_Repuestos\\Back_Repuestos.csproj|solutionrelative:back_repuestos\\controllers\\productocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95182C79-4FC7-4E62-9165-A13083D0CEF2}|Back_Repuestos\\Back_Repuestos.csproj|c:\\users\\sassa\\videos\\proyecto_refactorizado\\autopartes\\back_repuestos\\back_repuestos\\controllers\\categoriacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95182C79-4FC7-4E62-9165-A13083D0CEF2}|Back_Repuestos\\Back_Repuestos.csproj|solutionrelative:back_repuestos\\controllers\\categoriacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95182C79-4FC7-4E62-9165-A13083D0CEF2}|Back_Repuestos\\Back_Repuestos.csproj|c:\\users\\sassa\\videos\\proyecto_refactorizado\\autopartes\\back_repuestos\\back_repuestos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95182C79-4FC7-4E62-9165-A13083D0CEF2}|Back_Repuestos\\Back_Repuestos.csproj|solutionrelative:back_repuestos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95182C79-4FC7-4E62-9165-A13083D0CEF2}|Back_Repuestos\\Back_Repuestos.csproj|c:\\users\\sassa\\videos\\proyecto_refactorizado\\autopartes\\back_repuestos\\back_repuestos\\services\\resenaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95182C79-4FC7-4E62-9165-A13083D0CEF2}|Back_Repuestos\\Back_Repuestos.csproj|solutionrelative:back_repuestos\\services\\resenaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95182C79-4FC7-4E62-9165-A13083D0CEF2}|Back_Repuestos\\Back_Repuestos.csproj|c:\\users\\sassa\\videos\\proyecto_refactorizado\\autopartes\\back_repuestos\\back_repuestos\\services\\categoriaservicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95182C79-4FC7-4E62-9165-A13083D0CEF2}|Back_Repuestos\\Back_Repuestos.csproj|solutionrelative:back_repuestos\\services\\categoriaservicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95182C79-4FC7-4E62-9165-A13083D0CEF2}|Back_Repuestos\\Back_Repuestos.csproj|c:\\users\\sassa\\videos\\proyecto_refactorizado\\autopartes\\back_repuestos\\back_repuestos\\services\\ventasservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95182C79-4FC7-4E62-9165-A13083D0CEF2}|Back_Repuestos\\Back_Repuestos.csproj|solutionrelative:back_repuestos\\services\\ventasservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0652C6A-C7D4-FCE0-DB38-D2D09879E1A8}|Pruebas\\Pruebas.csproj|c:\\users\\sassa\\videos\\proyecto_refactorizado\\autopartes\\back_repuestos\\pruebas\\pruebaobtenerventas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0652C6A-C7D4-FCE0-DB38-D2D09879E1A8}|Pruebas\\Pruebas.csproj|solutionrelative:pruebas\\pruebaobtenerventas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0652C6A-C7D4-FCE0-DB38-D2D09879E1A8}|Pruebas\\Pruebas.csproj|c:\\users\\sassa\\videos\\proyecto_refactorizado\\autopartes\\back_repuestos\\pruebas\\productos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0652C6A-C7D4-FCE0-DB38-D2D09879E1A8}|Pruebas\\Pruebas.csproj|solutionrelative:pruebas\\productos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0652C6A-C7D4-FCE0-DB38-D2D09879E1A8}|Pruebas\\Pruebas.csproj|c:\\users\\sassa\\videos\\proyecto_refactorizado\\autopartes\\back_repuestos\\pruebas\\test1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0652C6A-C7D4-FCE0-DB38-D2D09879E1A8}|Pruebas\\Pruebas.csproj|solutionrelative:pruebas\\test1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0652C6A-C7D4-FCE0-DB38-D2D09879E1A8}|Pruebas\\Pruebas.csproj|c:\\users\\sassa\\videos\\proyecto_refactorizado\\autopartes\\back_repuestos\\pruebas\\resenas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0652C6A-C7D4-FCE0-DB38-D2D09879E1A8}|Pruebas\\Pruebas.csproj|solutionrelative:pruebas\\resenas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0652C6A-C7D4-FCE0-DB38-D2D09879E1A8}|Pruebas\\Pruebas.csproj|c:\\users\\sassa\\videos\\proyecto_refactorizado\\autopartes\\back_repuestos\\pruebas\\testhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0652C6A-C7D4-FCE0-DB38-D2D09879E1A8}|Pruebas\\Pruebas.csproj|solutionrelative:pruebas\\testhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0652C6A-C7D4-FCE0-DB38-D2D09879E1A8}|Pruebas\\Pruebas.csproj|c:\\users\\sassa\\videos\\proyecto_refactorizado\\autopartes\\back_repuestos\\pruebas\\mstestsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0652C6A-C7D4-FCE0-DB38-D2D09879E1A8}|Pruebas\\Pruebas.csproj|solutionrelative:pruebas\\mstestsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0652C6A-C7D4-FCE0-DB38-D2D09879E1A8}|Pruebas\\Pruebas.csproj|c:\\users\\sassa\\videos\\proyecto_refactorizado\\autopartes\\back_repuestos\\pruebas\\crudcategorias.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0652C6A-C7D4-FCE0-DB38-D2D09879E1A8}|Pruebas\\Pruebas.csproj|solutionrelative:pruebas\\crudcategorias.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0652C6A-C7D4-FCE0-DB38-D2D09879E1A8}|Pruebas\\Pruebas.csproj|c:\\users\\sassa\\videos\\proyecto_refactorizado\\autopartes\\back_repuestos\\pruebas\\pruebas.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{D0652C6A-C7D4-FCE0-DB38-D2D09879E1A8}|Pruebas\\Pruebas.csproj|solutionrelative:pruebas\\pruebas.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95182C79-4FC7-4E62-9165-A13083D0CEF2}|Back_Repuestos\\Back_Repuestos.csproj|c:\\users\\sassa\\videos\\proyecto_refactorizado\\autopartes\\back_repuestos\\back_repuestos\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95182C79-4FC7-4E62-9165-A13083D0CEF2}|Back_Repuestos\\Back_Repuestos.csproj|solutionrelative:back_repuestos\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Sassa\\AppData\\Local\\Temp\\.vsdbgsrc\\ef09dbe393a78b07775aa474926c634f3130913b6c3517790e6a98317aa81f96\\ServiceProvider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95182C79-4FC7-4E62-9165-A13083D0CEF2}|Back_Repuestos\\Back_Repuestos.csproj|c:\\users\\sassa\\videos\\proyecto_refactorizado\\autopartes\\back_repuestos\\back_repuestos\\services\\correoservicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95182C79-4FC7-4E62-9165-A13083D0CEF2}|Back_Repuestos\\Back_Repuestos.csproj|solutionrelative:back_repuestos\\services\\correoservicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95182C79-4FC7-4E62-9165-A13083D0CEF2}|Back_Repuestos\\Back_Repuestos.csproj|c:\\users\\sassa\\videos\\proyecto_refactorizado\\autopartes\\back_repuestos\\back_repuestos\\back_repuestos.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{95182C79-4FC7-4E62-9165-A13083D0CEF2}|Back_Repuestos\\Back_Repuestos.csproj|solutionrelative:back_repuestos\\back_repuestos.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{95182C79-4FC7-4E62-9165-A13083D0CEF2}|Back_Repuestos\\Back_Repuestos.csproj|c:\\users\\sassa\\videos\\proyecto\\back_repuestos\\back_repuestos\\dto\\dtoproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{95182C79-4FC7-4E62-9165-A13083D0CEF2}|Back_Repuestos\\Back_Repuestos.csproj|solutionrelative:back_repuestos\\dto\\dtoproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{95182C79-4FC7-4E62-9165-A13083D0CEF2}|Back_Repuestos\\Back_Repuestos.csproj|c:\\users\\sassa\\videos\\proyecto\\back_repuestos\\back_repuestos\\dto\\dtoverificacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{95182C79-4FC7-4E62-9165-A13083D0CEF2}|Back_Repuestos\\Back_Repuestos.csproj|solutionrelative:back_repuestos\\dto\\dtoverificacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{95182C79-4FC7-4E62-9165-A13083D0CEF2}|Back_Repuestos\\Back_Repuestos.csproj|c:\\users\\sassa\\videos\\proyecto\\back_repuestos\\back_repuestos\\dto\\dtoregistro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{95182C79-4FC7-4E62-9165-A13083D0CEF2}|Back_Repuestos\\Back_Repuestos.csproj|solutionrelative:back_repuestos\\dto\\dtoregistro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{95182C79-4FC7-4E62-9165-A13083D0CEF2}|Back_Repuestos\\Back_Repuestos.csproj|c:\\users\\sassa\\videos\\proyecto\\back_repuestos\\back_repuestos\\dto\\dtologin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{95182C79-4FC7-4E62-9165-A13083D0CEF2}|Back_Repuestos\\Back_Repuestos.csproj|solutionrelative:back_repuestos\\dto\\dtologin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{95182C79-4FC7-4E62-9165-A13083D0CEF2}|Back_Repuestos\\Back_Repuestos.csproj|c:\\users\\sassa\\videos\\proyecto\\back_repuestos\\back_repuestos\\migrations\\appdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{95182C79-4FC7-4E62-9165-A13083D0CEF2}|Back_Repuestos\\Back_Repuestos.csproj|c:\\users\\sassa\\videos\\proyecto_refactorizado\\autopartes\\back_repuestos\\back_repuestos\\migrations\\appdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{95182C79-4FC7-4E62-9165-A13083D0CEF2}|Back_Repuestos\\Back_Repuestos.csproj|solutionrelative:back_repuestos\\migrations\\appdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{95182C79-4FC7-4E62-9165-A13083D0CEF2}|Back_Repuestos\\Back_Repuestos.csproj|c:\\users\\sassa\\videos\\proyecto\\back_repuestos\\back_repuestos\\migrations\\20251104175355_inicialfinal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{95182C79-4FC7-4E62-9165-A13083D0CEF2}|Back_Repuestos\\Back_Repuestos.csproj|c:\\users\\sassa\\videos\\proyecto_refactorizado\\autopartes\\back_repuestos\\back_repuestos\\migrations\\20251104175355_inicialfinal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{95182C79-4FC7-4E62-9165-A13083D0CEF2}|Back_Repuestos\\Back_Repuestos.csproj|solutionrelative:back_repuestos\\migrations\\20251104175355_inicialfinal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -157,48 +169,28 @@
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Sassa\\AppData\\Local\\Temp\\.vsdbgsrc\\fb2807fc5f0036b185c132a80d35c7e7fbc867752ff70e622cd36f6de49b0d90\\ServiceCollection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D0652C6A-C7D4-FCE0-DB38-D2D09879E1A8}|Pruebas\\Pruebas.csproj|c:\\users\\sassa\\videos\\proyecto\\back_repuestos\\pruebas\\pruebas.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "AbsoluteMoniker": "D:0:0:{D0652C6A-C7D4-FCE0-DB38-D2D09879E1A8}|Pruebas\\Pruebas.csproj|c:\\users\\sassa\\videos\\proyecto_refactorizado\\autopartes\\back_repuestos\\pruebas\\pruebas.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
       "RelativeMoniker": "D:0:0:{D0652C6A-C7D4-FCE0-DB38-D2D09879E1A8}|Pruebas\\Pruebas.csproj|solutionrelative:pruebas\\pruebas.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{95182C79-4FC7-4E62-9165-A13083D0CEF2}|Back_Repuestos\\Back_Repuestos.csproj|c:\\users\\sassa\\videos\\proyecto\\back_repuestos\\back_repuestos\\back_repuestos.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
-      "RelativeMoniker": "D:0:0:{95182C79-4FC7-4E62-9165-A13083D0CEF2}|Back_Repuestos\\Back_Repuestos.csproj|solutionrelative:back_repuestos\\back_repuestos.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{95182C79-4FC7-4E62-9165-A13083D0CEF2}|Back_Repuestos\\Back_Repuestos.csproj|c:\\users\\sassa\\videos\\proyecto\\back_repuestos\\back_repuestos\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{95182C79-4FC7-4E62-9165-A13083D0CEF2}|Back_Repuestos\\Back_Repuestos.csproj|c:\\users\\sassa\\videos\\proyecto_refactorizado\\autopartes\\back_repuestos\\back_repuestos\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{95182C79-4FC7-4E62-9165-A13083D0CEF2}|Back_Repuestos\\Back_Repuestos.csproj|solutionrelative:back_repuestos\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{95182C79-4FC7-4E62-9165-A13083D0CEF2}|Back_Repuestos\\Back_Repuestos.csproj|c:\\users\\sassa\\videos\\proyecto\\back_repuestos\\back_repuestos\\modelos\\venta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{95182C79-4FC7-4E62-9165-A13083D0CEF2}|Back_Repuestos\\Back_Repuestos.csproj|solutionrelative:back_repuestos\\modelos\\venta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{95182C79-4FC7-4E62-9165-A13083D0CEF2}|Back_Repuestos\\Back_Repuestos.csproj|c:\\users\\sassa\\videos\\proyecto\\back_repuestos\\back_repuestos\\modelos\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{95182C79-4FC7-4E62-9165-A13083D0CEF2}|Back_Repuestos\\Back_Repuestos.csproj|c:\\users\\sassa\\videos\\proyecto_refactorizado\\autopartes\\back_repuestos\\back_repuestos\\modelos\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{95182C79-4FC7-4E62-9165-A13083D0CEF2}|Back_Repuestos\\Back_Repuestos.csproj|solutionrelative:back_repuestos\\modelos\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{95182C79-4FC7-4E62-9165-A13083D0CEF2}|Back_Repuestos\\Back_Repuestos.csproj|c:\\users\\sassa\\videos\\proyecto\\back_repuestos\\back_repuestos\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{95182C79-4FC7-4E62-9165-A13083D0CEF2}|Back_Repuestos\\Back_Repuestos.csproj|c:\\users\\sassa\\videos\\proyecto_refactorizado\\autopartes\\back_repuestos\\back_repuestos\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{95182C79-4FC7-4E62-9165-A13083D0CEF2}|Back_Repuestos\\Back_Repuestos.csproj|solutionrelative:back_repuestos\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{95182C79-4FC7-4E62-9165-A13083D0CEF2}|Back_Repuestos\\Back_Repuestos.csproj|c:\\users\\sassa\\videos\\proyecto\\back_repuestos\\back_repuestos\\modelos\\resena.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{95182C79-4FC7-4E62-9165-A13083D0CEF2}|Back_Repuestos\\Back_Repuestos.csproj|c:\\users\\sassa\\videos\\proyecto_refactorizado\\autopartes\\back_repuestos\\back_repuestos\\modelos\\resena.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{95182C79-4FC7-4E62-9165-A13083D0CEF2}|Back_Repuestos\\Back_Repuestos.csproj|solutionrelative:back_repuestos\\modelos\\resena.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{95182C79-4FC7-4E62-9165-A13083D0CEF2}|Back_Repuestos\\Back_Repuestos.csproj|c:\\users\\sassa\\videos\\proyecto\\back_repuestos\\back_repuestos\\libman.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{95182C79-4FC7-4E62-9165-A13083D0CEF2}|Back_Repuestos\\Back_Repuestos.csproj|c:\\users\\sassa\\videos\\proyecto_refactorizado\\autopartes\\back_repuestos\\back_repuestos\\libman.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{95182C79-4FC7-4E62-9165-A13083D0CEF2}|Back_Repuestos\\Back_Repuestos.csproj|solutionrelative:back_repuestos\\libman.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{95182C79-4FC7-4E62-9165-A13083D0CEF2}|Back_Repuestos\\Back_Repuestos.csproj|c:\\users\\sassa\\videos\\proyecto\\back_repuestos\\back_repuestos\\back_repuestos.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
-      "RelativeMoniker": "D:0:0:{95182C79-4FC7-4E62-9165-A13083D0CEF2}|Back_Repuestos\\Back_Repuestos.csproj|solutionrelative:back_repuestos\\back_repuestos.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{95182C79-4FC7-4E62-9165-A13083D0CEF2}|Back_Repuestos\\Back_Repuestos.csproj|c:\\users\\sassa\\videos\\proyecto\\back_repuestos\\back_repuestos\\modelos\\usuariotemp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{95182C79-4FC7-4E62-9165-A13083D0CEF2}|Back_Repuestos\\Back_Repuestos.csproj|solutionrelative:back_repuestos\\modelos\\usuariotemp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{95182C79-4FC7-4E62-9165-A13083D0CEF2}|Back_Repuestos\\Back_Repuestos.csproj|c:\\users\\sassa\\videos\\proyecto\\back_repuestos\\back_repuestos\\modelos\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{95182C79-4FC7-4E62-9165-A13083D0CEF2}|Back_Repuestos\\Back_Repuestos.csproj|solutionrelative:back_repuestos\\modelos\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Sassa\\Videos\\Autopartes\\Back\\Autopartes\\Back_Repuestos\\Back_Repuestos\\Migrations\\20251103175837_temporal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -217,93 +209,112 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Pruebaobtenerventas.cs",
-              "DocumentMoniker": "C:\\Users\\Sassa\\Videos\\Proyecto\\Back_Repuestos\\Pruebas\\Pruebaobtenerventas.cs",
-              "RelativeDocumentMoniker": "Pruebas\\Pruebaobtenerventas.cs",
-              "ToolTip": "C:\\Users\\Sassa\\Videos\\Proyecto\\Back_Repuestos\\Pruebas\\Pruebaobtenerventas.cs",
-              "RelativeToolTip": "Pruebas\\Pruebaobtenerventas.cs",
-              "ViewState": "AgIAACgAAAAAAAAAAAAQwCAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-08T02:22:54.985Z",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Sassa\\Videos\\Proyecto_Refactorizado\\Autopartes\\Back_Repuestos\\Back_Repuestos\\appsettings.json",
+              "RelativeDocumentMoniker": "Back_Repuestos\\appsettings.json",
+              "ToolTip": "C:\\Users\\Sassa\\Videos\\Proyecto_Refactorizado\\Autopartes\\Back_Repuestos\\Back_Repuestos\\appsettings.json",
+              "RelativeToolTip": "Back_Repuestos\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-09-06T23:39:46.078Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "Test1.cs",
-              "DocumentMoniker": "C:\\Users\\Sassa\\Videos\\Proyecto\\Back_Repuestos\\Pruebas\\Test1.cs",
-              "RelativeDocumentMoniker": "Pruebas\\Test1.cs",
-              "ToolTip": "C:\\Users\\Sassa\\Videos\\Proyecto\\Back_Repuestos\\Pruebas\\Test1.cs",
-              "RelativeToolTip": "Pruebas\\Test1.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAFIAAAABAAAAAAAAAA==",
+              "Title": "UsuarioTemp.cs",
+              "DocumentMoniker": "C:\\Users\\Sassa\\Videos\\Proyecto_Refactorizado\\Autopartes\\Back_Repuestos\\Back_Repuestos\\Modelos\\UsuarioTemp.cs",
+              "RelativeDocumentMoniker": "Back_Repuestos\\Modelos\\UsuarioTemp.cs",
+              "ToolTip": "C:\\Users\\Sassa\\Videos\\Proyecto_Refactorizado\\Autopartes\\Back_Repuestos\\Back_Repuestos\\Modelos\\UsuarioTemp.cs",
+              "RelativeToolTip": "Back_Repuestos\\Modelos\\UsuarioTemp.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAIA3wCIAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-03T23:24:54.808Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-10T05:06:19.575Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Productos.cs",
-              "DocumentMoniker": "C:\\Users\\Sassa\\Videos\\Proyecto\\Back_Repuestos\\Pruebas\\Productos.cs",
-              "RelativeDocumentMoniker": "Pruebas\\Productos.cs",
-              "ToolTip": "C:\\Users\\Sassa\\Videos\\Proyecto\\Back_Repuestos\\Pruebas\\Productos.cs",
-              "RelativeToolTip": "Pruebas\\Productos.cs",
-              "ViewState": "AgIAACYAAAAAAAAAAAAQwBEAAAAaAAAAAAAAAA==",
+              "DocumentIndex": 11,
+              "Title": "Venta.cs",
+              "DocumentMoniker": "C:\\Users\\Sassa\\Videos\\Proyecto_Refactorizado\\Autopartes\\Back_Repuestos\\Back_Repuestos\\Modelos\\Venta.cs",
+              "RelativeDocumentMoniker": "Back_Repuestos\\Modelos\\Venta.cs",
+              "ToolTip": "C:\\Users\\Sassa\\Videos\\Proyecto_Refactorizado\\Autopartes\\Back_Repuestos\\Back_Repuestos\\Modelos\\Venta.cs",
+              "RelativeToolTip": "Back_Repuestos\\Modelos\\Venta.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-03T17:19:50.05Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-06T23:14:58.433Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "VentasService.cs",
-              "DocumentMoniker": "C:\\Users\\Sassa\\Videos\\Proyecto\\Back_Repuestos\\Back_Repuestos\\Services\\VentasService.cs",
-              "RelativeDocumentMoniker": "Back_Repuestos\\Services\\VentasService.cs",
-              "ToolTip": "C:\\Users\\Sassa\\Videos\\Proyecto\\Back_Repuestos\\Back_Repuestos\\Services\\VentasService.cs",
-              "RelativeToolTip": "Back_Repuestos\\Services\\VentasService.cs",
-              "ViewState": "AgIAAD8AAAAAAAAAAAAAADgAAAAlAAAAAAAAAA==",
+              "DocumentIndex": 14,
+              "Title": "ResenaDto.cs",
+              "DocumentMoniker": "C:\\Users\\Sassa\\Videos\\Proyecto_Refactorizado\\Autopartes\\Back_Repuestos\\Back_Repuestos\\DTO\\ResenaDto.cs",
+              "RelativeDocumentMoniker": "Back_Repuestos\\DTO\\ResenaDto.cs",
+              "ToolTip": "C:\\Users\\Sassa\\Videos\\Proyecto_Refactorizado\\Autopartes\\Back_Repuestos\\Back_Repuestos\\DTO\\ResenaDto.cs",
+              "RelativeToolTip": "Back_Repuestos\\DTO\\ResenaDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-05T04:47:53.69Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-29T19:28:18.854Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "AuthServicio.cs",
-              "DocumentMoniker": "C:\\Users\\Sassa\\Videos\\Proyecto\\Back_Repuestos\\Back_Repuestos\\Services\\AuthServicio.cs",
-              "RelativeDocumentMoniker": "Back_Repuestos\\Services\\AuthServicio.cs",
-              "ToolTip": "C:\\Users\\Sassa\\Videos\\Proyecto\\Back_Repuestos\\Back_Repuestos\\Services\\AuthServicio.cs",
-              "RelativeToolTip": "Back_Repuestos\\Services\\AuthServicio.cs",
-              "ViewState": "AgIAAD0AAAAAAAAAAAAwwEkAAAARAAAAAAAAAA==",
+              "DocumentIndex": 12,
+              "Title": "DTOproducto.cs",
+              "DocumentMoniker": "C:\\Users\\Sassa\\Videos\\Proyecto_Refactorizado\\Autopartes\\Back_Repuestos\\Back_Repuestos\\DTO\\DTOproducto.cs",
+              "RelativeDocumentMoniker": "Back_Repuestos\\DTO\\DTOproducto.cs",
+              "ToolTip": "C:\\Users\\Sassa\\Videos\\Proyecto_Refactorizado\\Autopartes\\Back_Repuestos\\Back_Repuestos\\DTO\\DTOproducto.cs",
+              "RelativeToolTip": "Back_Repuestos\\DTO\\DTOproducto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-04T16:26:24.444Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-24T12:38:41.007Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "ProductoController.cs",
-              "DocumentMoniker": "C:\\Users\\Sassa\\Videos\\Proyecto\\Back_Repuestos\\Back_Repuestos\\Controllers\\ProductoController.cs",
-              "RelativeDocumentMoniker": "Back_Repuestos\\Controllers\\ProductoController.cs",
-              "ToolTip": "C:\\Users\\Sassa\\Videos\\Proyecto\\Back_Repuestos\\Back_Repuestos\\Controllers\\ProductoController.cs",
-              "RelativeToolTip": "Back_Repuestos\\Controllers\\ProductoController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAcAAAAAAAAAA==",
+              "Title": "DTOVerificacion.cs",
+              "DocumentMoniker": "C:\\Users\\Sassa\\Videos\\Proyecto_Refactorizado\\Autopartes\\Back_Repuestos\\Back_Repuestos\\DTO\\DTOVerificacion.cs",
+              "RelativeDocumentMoniker": "Back_Repuestos\\DTO\\DTOVerificacion.cs",
+              "ToolTip": "C:\\Users\\Sassa\\Videos\\Proyecto_Refactorizado\\Autopartes\\Back_Repuestos\\Back_Repuestos\\DTO\\DTOVerificacion.cs",
+              "RelativeToolTip": "Back_Repuestos\\DTO\\DTOVerificacion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-14T13:15:20.278Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-18T22:43:28.59Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "Back_Repuestos.http",
+              "DocumentMoniker": "C:\\Users\\Sassa\\Videos\\Proyecto_Refactorizado\\Autopartes\\Back_Repuestos\\Back_Repuestos\\Back_Repuestos.http",
+              "RelativeDocumentMoniker": "Back_Repuestos\\Back_Repuestos.http",
+              "ToolTip": "C:\\Users\\Sassa\\Videos\\Proyecto_Refactorizado\\Autopartes\\Back_Repuestos\\Back_Repuestos\\Back_Repuestos.http",
+              "RelativeToolTip": "Back_Repuestos\\Back_Repuestos.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2025-09-07T00:56:36.575Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AuthServicio.cs",
+              "DocumentMoniker": "C:\\Users\\Sassa\\Videos\\Proyecto_Refactorizado\\Autopartes\\Back_Repuestos\\Back_Repuestos\\Services\\AuthServicio.cs",
+              "RelativeDocumentMoniker": "Back_Repuestos\\Services\\AuthServicio.cs",
+              "ToolTip": "C:\\Users\\Sassa\\Videos\\Proyecto_Refactorizado\\Autopartes\\Back_Repuestos\\Back_Repuestos\\Services\\AuthServicio.cs",
+              "RelativeToolTip": "Back_Repuestos\\Services\\AuthServicio.cs",
+              "ViewState": "AgIAAKQAAAAAAAAAAAAIwLwAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-04T16:26:24.444Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "ProductoServicio.cs",
-              "DocumentMoniker": "C:\\Users\\Sassa\\Videos\\Proyecto\\Back_Repuestos\\Back_Repuestos\\Services\\ProductoServicio.cs",
+              "DocumentMoniker": "C:\\Users\\Sassa\\Videos\\Proyecto_Refactorizado\\Autopartes\\Back_Repuestos\\Back_Repuestos\\Services\\ProductoServicio.cs",
               "RelativeDocumentMoniker": "Back_Repuestos\\Services\\ProductoServicio.cs",
-              "ToolTip": "C:\\Users\\Sassa\\Videos\\Proyecto\\Back_Repuestos\\Back_Repuestos\\Services\\ProductoServicio.cs",
+              "ToolTip": "C:\\Users\\Sassa\\Videos\\Proyecto_Refactorizado\\Autopartes\\Back_Repuestos\\Back_Repuestos\\Services\\ProductoServicio.cs",
               "RelativeToolTip": "Back_Repuestos\\Services\\ProductoServicio.cs",
               "ViewState": "AgIAAEoAAAAAAAAAAAAIwCsAAABdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -312,511 +323,86 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ResenaService.cs",
-              "DocumentMoniker": "C:\\Users\\Sassa\\Videos\\Proyecto\\Back_Repuestos\\Back_Repuestos\\Services\\ResenaService.cs",
-              "RelativeDocumentMoniker": "Back_Repuestos\\Services\\ResenaService.cs",
-              "ToolTip": "C:\\Users\\Sassa\\Videos\\Proyecto\\Back_Repuestos\\Back_Repuestos\\Services\\ResenaService.cs",
-              "RelativeToolTip": "Back_Repuestos\\Services\\ResenaService.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAowCMAAABCAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-05T04:06:42.399Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ResenaController.cs",
-              "DocumentMoniker": "C:\\Users\\Sassa\\Videos\\Proyecto\\Back_Repuestos\\Back_Repuestos\\Controllers\\ResenaController.cs",
-              "RelativeDocumentMoniker": "Back_Repuestos\\Controllers\\ResenaController.cs",
-              "ToolTip": "C:\\Users\\Sassa\\Videos\\Proyecto\\Back_Repuestos\\Back_Repuestos\\Controllers\\ResenaController.cs",
-              "RelativeToolTip": "Back_Repuestos\\Controllers\\ResenaController.cs",
-              "ViewState": "AgIAAB8AAAAAAAAAAAAgwCAAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-29T19:39:28.754Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "VentaController.cs",
-              "DocumentMoniker": "C:\\Users\\Sassa\\Videos\\Proyecto\\Back_Repuestos\\Back_Repuestos\\Controllers\\VentaController.cs",
-              "RelativeDocumentMoniker": "Back_Repuestos\\Controllers\\VentaController.cs",
-              "ToolTip": "C:\\Users\\Sassa\\Videos\\Proyecto\\Back_Repuestos\\Back_Repuestos\\Controllers\\VentaController.cs",
-              "RelativeToolTip": "Back_Repuestos\\Controllers\\VentaController.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAowBEAAABcAAAAAAAAAA==",
+              "Title": "Excepciones.cs",
+              "DocumentMoniker": "C:\\Users\\Sassa\\Videos\\Proyecto_Refactorizado\\Autopartes\\Back_Repuestos\\Back_Repuestos\\MIDDLEWARE\\Excepciones.cs",
+              "RelativeDocumentMoniker": "Back_Repuestos\\MIDDLEWARE\\Excepciones.cs",
+              "ToolTip": "C:\\Users\\Sassa\\Videos\\Proyecto_Refactorizado\\Autopartes\\Back_Repuestos\\Back_Repuestos\\MIDDLEWARE\\Excepciones.cs",
+              "RelativeToolTip": "Back_Repuestos\\MIDDLEWARE\\Excepciones.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwCIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-30T00:05:42.557Z",
+              "WhenOpened": "2025-11-04T16:44:31.962Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Resenas.cs",
-              "DocumentMoniker": "C:\\Users\\Sassa\\Videos\\Proyecto\\Back_Repuestos\\Pruebas\\Resenas.cs",
-              "RelativeDocumentMoniker": "Pruebas\\Resenas.cs",
-              "ToolTip": "C:\\Users\\Sassa\\Videos\\Proyecto\\Back_Repuestos\\Pruebas\\Resenas.cs",
-              "RelativeToolTip": "Pruebas\\Resenas.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-03T21:38:54.984Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "TestHelper.cs",
-              "DocumentMoniker": "C:\\Users\\Sassa\\Videos\\Proyecto\\Back_Repuestos\\Pruebas\\TestHelper.cs",
-              "RelativeDocumentMoniker": "Pruebas\\TestHelper.cs",
-              "ToolTip": "C:\\Users\\Sassa\\Videos\\Proyecto\\Back_Repuestos\\Pruebas\\TestHelper.cs",
-              "RelativeToolTip": "Pruebas\\TestHelper.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAmwE0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-03T23:24:09.177Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "MSTestSettings.cs",
-              "DocumentMoniker": "C:\\Users\\Sassa\\Videos\\Proyecto\\Back_Repuestos\\Pruebas\\MSTestSettings.cs",
-              "RelativeDocumentMoniker": "Pruebas\\MSTestSettings.cs",
-              "ToolTip": "C:\\Users\\Sassa\\Videos\\Proyecto\\Back_Repuestos\\Pruebas\\MSTestSettings.cs",
-              "RelativeToolTip": "Pruebas\\MSTestSettings.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-08T02:51:54.252Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "CrudCategorias.cs",
-              "DocumentMoniker": "C:\\Users\\Sassa\\Videos\\Proyecto\\Back_Repuestos\\Pruebas\\CrudCategorias.cs",
-              "RelativeDocumentMoniker": "Pruebas\\CrudCategorias.cs",
-              "ToolTip": "C:\\Users\\Sassa\\Videos\\Proyecto\\Back_Repuestos\\Pruebas\\CrudCategorias.cs",
-              "RelativeToolTip": "Pruebas\\CrudCategorias.cs",
-              "ViewState": "AgIAAEEAAAAAAAAAAAArwFkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-05T03:04:21.63Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 0,
               "Title": "DatoSemilla.cs",
-              "DocumentMoniker": "C:\\Users\\Sassa\\Videos\\Proyecto\\Back_Repuestos\\Back_Repuestos\\Dato semilla\\DatoSemilla.cs",
+              "DocumentMoniker": "C:\\Users\\Sassa\\Videos\\Proyecto_Refactorizado\\Autopartes\\Back_Repuestos\\Back_Repuestos\\Dato semilla\\DatoSemilla.cs",
               "RelativeDocumentMoniker": "Back_Repuestos\\Dato semilla\\DatoSemilla.cs",
-              "ToolTip": "C:\\Users\\Sassa\\Videos\\Proyecto\\Back_Repuestos\\Back_Repuestos\\Dato semilla\\DatoSemilla.cs",
+              "ToolTip": "C:\\Users\\Sassa\\Videos\\Proyecto_Refactorizado\\Autopartes\\Back_Repuestos\\Back_Repuestos\\Dato semilla\\DatoSemilla.cs",
               "RelativeToolTip": "Back_Repuestos\\Dato semilla\\DatoSemilla.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAgwB8AAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-23T02:58:42.927Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Pruebas.csproj",
-              "DocumentMoniker": "C:\\Users\\Sassa\\Videos\\Proyecto\\Back_Repuestos\\Pruebas\\Pruebas.csproj",
-              "RelativeDocumentMoniker": "Pruebas\\Pruebas.csproj",
-              "ToolTip": "C:\\Users\\Sassa\\Videos\\Proyecto\\Back_Repuestos\\Pruebas\\Pruebas.csproj",
-              "RelativeToolTip": "Pruebas\\Pruebas.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-10-03T23:24:07.511Z",
+              "DocumentIndex": 10,
+              "Title": "Usuario.cs",
+              "DocumentMoniker": "C:\\Users\\Sassa\\Videos\\Proyecto_Refactorizado\\Autopartes\\Back_Repuestos\\Back_Repuestos\\Modelos\\Usuario.cs",
+              "RelativeDocumentMoniker": "Back_Repuestos\\Modelos\\Usuario.cs",
+              "ToolTip": "C:\\Users\\Sassa\\Videos\\Proyecto_Refactorizado\\Autopartes\\Back_Repuestos\\Back_Repuestos\\Modelos\\Usuario.cs",
+              "RelativeToolTip": "Back_Repuestos\\Modelos\\Usuario.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAYAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-06T23:19:10.749Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 15,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\Sassa\\Videos\\Proyecto\\Back_Repuestos\\Back_Repuestos\\Data\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "Back_Repuestos\\Data\\AppDbContext.cs",
-              "ToolTip": "C:\\Users\\Sassa\\Videos\\Proyecto\\Back_Repuestos\\Back_Repuestos\\Data\\AppDbContext.cs",
-              "RelativeToolTip": "Back_Repuestos\\Data\\AppDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-06T23:42:59.62Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "CategoriaServicio.cs",
-              "DocumentMoniker": "C:\\Users\\Sassa\\Videos\\Proyecto\\Back_Repuestos\\Back_Repuestos\\Services\\CategoriaServicio.cs",
-              "RelativeDocumentMoniker": "Back_Repuestos\\Services\\CategoriaServicio.cs",
-              "ToolTip": "C:\\Users\\Sassa\\Videos\\Proyecto\\Back_Repuestos\\Back_Repuestos\\Services\\CategoriaServicio.cs",
-              "RelativeToolTip": "Back_Repuestos\\Services\\CategoriaServicio.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAQwDkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-05T02:46:13.654Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
               "Title": "AutoController.cs",
-              "DocumentMoniker": "C:\\Users\\Sassa\\Videos\\Proyecto\\Back_Repuestos\\Back_Repuestos\\Controllers\\AutoController.cs",
+              "DocumentMoniker": "C:\\Users\\Sassa\\Videos\\Proyecto_Refactorizado\\Autopartes\\Back_Repuestos\\Back_Repuestos\\Controllers\\AutoController.cs",
               "RelativeDocumentMoniker": "Back_Repuestos\\Controllers\\AutoController.cs",
-              "ToolTip": "C:\\Users\\Sassa\\Videos\\Proyecto\\Back_Repuestos\\Back_Repuestos\\Controllers\\AutoController.cs",
+              "ToolTip": "C:\\Users\\Sassa\\Videos\\Proyecto_Refactorizado\\Autopartes\\Back_Repuestos\\Back_Repuestos\\Controllers\\AutoController.cs",
               "RelativeToolTip": "Back_Repuestos\\Controllers\\AutoController.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAACgAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABYAAAAAAAAAAIA5wCoAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-18T13:21:34.571Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-18T13:21:34.571Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "Microsoft.Common.CurrentVersion.targets",
-              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
-              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
-              "ViewState": "AgIAAGYJAAAAAAAAAAAjwIAJAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
-              "WhenOpened": "2025-11-05T14:45:44.524Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "CategoriaController.cs",
-              "DocumentMoniker": "C:\\Users\\Sassa\\Videos\\Proyecto\\Back_Repuestos\\Back_Repuestos\\Controllers\\CategoriaController.cs",
-              "RelativeDocumentMoniker": "Back_Repuestos\\Controllers\\CategoriaController.cs",
-              "ToolTip": "C:\\Users\\Sassa\\Videos\\Proyecto\\Back_Repuestos\\Back_Repuestos\\Controllers\\CategoriaController.cs",
-              "RelativeToolTip": "Back_Repuestos\\Controllers\\CategoriaController.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAC4AAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-29T19:48:00.55Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\Sassa\\Videos\\Proyecto\\Back_Repuestos\\Back_Repuestos\\appsettings.json",
-              "RelativeDocumentMoniker": "Back_Repuestos\\appsettings.json",
-              "ToolTip": "C:\\Users\\Sassa\\Videos\\Proyecto\\Back_Repuestos\\Back_Repuestos\\appsettings.json",
-              "RelativeToolTip": "Back_Repuestos\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAB1AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-09-06T23:39:46.078Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "CorreoServicio.cs",
-              "DocumentMoniker": "C:\\Users\\Sassa\\Videos\\Proyecto\\Back_Repuestos\\Back_Repuestos\\Services\\CorreoServicio.cs",
-              "RelativeDocumentMoniker": "Back_Repuestos\\Services\\CorreoServicio.cs",
-              "ToolTip": "C:\\Users\\Sassa\\Videos\\Proyecto\\Back_Repuestos\\Back_Repuestos\\Services\\CorreoServicio.cs",
-              "RelativeToolTip": "Back_Repuestos\\Services\\CorreoServicio.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAmwBUAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-18T22:44:43.58Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "Excepciones.cs",
-              "DocumentMoniker": "C:\\Users\\Sassa\\Videos\\Proyecto\\Back_Repuestos\\Back_Repuestos\\MIDDLEWARE\\Excepciones.cs",
-              "RelativeDocumentMoniker": "Back_Repuestos\\MIDDLEWARE\\Excepciones.cs",
-              "ToolTip": "C:\\Users\\Sassa\\Videos\\Proyecto\\Back_Repuestos\\Back_Repuestos\\MIDDLEWARE\\Excepciones.cs",
-              "RelativeToolTip": "Back_Repuestos\\MIDDLEWARE\\Excepciones.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwCIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-04T16:44:31.962Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "PedidoDTO.cs",
-              "DocumentMoniker": "C:\\Users\\Sassa\\Videos\\Proyecto\\Back_Repuestos\\Back_Repuestos\\DTO\\PedidoDTO.cs",
-              "RelativeDocumentMoniker": "Back_Repuestos\\DTO\\PedidoDTO.cs",
-              "ToolTip": "C:\\Users\\Sassa\\Videos\\Proyecto\\Back_Repuestos\\Back_Repuestos\\DTO\\PedidoDTO.cs",
-              "RelativeToolTip": "Back_Repuestos\\DTO\\PedidoDTO.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAmwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-30T00:13:36.242Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Sassa\\Videos\\Proyecto\\Back_Repuestos\\Back_Repuestos\\Program.cs",
-              "RelativeDocumentMoniker": "Back_Repuestos\\Program.cs",
-              "ToolTip": "C:\\Users\\Sassa\\Videos\\Proyecto\\Back_Repuestos\\Back_Repuestos\\Program.cs",
-              "RelativeToolTip": "Back_Repuestos\\Program.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABMAAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-06T23:40:42.252Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "ServiceProvider.cs",
-              "DocumentMoniker": "C:\\Users\\Sassa\\AppData\\Local\\Temp\\.vsdbgsrc\\ef09dbe393a78b07775aa474926c634f3130913b6c3517790e6a98317aa81f96\\ServiceProvider.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\ef09dbe393a78b07775aa474926c634f3130913b6c3517790e6a98317aa81f96\\ServiceProvider.cs",
-              "ToolTip": "C:\\Users\\Sassa\\AppData\\Local\\Temp\\.vsdbgsrc\\ef09dbe393a78b07775aa474926c634f3130913b6c3517790e6a98317aa81f96\\ServiceProvider.cs [Solo lectura]",
-              "RelativeToolTip": "..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\ef09dbe393a78b07775aa474926c634f3130913b6c3517790e6a98317aa81f96\\ServiceProvider.cs [Solo lectura]",
-              "ViewState": "AgIAAE8AAAAAAAAAAAAvwGEAAAAEAAAAAQAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-05T05:10:29.761Z",
-              "EditorCaption": " [Solo lectura]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "ResenaDto.cs",
-              "DocumentMoniker": "C:\\Users\\Sassa\\Videos\\Proyecto\\Back_Repuestos\\Back_Repuestos\\DTO\\ResenaDto.cs",
-              "RelativeDocumentMoniker": "Back_Repuestos\\DTO\\ResenaDto.cs",
-              "ToolTip": "C:\\Users\\Sassa\\Videos\\Proyecto\\Back_Repuestos\\Back_Repuestos\\DTO\\ResenaDto.cs",
-              "RelativeToolTip": "Back_Repuestos\\DTO\\ResenaDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-29T19:28:18.854Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "Microsoft.NET.Test.Sdk.Program.cs",
-              "DocumentMoniker": "C:\\Users\\Sassa\\.nuget\\packages\\microsoft.net.test.sdk\\18.0.0\\build\\net8.0\\Microsoft.NET.Test.Sdk.Program.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\.nuget\\packages\\microsoft.net.test.sdk\\18.0.0\\build\\net8.0\\Microsoft.NET.Test.Sdk.Program.cs",
-              "ToolTip": "C:\\Users\\Sassa\\.nuget\\packages\\microsoft.net.test.sdk\\18.0.0\\build\\net8.0\\Microsoft.NET.Test.Sdk.Program.cs",
-              "RelativeToolTip": "..\\..\\..\\.nuget\\packages\\microsoft.net.test.sdk\\18.0.0\\build\\net8.0\\Microsoft.NET.Test.Sdk.Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-30T04:25:48.444Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "Back_Repuestos.csproj",
-              "DocumentMoniker": "C:\\Users\\Sassa\\Videos\\Proyecto\\Back_Repuestos\\Back_Repuestos\\Back_Repuestos.csproj",
-              "RelativeDocumentMoniker": "Back_Repuestos\\Back_Repuestos.csproj",
-              "ToolTip": "C:\\Users\\Sassa\\Videos\\Proyecto\\Back_Repuestos\\Back_Repuestos\\Back_Repuestos.csproj",
-              "RelativeToolTip": "Back_Repuestos\\Back_Repuestos.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-09-07T00:54:04.726Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "DTOproducto.cs",
-              "DocumentMoniker": "C:\\Users\\Sassa\\Videos\\Proyecto\\Back_Repuestos\\Back_Repuestos\\DTO\\DTOproducto.cs",
-              "RelativeDocumentMoniker": "Back_Repuestos\\DTO\\DTOproducto.cs",
-              "ToolTip": "C:\\Users\\Sassa\\Videos\\Proyecto\\Back_Repuestos\\Back_Repuestos\\DTO\\DTOproducto.cs",
-              "RelativeToolTip": "Back_Repuestos\\DTO\\DTOproducto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-24T12:38:41.007Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "DTOVerificacion.cs",
-              "DocumentMoniker": "C:\\Users\\Sassa\\Videos\\Proyecto\\Back_Repuestos\\Back_Repuestos\\DTO\\DTOVerificacion.cs",
-              "RelativeDocumentMoniker": "Back_Repuestos\\DTO\\DTOVerificacion.cs",
-              "ToolTip": "C:\\Users\\Sassa\\Videos\\Proyecto\\Back_Repuestos\\Back_Repuestos\\DTO\\DTOVerificacion.cs",
-              "RelativeToolTip": "Back_Repuestos\\DTO\\DTOVerificacion.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-18T22:43:28.59Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 7,
               "Title": "DTOregistro.cs",
-              "DocumentMoniker": "C:\\Users\\Sassa\\Videos\\Proyecto\\Back_Repuestos\\Back_Repuestos\\DTO\\DTOregistro.cs",
+              "DocumentMoniker": "C:\\Users\\Sassa\\Videos\\Proyecto_Refactorizado\\Autopartes\\Back_Repuestos\\Back_Repuestos\\DTO\\DTOregistro.cs",
               "RelativeDocumentMoniker": "Back_Repuestos\\DTO\\DTOregistro.cs",
-              "ToolTip": "C:\\Users\\Sassa\\Videos\\Proyecto\\Back_Repuestos\\Back_Repuestos\\DTO\\DTOregistro.cs",
+              "ToolTip": "C:\\Users\\Sassa\\Videos\\Proyecto_Refactorizado\\Autopartes\\Back_Repuestos\\Back_Repuestos\\DTO\\DTOregistro.cs",
               "RelativeToolTip": "Back_Repuestos\\DTO\\DTOregistro.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-18T13:20:00.573Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
-              "Title": "DTOlogin.cs",
-              "DocumentMoniker": "C:\\Users\\Sassa\\Videos\\Proyecto\\Back_Repuestos\\Back_Repuestos\\DTO\\DTOlogin.cs",
-              "RelativeDocumentMoniker": "Back_Repuestos\\DTO\\DTOlogin.cs",
-              "ToolTip": "C:\\Users\\Sassa\\Videos\\Proyecto\\Back_Repuestos\\Back_Repuestos\\DTO\\DTOlogin.cs",
-              "RelativeToolTip": "Back_Repuestos\\DTO\\DTOlogin.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAsAAAAAAAAAA==",
+              "DocumentIndex": 13,
+              "Title": "PedidoDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Sassa\\Videos\\Proyecto_Refactorizado\\Autopartes\\Back_Repuestos\\Back_Repuestos\\DTO\\PedidoDTO.cs",
+              "RelativeDocumentMoniker": "Back_Repuestos\\DTO\\PedidoDTO.cs",
+              "ToolTip": "C:\\Users\\Sassa\\Videos\\Proyecto_Refactorizado\\Autopartes\\Back_Repuestos\\Back_Repuestos\\DTO\\PedidoDTO.cs",
+              "RelativeToolTip": "Back_Repuestos\\DTO\\PedidoDTO.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAcwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-18T16:02:40.767Z"
+              "WhenOpened": "2025-09-30T00:13:36.242Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
-              "Title": "AppDbContextModelSnapshot.cs",
-              "DocumentMoniker": "C:\\Users\\Sassa\\Videos\\Proyecto\\Back_Repuestos\\Back_Repuestos\\Migrations\\AppDbContextModelSnapshot.cs",
-              "RelativeDocumentMoniker": "Back_Repuestos\\Migrations\\AppDbContextModelSnapshot.cs",
-              "ToolTip": "C:\\Users\\Sassa\\Videos\\Proyecto\\Back_Repuestos\\Back_Repuestos\\Migrations\\AppDbContextModelSnapshot.cs",
-              "RelativeToolTip": "Back_Repuestos\\Migrations\\AppDbContextModelSnapshot.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-04T17:54:00.348Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 37,
-              "Title": "ServerSession.cs",
-              "DocumentMoniker": "C:\\Users\\Sassa\\AppData\\Local\\Temp\\.vsdbgsrc\\b9d75ad09118bc680caa3f79acb6b835f670946f6a437018d8f0e6d51d430f23\\ServerSession.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\b9d75ad09118bc680caa3f79acb6b835f670946f6a437018d8f0e6d51d430f23\\ServerSession.cs",
-              "ToolTip": "C:\\Users\\Sassa\\AppData\\Local\\Temp\\.vsdbgsrc\\b9d75ad09118bc680caa3f79acb6b835f670946f6a437018d8f0e6d51d430f23\\ServerSession.cs",
-              "RelativeToolTip": "..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\b9d75ad09118bc680caa3f79acb6b835f670946f6a437018d8f0e6d51d430f23\\ServerSession.cs",
-              "ViewState": "AgIAAK4EAAAAAAAAAAAcwMMEAAABAAAAAQAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-04T17:51:00.971Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 36,
-              "Title": "20251104175355_InicialFinal.cs",
-              "DocumentMoniker": "C:\\Users\\Sassa\\Videos\\Proyecto\\Back_Repuestos\\Back_Repuestos\\Migrations\\20251104175355_InicialFinal.cs",
-              "RelativeDocumentMoniker": "Back_Repuestos\\Migrations\\20251104175355_InicialFinal.cs",
-              "ToolTip": "C:\\Users\\Sassa\\Videos\\Proyecto\\Back_Repuestos\\Back_Repuestos\\Migrations\\20251104175355_InicialFinal.cs",
-              "RelativeToolTip": "Back_Repuestos\\Migrations\\20251104175355_InicialFinal.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-04T17:54:00.843Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 38,
-              "Title": "ServerSession.cs",
-              "DocumentMoniker": "C:\\Users\\Sassa\\AppData\\Local\\SourceServer\\4bb1e84daf84165de8b6bd27b85b92f4e9029a0cd2be16b54a662929c7900636\\src\\MySqlConnector\\Core\\ServerSession.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\AppData\\Local\\SourceServer\\4bb1e84daf84165de8b6bd27b85b92f4e9029a0cd2be16b54a662929c7900636\\src\\MySqlConnector\\Core\\ServerSession.cs",
-              "ToolTip": "C:\\Users\\Sassa\\AppData\\Local\\SourceServer\\4bb1e84daf84165de8b6bd27b85b92f4e9029a0cd2be16b54a662929c7900636\\src\\MySqlConnector\\Core\\ServerSession.cs [Solo lectura]",
-              "RelativeToolTip": "..\\..\\..\\AppData\\Local\\SourceServer\\4bb1e84daf84165de8b6bd27b85b92f4e9029a0cd2be16b54a662929c7900636\\src\\MySqlConnector\\Core\\ServerSession.cs [Solo lectura]",
-              "ViewState": "AgIAAAAEAAAAAAAAAAAcwCoEAAAbAAAAAQAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-04T17:45:14.834Z",
-              "EditorCaption": " [Solo lectura]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 39,
-              "Title": "ServiceCollection.cs",
-              "DocumentMoniker": "C:\\Users\\Sassa\\AppData\\Local\\Temp\\.vsdbgsrc\\fb2807fc5f0036b185c132a80d35c7e7fbc867752ff70e622cd36f6de49b0d90\\ServiceCollection.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\fb2807fc5f0036b185c132a80d35c7e7fbc867752ff70e622cd36f6de49b0d90\\ServiceCollection.cs",
-              "ToolTip": "C:\\Users\\Sassa\\AppData\\Local\\Temp\\.vsdbgsrc\\fb2807fc5f0036b185c132a80d35c7e7fbc867752ff70e622cd36f6de49b0d90\\ServiceCollection.cs",
-              "RelativeToolTip": "..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\fb2807fc5f0036b185c132a80d35c7e7fbc867752ff70e622cd36f6de49b0d90\\ServiceCollection.cs",
-              "ViewState": "AgIAAGYAAAAAAAAAAIBJwHkAAAAAAAAAAQAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-04T17:37:52.558Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 52,
-              "Title": "20251030002151_resenas2.cs",
-              "DocumentMoniker": "C:\\Users\\Sassa\\Videos\\Autopartes\\Back\\Autopartes\\Back_Repuestos\\Back_Repuestos\\Migrations\\20251030002151_resenas2.cs",
-              "RelativeDocumentMoniker": "..\\..\\Autopartes\\Back\\Autopartes\\Back_Repuestos\\Back_Repuestos\\Migrations\\20251030002151_resenas2.cs",
-              "ToolTip": "C:\\Users\\Sassa\\Videos\\Autopartes\\Back\\Autopartes\\Back_Repuestos\\Back_Repuestos\\Migrations\\20251030002151_resenas2.cs",
-              "RelativeToolTip": "..\\..\\Autopartes\\Back\\Autopartes\\Back_Repuestos\\Back_Repuestos\\Migrations\\20251030002151_resenas2.cs",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-03T17:42:36.02Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 51,
-              "Title": "20251103175837_temporal.cs",
-              "DocumentMoniker": "C:\\Users\\Sassa\\Videos\\Autopartes\\Back\\Autopartes\\Back_Repuestos\\Back_Repuestos\\Migrations\\20251103175837_temporal.cs",
-              "RelativeDocumentMoniker": "..\\..\\Autopartes\\Back\\Autopartes\\Back_Repuestos\\Back_Repuestos\\Migrations\\20251103175837_temporal.cs",
-              "ToolTip": "C:\\Users\\Sassa\\Videos\\Autopartes\\Back\\Autopartes\\Back_Repuestos\\Back_Repuestos\\Migrations\\20251103175837_temporal.cs",
-              "RelativeToolTip": "..\\..\\Autopartes\\Back\\Autopartes\\Back_Repuestos\\Back_Repuestos\\Migrations\\20251103175837_temporal.cs",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-03T17:58:42.642Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 40,
-              "Title": "Pruebas",
-              "DocumentMoniker": "C:\\Users\\Sassa\\Videos\\Proyecto\\Back_Repuestos\\Pruebas\\Pruebas.csproj",
-              "RelativeDocumentMoniker": "Pruebas\\Pruebas.csproj",
-              "ToolTip": "C:\\Users\\Sassa\\Videos\\Proyecto\\Back_Repuestos\\Pruebas\\Pruebas.csproj",
-              "RelativeToolTip": "Pruebas\\Pruebas.csproj",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-10-30T04:39:50.645Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 43,
-              "Title": "Venta.cs",
-              "DocumentMoniker": "C:\\Users\\Sassa\\Videos\\Proyecto\\Back_Repuestos\\Back_Repuestos\\Modelos\\Venta.cs",
-              "RelativeDocumentMoniker": "Back_Repuestos\\Modelos\\Venta.cs",
-              "ToolTip": "C:\\Users\\Sassa\\Videos\\Proyecto\\Back_Repuestos\\Back_Repuestos\\Modelos\\Venta.cs",
-              "RelativeToolTip": "Back_Repuestos\\Modelos\\Venta.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-06T23:14:58.433Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 41,
-              "Title": "Back_Repuestos",
-              "DocumentMoniker": "C:\\Users\\Sassa\\Videos\\Proyecto\\Back_Repuestos\\Back_Repuestos\\Back_Repuestos.csproj",
-              "RelativeDocumentMoniker": "Back_Repuestos\\Back_Repuestos.csproj",
-              "ToolTip": "C:\\Users\\Sassa\\Videos\\Proyecto\\Back_Repuestos\\Back_Repuestos\\Back_Repuestos.csproj",
-              "RelativeToolTip": "Back_Repuestos\\Back_Repuestos.csproj",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-10-30T04:30:21.827Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 42,
-              "Title": "WeatherForecast.cs",
-              "DocumentMoniker": "C:\\Users\\Sassa\\Videos\\Proyecto\\Back_Repuestos\\Back_Repuestos\\WeatherForecast.cs",
-              "RelativeDocumentMoniker": "Back_Repuestos\\WeatherForecast.cs",
-              "ToolTip": "C:\\Users\\Sassa\\Videos\\Proyecto\\Back_Repuestos\\Back_Repuestos\\WeatherForecast.cs",
-              "RelativeToolTip": "Back_Repuestos\\WeatherForecast.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-09T16:59:53.37Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 45,
-              "Title": "WeatherForecastController.cs",
-              "DocumentMoniker": "C:\\Users\\Sassa\\Videos\\Proyecto\\Back_Repuestos\\Back_Repuestos\\Controllers\\WeatherForecastController.cs",
-              "RelativeDocumentMoniker": "Back_Repuestos\\Controllers\\WeatherForecastController.cs",
-              "ToolTip": "C:\\Users\\Sassa\\Videos\\Proyecto\\Back_Repuestos\\Back_Repuestos\\Controllers\\WeatherForecastController.cs",
-              "RelativeToolTip": "Back_Repuestos\\Controllers\\WeatherForecastController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-14T12:48:20.026Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 46,
-              "Title": "Resena.cs",
-              "DocumentMoniker": "C:\\Users\\Sassa\\Videos\\Proyecto\\Back_Repuestos\\Back_Repuestos\\Modelos\\Resena.cs",
-              "RelativeDocumentMoniker": "Back_Repuestos\\Modelos\\Resena.cs",
-              "ToolTip": "C:\\Users\\Sassa\\Videos\\Proyecto\\Back_Repuestos\\Back_Repuestos\\Modelos\\Resena.cs",
-              "RelativeToolTip": "Back_Repuestos\\Modelos\\Resena.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-29T19:26:44.876Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 8,
               "Title": "Productos.cs",
-              "DocumentMoniker": "C:\\Users\\Sassa\\Videos\\Proyecto\\Back_Repuestos\\Back_Repuestos\\Modelos\\Productos.cs",
+              "DocumentMoniker": "C:\\Users\\Sassa\\Videos\\Proyecto_Refactorizado\\Autopartes\\Back_Repuestos\\Back_Repuestos\\Modelos\\Productos.cs",
               "RelativeDocumentMoniker": "Back_Repuestos\\Modelos\\Productos.cs",
-              "ToolTip": "C:\\Users\\Sassa\\Videos\\Proyecto\\Back_Repuestos\\Back_Repuestos\\Modelos\\Productos.cs",
+              "ToolTip": "C:\\Users\\Sassa\\Videos\\Proyecto_Refactorizado\\Autopartes\\Back_Repuestos\\Back_Repuestos\\Modelos\\Productos.cs",
               "RelativeToolTip": "Back_Repuestos\\Modelos\\Productos.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -825,23 +411,423 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
-              "Title": "Categoria.cs",
-              "DocumentMoniker": "C:\\Users\\Sassa\\Videos\\Proyecto\\Back_Repuestos\\Back_Repuestos\\Modelos\\Categoria.cs",
-              "RelativeDocumentMoniker": "Back_Repuestos\\Modelos\\Categoria.cs",
-              "ToolTip": "C:\\Users\\Sassa\\Videos\\Proyecto\\Back_Repuestos\\Back_Repuestos\\Modelos\\Categoria.cs",
-              "RelativeToolTip": "Back_Repuestos\\Modelos\\Categoria.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAMAAAAAAAAAA==",
+              "DocumentIndex": 16,
+              "Title": "Microsoft.NET.Test.Sdk.Program.cs",
+              "DocumentMoniker": "C:\\Users\\Sassa\\.nuget\\packages\\microsoft.net.test.sdk\\18.0.0\\build\\net8.0\\Microsoft.NET.Test.Sdk.Program.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\.nuget\\packages\\microsoft.net.test.sdk\\18.0.0\\build\\net8.0\\Microsoft.NET.Test.Sdk.Program.cs",
+              "ToolTip": "C:\\Users\\Sassa\\.nuget\\packages\\microsoft.net.test.sdk\\18.0.0\\build\\net8.0\\Microsoft.NET.Test.Sdk.Program.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\.nuget\\packages\\microsoft.net.test.sdk\\18.0.0\\build\\net8.0\\Microsoft.NET.Test.Sdk.Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-06T23:12:38.655Z"
+              "WhenOpened": "2025-10-30T04:25:48.444Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "VentaController.cs",
+              "DocumentMoniker": "C:\\Users\\Sassa\\Videos\\Proyecto_Refactorizado\\Autopartes\\Back_Repuestos\\Back_Repuestos\\Controllers\\VentaController.cs",
+              "RelativeDocumentMoniker": "Back_Repuestos\\Controllers\\VentaController.cs",
+              "ToolTip": "C:\\Users\\Sassa\\Videos\\Proyecto_Refactorizado\\Autopartes\\Back_Repuestos\\Back_Repuestos\\Controllers\\VentaController.cs",
+              "RelativeToolTip": "Back_Repuestos\\Controllers\\VentaController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T00:05:42.557Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ProductoController.cs",
+              "DocumentMoniker": "C:\\Users\\Sassa\\Videos\\Proyecto_Refactorizado\\Autopartes\\Back_Repuestos\\Back_Repuestos\\Controllers\\ProductoController.cs",
+              "RelativeDocumentMoniker": "Back_Repuestos\\Controllers\\ProductoController.cs",
+              "ToolTip": "C:\\Users\\Sassa\\Videos\\Proyecto_Refactorizado\\Autopartes\\Back_Repuestos\\Back_Repuestos\\Controllers\\ProductoController.cs",
+              "RelativeToolTip": "Back_Repuestos\\Controllers\\ProductoController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-14T13:15:20.278Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ResenaController.cs",
+              "DocumentMoniker": "C:\\Users\\Sassa\\Videos\\Proyecto_Refactorizado\\Autopartes\\Back_Repuestos\\Back_Repuestos\\Controllers\\ResenaController.cs",
+              "RelativeDocumentMoniker": "Back_Repuestos\\Controllers\\ResenaController.cs",
+              "ToolTip": "C:\\Users\\Sassa\\Videos\\Proyecto_Refactorizado\\Autopartes\\Back_Repuestos\\Back_Repuestos\\Controllers\\ResenaController.cs",
+              "RelativeToolTip": "Back_Repuestos\\Controllers\\ResenaController.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAA1wCAAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T19:39:28.754Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "CategoriaController.cs",
+              "DocumentMoniker": "C:\\Users\\Sassa\\Videos\\Proyecto_Refactorizado\\Autopartes\\Back_Repuestos\\Back_Repuestos\\Controllers\\CategoriaController.cs",
+              "RelativeDocumentMoniker": "Back_Repuestos\\Controllers\\CategoriaController.cs",
+              "ToolTip": "C:\\Users\\Sassa\\Videos\\Proyecto_Refactorizado\\Autopartes\\Back_Repuestos\\Back_Repuestos\\Controllers\\CategoriaController.cs",
+              "RelativeToolTip": "Back_Repuestos\\Controllers\\CategoriaController.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAowC4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T19:48:00.55Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Sassa\\Videos\\Proyecto_Refactorizado\\Autopartes\\Back_Repuestos\\Back_Repuestos\\Program.cs",
+              "RelativeDocumentMoniker": "Back_Repuestos\\Program.cs",
+              "ToolTip": "C:\\Users\\Sassa\\Videos\\Proyecto_Refactorizado\\Autopartes\\Back_Repuestos\\Back_Repuestos\\Program.cs",
+              "RelativeToolTip": "Back_Repuestos\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-06T23:40:42.252Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "CategoriaServicio.cs",
+              "DocumentMoniker": "C:\\Users\\Sassa\\Videos\\Proyecto_Refactorizado\\Autopartes\\Back_Repuestos\\Back_Repuestos\\Services\\CategoriaServicio.cs",
+              "RelativeDocumentMoniker": "Back_Repuestos\\Services\\CategoriaServicio.cs",
+              "ToolTip": "C:\\Users\\Sassa\\Videos\\Proyecto_Refactorizado\\Autopartes\\Back_Repuestos\\Back_Repuestos\\Services\\CategoriaServicio.cs",
+              "RelativeToolTip": "Back_Repuestos\\Services\\CategoriaServicio.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwDkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T02:46:13.654Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ResenaService.cs",
+              "DocumentMoniker": "C:\\Users\\Sassa\\Videos\\Proyecto_Refactorizado\\Autopartes\\Back_Repuestos\\Back_Repuestos\\Services\\ResenaService.cs",
+              "RelativeDocumentMoniker": "Back_Repuestos\\Services\\ResenaService.cs",
+              "ToolTip": "C:\\Users\\Sassa\\Videos\\Proyecto_Refactorizado\\Autopartes\\Back_Repuestos\\Back_Repuestos\\Services\\ResenaService.cs",
+              "RelativeToolTip": "Back_Repuestos\\Services\\ResenaService.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAgwCIAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T04:06:42.399Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "VentasService.cs",
+              "DocumentMoniker": "C:\\Users\\Sassa\\Videos\\Proyecto_Refactorizado\\Autopartes\\Back_Repuestos\\Back_Repuestos\\Services\\VentasService.cs",
+              "RelativeDocumentMoniker": "Back_Repuestos\\Services\\VentasService.cs",
+              "ToolTip": "C:\\Users\\Sassa\\Videos\\Proyecto_Refactorizado\\Autopartes\\Back_Repuestos\\Back_Repuestos\\Services\\VentasService.cs",
+              "RelativeToolTip": "Back_Repuestos\\Services\\VentasService.cs",
+              "ViewState": "AgIAAIIAAAAAAAAAAAAcwKUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T04:47:53.69Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Productos.cs",
+              "DocumentMoniker": "C:\\Users\\Sassa\\Videos\\Proyecto_Refactorizado\\Autopartes\\Back_Repuestos\\Pruebas\\Productos.cs",
+              "RelativeDocumentMoniker": "Pruebas\\Productos.cs",
+              "ToolTip": "C:\\Users\\Sassa\\Videos\\Proyecto_Refactorizado\\Autopartes\\Back_Repuestos\\Pruebas\\Productos.cs",
+              "RelativeToolTip": "Pruebas\\Productos.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAQwBEAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-03T17:19:50.05Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Test1.cs",
+              "DocumentMoniker": "C:\\Users\\Sassa\\Videos\\Proyecto_Refactorizado\\Autopartes\\Back_Repuestos\\Pruebas\\Test1.cs",
+              "RelativeDocumentMoniker": "Pruebas\\Test1.cs",
+              "ToolTip": "C:\\Users\\Sassa\\Videos\\Proyecto_Refactorizado\\Autopartes\\Back_Repuestos\\Pruebas\\Test1.cs",
+              "RelativeToolTip": "Pruebas\\Test1.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAFIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-03T23:24:54.808Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Pruebaobtenerventas.cs",
+              "DocumentMoniker": "C:\\Users\\Sassa\\Videos\\Proyecto_Refactorizado\\Autopartes\\Back_Repuestos\\Pruebas\\Pruebaobtenerventas.cs",
+              "RelativeDocumentMoniker": "Pruebas\\Pruebaobtenerventas.cs",
+              "ToolTip": "C:\\Users\\Sassa\\Videos\\Proyecto_Refactorizado\\Autopartes\\Back_Repuestos\\Pruebas\\Pruebaobtenerventas.cs",
+              "RelativeToolTip": "Pruebas\\Pruebaobtenerventas.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAQwCAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T02:22:54.985Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Resenas.cs",
+              "DocumentMoniker": "C:\\Users\\Sassa\\Videos\\Proyecto_Refactorizado\\Autopartes\\Back_Repuestos\\Pruebas\\Resenas.cs",
+              "RelativeDocumentMoniker": "Pruebas\\Resenas.cs",
+              "ToolTip": "C:\\Users\\Sassa\\Videos\\Proyecto_Refactorizado\\Autopartes\\Back_Repuestos\\Pruebas\\Resenas.cs",
+              "RelativeToolTip": "Pruebas\\Resenas.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-03T21:38:54.984Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "TestHelper.cs",
+              "DocumentMoniker": "C:\\Users\\Sassa\\Videos\\Proyecto_Refactorizado\\Autopartes\\Back_Repuestos\\Pruebas\\TestHelper.cs",
+              "RelativeDocumentMoniker": "Pruebas\\TestHelper.cs",
+              "ToolTip": "C:\\Users\\Sassa\\Videos\\Proyecto_Refactorizado\\Autopartes\\Back_Repuestos\\Pruebas\\TestHelper.cs",
+              "RelativeToolTip": "Pruebas\\TestHelper.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAmwE0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-03T23:24:09.177Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "MSTestSettings.cs",
+              "DocumentMoniker": "C:\\Users\\Sassa\\Videos\\Proyecto_Refactorizado\\Autopartes\\Back_Repuestos\\Pruebas\\MSTestSettings.cs",
+              "RelativeDocumentMoniker": "Pruebas\\MSTestSettings.cs",
+              "ToolTip": "C:\\Users\\Sassa\\Videos\\Proyecto_Refactorizado\\Autopartes\\Back_Repuestos\\Pruebas\\MSTestSettings.cs",
+              "RelativeToolTip": "Pruebas\\MSTestSettings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T02:51:54.252Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "CrudCategorias.cs",
+              "DocumentMoniker": "C:\\Users\\Sassa\\Videos\\Proyecto_Refactorizado\\Autopartes\\Back_Repuestos\\Pruebas\\CrudCategorias.cs",
+              "RelativeDocumentMoniker": "Pruebas\\CrudCategorias.cs",
+              "ToolTip": "C:\\Users\\Sassa\\Videos\\Proyecto_Refactorizado\\Autopartes\\Back_Repuestos\\Pruebas\\CrudCategorias.cs",
+              "RelativeToolTip": "Pruebas\\CrudCategorias.cs",
+              "ViewState": "AgIAAEEAAAAAAAAAAAArwFkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T03:04:21.63Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Pruebas.csproj",
+              "DocumentMoniker": "C:\\Users\\Sassa\\Videos\\Proyecto_Refactorizado\\Autopartes\\Back_Repuestos\\Pruebas\\Pruebas.csproj",
+              "RelativeDocumentMoniker": "Pruebas\\Pruebas.csproj",
+              "ToolTip": "C:\\Users\\Sassa\\Videos\\Proyecto_Refactorizado\\Autopartes\\Back_Repuestos\\Pruebas\\Pruebas.csproj",
+              "RelativeToolTip": "Pruebas\\Pruebas.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-10-03T23:24:07.511Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Sassa\\Videos\\Proyecto_Refactorizado\\Autopartes\\Back_Repuestos\\Back_Repuestos\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Back_Repuestos\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\Sassa\\Videos\\Proyecto_Refactorizado\\Autopartes\\Back_Repuestos\\Back_Repuestos\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "Back_Repuestos\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-06T23:42:59.62Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Microsoft.Common.CurrentVersion.targets",
+              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ViewState": "AgIAAGYJAAAAAAAAAAAjwIAJAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2025-11-05T14:45:44.524Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "CorreoServicio.cs",
+              "DocumentMoniker": "C:\\Users\\Sassa\\Videos\\Proyecto_Refactorizado\\Autopartes\\Back_Repuestos\\Back_Repuestos\\Services\\CorreoServicio.cs",
+              "RelativeDocumentMoniker": "Back_Repuestos\\Services\\CorreoServicio.cs",
+              "ToolTip": "C:\\Users\\Sassa\\Videos\\Proyecto_Refactorizado\\Autopartes\\Back_Repuestos\\Back_Repuestos\\Services\\CorreoServicio.cs",
+              "RelativeToolTip": "Back_Repuestos\\Services\\CorreoServicio.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAmwBUAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-18T22:44:43.58Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "ServiceProvider.cs",
+              "DocumentMoniker": "C:\\Users\\Sassa\\AppData\\Local\\Temp\\.vsdbgsrc\\ef09dbe393a78b07775aa474926c634f3130913b6c3517790e6a98317aa81f96\\ServiceProvider.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\ef09dbe393a78b07775aa474926c634f3130913b6c3517790e6a98317aa81f96\\ServiceProvider.cs",
+              "ToolTip": "C:\\Users\\Sassa\\AppData\\Local\\Temp\\.vsdbgsrc\\ef09dbe393a78b07775aa474926c634f3130913b6c3517790e6a98317aa81f96\\ServiceProvider.cs [Solo lectura]",
+              "RelativeToolTip": "..\\..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\ef09dbe393a78b07775aa474926c634f3130913b6c3517790e6a98317aa81f96\\ServiceProvider.cs [Solo lectura]",
+              "ViewState": "AgIAAE8AAAAAAAAAAAAvwGEAAAAEAAAAAQAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T05:10:29.761Z",
+              "EditorCaption": " [Solo lectura]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Back_Repuestos.csproj",
+              "DocumentMoniker": "C:\\Users\\Sassa\\Videos\\Proyecto_Refactorizado\\Autopartes\\Back_Repuestos\\Back_Repuestos\\Back_Repuestos.csproj",
+              "RelativeDocumentMoniker": "Back_Repuestos\\Back_Repuestos.csproj",
+              "ToolTip": "C:\\Users\\Sassa\\Videos\\Proyecto_Refactorizado\\Autopartes\\Back_Repuestos\\Back_Repuestos\\Back_Repuestos.csproj",
+              "RelativeToolTip": "Back_Repuestos\\Back_Repuestos.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-09-07T00:54:04.726Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "AppDbContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Users\\Sassa\\Videos\\Proyecto_Refactorizado\\Autopartes\\Back_Repuestos\\Back_Repuestos\\Migrations\\AppDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "Back_Repuestos\\Migrations\\AppDbContextModelSnapshot.cs",
+              "ToolTip": "C:\\Users\\Sassa\\Videos\\Proyecto_Refactorizado\\Autopartes\\Back_Repuestos\\Back_Repuestos\\Migrations\\AppDbContextModelSnapshot.cs",
+              "RelativeToolTip": "Back_Repuestos\\Migrations\\AppDbContextModelSnapshot.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-04T17:54:00.348Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "ServerSession.cs",
+              "DocumentMoniker": "C:\\Users\\Sassa\\AppData\\Local\\Temp\\.vsdbgsrc\\b9d75ad09118bc680caa3f79acb6b835f670946f6a437018d8f0e6d51d430f23\\ServerSession.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\b9d75ad09118bc680caa3f79acb6b835f670946f6a437018d8f0e6d51d430f23\\ServerSession.cs",
+              "ToolTip": "C:\\Users\\Sassa\\AppData\\Local\\Temp\\.vsdbgsrc\\b9d75ad09118bc680caa3f79acb6b835f670946f6a437018d8f0e6d51d430f23\\ServerSession.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\b9d75ad09118bc680caa3f79acb6b835f670946f6a437018d8f0e6d51d430f23\\ServerSession.cs",
+              "ViewState": "AgIAAK4EAAAAAAAAAAAcwMMEAAABAAAAAQAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-04T17:51:00.971Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "20251104175355_InicialFinal.cs",
+              "DocumentMoniker": "C:\\Users\\Sassa\\Videos\\Proyecto_Refactorizado\\Autopartes\\Back_Repuestos\\Back_Repuestos\\Migrations\\20251104175355_InicialFinal.cs",
+              "RelativeDocumentMoniker": "Back_Repuestos\\Migrations\\20251104175355_InicialFinal.cs",
+              "ToolTip": "C:\\Users\\Sassa\\Videos\\Proyecto_Refactorizado\\Autopartes\\Back_Repuestos\\Back_Repuestos\\Migrations\\20251104175355_InicialFinal.cs",
+              "RelativeToolTip": "Back_Repuestos\\Migrations\\20251104175355_InicialFinal.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-04T17:54:00.843Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "ServerSession.cs",
+              "DocumentMoniker": "C:\\Users\\Sassa\\AppData\\Local\\SourceServer\\4bb1e84daf84165de8b6bd27b85b92f4e9029a0cd2be16b54a662929c7900636\\src\\MySqlConnector\\Core\\ServerSession.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\AppData\\Local\\SourceServer\\4bb1e84daf84165de8b6bd27b85b92f4e9029a0cd2be16b54a662929c7900636\\src\\MySqlConnector\\Core\\ServerSession.cs",
+              "ToolTip": "C:\\Users\\Sassa\\AppData\\Local\\SourceServer\\4bb1e84daf84165de8b6bd27b85b92f4e9029a0cd2be16b54a662929c7900636\\src\\MySqlConnector\\Core\\ServerSession.cs [Solo lectura]",
+              "RelativeToolTip": "..\\..\\..\\..\\AppData\\Local\\SourceServer\\4bb1e84daf84165de8b6bd27b85b92f4e9029a0cd2be16b54a662929c7900636\\src\\MySqlConnector\\Core\\ServerSession.cs [Solo lectura]",
+              "ViewState": "AgIAAAAEAAAAAAAAAAAcwCoEAAAbAAAAAQAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-04T17:45:14.834Z",
+              "EditorCaption": " [Solo lectura]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "ServiceCollection.cs",
+              "DocumentMoniker": "C:\\Users\\Sassa\\AppData\\Local\\Temp\\.vsdbgsrc\\fb2807fc5f0036b185c132a80d35c7e7fbc867752ff70e622cd36f6de49b0d90\\ServiceCollection.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\fb2807fc5f0036b185c132a80d35c7e7fbc867752ff70e622cd36f6de49b0d90\\ServiceCollection.cs",
+              "ToolTip": "C:\\Users\\Sassa\\AppData\\Local\\Temp\\.vsdbgsrc\\fb2807fc5f0036b185c132a80d35c7e7fbc867752ff70e622cd36f6de49b0d90\\ServiceCollection.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\fb2807fc5f0036b185c132a80d35c7e7fbc867752ff70e622cd36f6de49b0d90\\ServiceCollection.cs",
+              "ViewState": "AgIAAGYAAAAAAAAAAIBJwHkAAAAAAAAAAQAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-04T17:37:52.558Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "20251030002151_resenas2.cs",
+              "DocumentMoniker": "C:\\Users\\Sassa\\Videos\\Autopartes\\Back\\Autopartes\\Back_Repuestos\\Back_Repuestos\\Migrations\\20251030002151_resenas2.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\Autopartes\\Back\\Autopartes\\Back_Repuestos\\Back_Repuestos\\Migrations\\20251030002151_resenas2.cs",
+              "ToolTip": "C:\\Users\\Sassa\\Videos\\Autopartes\\Back\\Autopartes\\Back_Repuestos\\Back_Repuestos\\Migrations\\20251030002151_resenas2.cs",
+              "RelativeToolTip": "..\\..\\..\\Autopartes\\Back\\Autopartes\\Back_Repuestos\\Back_Repuestos\\Migrations\\20251030002151_resenas2.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-03T17:42:36.02Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "20251103175837_temporal.cs",
+              "DocumentMoniker": "C:\\Users\\Sassa\\Videos\\Autopartes\\Back\\Autopartes\\Back_Repuestos\\Back_Repuestos\\Migrations\\20251103175837_temporal.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\Autopartes\\Back\\Autopartes\\Back_Repuestos\\Back_Repuestos\\Migrations\\20251103175837_temporal.cs",
+              "ToolTip": "C:\\Users\\Sassa\\Videos\\Autopartes\\Back\\Autopartes\\Back_Repuestos\\Back_Repuestos\\Migrations\\20251103175837_temporal.cs",
+              "RelativeToolTip": "..\\..\\..\\Autopartes\\Back\\Autopartes\\Back_Repuestos\\Back_Repuestos\\Migrations\\20251103175837_temporal.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-03T17:58:42.642Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "Pruebas",
+              "DocumentMoniker": "C:\\Users\\Sassa\\Videos\\Proyecto_Refactorizado\\Autopartes\\Back_Repuestos\\Pruebas\\Pruebas.csproj",
+              "RelativeDocumentMoniker": "Pruebas\\Pruebas.csproj",
+              "ToolTip": "C:\\Users\\Sassa\\Videos\\Proyecto_Refactorizado\\Autopartes\\Back_Repuestos\\Pruebas\\Pruebas.csproj",
+              "RelativeToolTip": "Pruebas\\Pruebas.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-10-30T04:39:50.645Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "WeatherForecast.cs",
+              "DocumentMoniker": "C:\\Users\\Sassa\\Videos\\Proyecto_Refactorizado\\Autopartes\\Back_Repuestos\\Back_Repuestos\\WeatherForecast.cs",
+              "RelativeDocumentMoniker": "Back_Repuestos\\WeatherForecast.cs",
+              "ToolTip": "C:\\Users\\Sassa\\Videos\\Proyecto_Refactorizado\\Autopartes\\Back_Repuestos\\Back_Repuestos\\WeatherForecast.cs",
+              "RelativeToolTip": "Back_Repuestos\\WeatherForecast.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-09T16:59:53.37Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "C:\\Users\\Sassa\\Videos\\Proyecto_Refactorizado\\Autopartes\\Back_Repuestos\\Back_Repuestos\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "Back_Repuestos\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "C:\\Users\\Sassa\\Videos\\Proyecto_Refactorizado\\Autopartes\\Back_Repuestos\\Back_Repuestos\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "Back_Repuestos\\Controllers\\WeatherForecastController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-14T12:48:20.026Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 47,
+              "Title": "Resena.cs",
+              "DocumentMoniker": "C:\\Users\\Sassa\\Videos\\Proyecto_Refactorizado\\Autopartes\\Back_Repuestos\\Back_Repuestos\\Modelos\\Resena.cs",
+              "RelativeDocumentMoniker": "Back_Repuestos\\Modelos\\Resena.cs",
+              "ToolTip": "C:\\Users\\Sassa\\Videos\\Proyecto_Refactorizado\\Autopartes\\Back_Repuestos\\Back_Repuestos\\Modelos\\Resena.cs",
+              "RelativeToolTip": "Back_Repuestos\\Modelos\\Resena.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T19:26:44.876Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "Categoria.cs",
+              "DocumentMoniker": "C:\\Users\\Sassa\\Videos\\Proyecto_Refactorizado\\Autopartes\\Back_Repuestos\\Back_Repuestos\\Modelos\\Categoria.cs",
+              "RelativeDocumentMoniker": "Back_Repuestos\\Modelos\\Categoria.cs",
+              "ToolTip": "C:\\Users\\Sassa\\Videos\\Proyecto_Refactorizado\\Autopartes\\Back_Repuestos\\Back_Repuestos\\Modelos\\Categoria.cs",
+              "RelativeToolTip": "Back_Repuestos\\Modelos\\Categoria.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-06T23:12:38.655Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
               "Title": "libman.json",
-              "DocumentMoniker": "C:\\Users\\Sassa\\Videos\\Proyecto\\Back_Repuestos\\Back_Repuestos\\libman.json",
+              "DocumentMoniker": "C:\\Users\\Sassa\\Videos\\Proyecto_Refactorizado\\Autopartes\\Back_Repuestos\\Back_Repuestos\\libman.json",
               "RelativeDocumentMoniker": "Back_Repuestos\\libman.json",
-              "ToolTip": "C:\\Users\\Sassa\\Videos\\Proyecto\\Back_Repuestos\\Back_Repuestos\\libman.json",
+              "ToolTip": "C:\\Users\\Sassa\\Videos\\Proyecto_Refactorizado\\Autopartes\\Back_Repuestos\\Back_Repuestos\\libman.json",
               "RelativeToolTip": "Back_Repuestos\\libman.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
@@ -849,48 +835,12 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
-              "Title": "Back_Repuestos.http",
-              "DocumentMoniker": "C:\\Users\\Sassa\\Videos\\Proyecto\\Back_Repuestos\\Back_Repuestos\\Back_Repuestos.http",
-              "RelativeDocumentMoniker": "Back_Repuestos\\Back_Repuestos.http",
-              "ToolTip": "C:\\Users\\Sassa\\Videos\\Proyecto\\Back_Repuestos\\Back_Repuestos\\Back_Repuestos.http",
-              "RelativeToolTip": "Back_Repuestos\\Back_Repuestos.http",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
-              "WhenOpened": "2025-09-07T00:56:36.575Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 49,
-              "Title": "UsuarioTemp.cs",
-              "DocumentMoniker": "C:\\Users\\Sassa\\Videos\\Proyecto\\Back_Repuestos\\Back_Repuestos\\Modelos\\UsuarioTemp.cs",
-              "RelativeDocumentMoniker": "Back_Repuestos\\Modelos\\UsuarioTemp.cs",
-              "ToolTip": "C:\\Users\\Sassa\\Videos\\Proyecto\\Back_Repuestos\\Back_Repuestos\\Modelos\\UsuarioTemp.cs",
-              "RelativeToolTip": "Back_Repuestos\\Modelos\\UsuarioTemp.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAgwCIAAABQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-10T05:06:19.575Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 50,
-              "Title": "Usuario.cs",
-              "DocumentMoniker": "C:\\Users\\Sassa\\Videos\\Proyecto\\Back_Repuestos\\Back_Repuestos\\Modelos\\Usuario.cs",
-              "RelativeDocumentMoniker": "Back_Repuestos\\Modelos\\Usuario.cs",
-              "ToolTip": "C:\\Users\\Sassa\\Videos\\Proyecto\\Back_Repuestos\\Back_Repuestos\\Modelos\\Usuario.cs",
-              "RelativeToolTip": "Back_Repuestos\\Modelos\\Usuario.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-06T23:19:10.749Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 53,
+              "DocumentIndex": 51,
               "Title": "20250918154025_migracionmodelo2.cs",
               "DocumentMoniker": "C:\\Users\\Sassa\\Videos\\Autopartes\\Back\\Autopartes\\Back_Repuestos\\Back_Repuestos\\Migrations\\20250918154025_migracionmodelo2.cs",
-              "RelativeDocumentMoniker": "..\\..\\Autopartes\\Back\\Autopartes\\Back_Repuestos\\Back_Repuestos\\Migrations\\20250918154025_migracionmodelo2.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\Autopartes\\Back\\Autopartes\\Back_Repuestos\\Back_Repuestos\\Migrations\\20250918154025_migracionmodelo2.cs",
               "ToolTip": "C:\\Users\\Sassa\\Videos\\Autopartes\\Back\\Autopartes\\Back_Repuestos\\Back_Repuestos\\Migrations\\20250918154025_migracionmodelo2.cs",
-              "RelativeToolTip": "..\\..\\Autopartes\\Back\\Autopartes\\Back_Repuestos\\Back_Repuestos\\Migrations\\20250918154025_migracionmodelo2.cs",
+              "RelativeToolTip": "..\\..\\..\\Autopartes\\Back\\Autopartes\\Back_Repuestos\\Back_Repuestos\\Migrations\\20250918154025_migracionmodelo2.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-18T15:40:45.398Z"
             }

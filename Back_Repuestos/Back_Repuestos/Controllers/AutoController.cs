@@ -10,6 +10,7 @@ using Microsoft.IdentityModel.Tokens;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
+using System.Text.Json;
 
 namespace Back_Repuestos.Controllers
 {
@@ -30,7 +31,12 @@ namespace Back_Repuestos.Controllers
 
         [HttpPost("login")]
         public async Task<IActionResult> Login([FromBody] LoginDTO dto)
-            => await _auth.LoginAsync(dto);
+        {
+            var resultado = await _auth.LoginAsync(dto);
+            return resultado;
+        }
+
+
 
         [HttpPost("verificar-codigo")]
         public async Task<IActionResult> VerificarCodigo([FromBody] VerificarCodigoDTO dto, [FromServices] IConfiguration cfg)

@@ -1,0 +1,19 @@
+{"Nombre_apellido":"Carlos","DNI":"77668821","Direccion":"El milagro","Correo":"Sven23_@hotmail.com","User":"Carlos","Contrasenia":"carloss","Rol":"cliente"}
+{"Nombre_apellido":"Ramos","DNI":"77668821","Direccion":"El milagro","Correo":"sven23_@hotmail.com","User":"Carloss","Contrasenia":"carloss","Rol":"cliente"}
+{"Nombre_apellido":"carlos","DNI":"77668821","Direccion":"el milagro","Correo":"sven23_@hotmail.com","User":"Carlos","Contrasenia":"20003","Rol":"cliente"}
+{"Nombre_apellido":"carlos","DNI":"77998877","Direccion":"El milagro","Correo":"sven23_@hotmail.com","User":"Uriel","Contrasenia":"Uriel","Rol":"cliente"}
+{"Nombre_apellido":"Carlos","DNI":"77668899","Direccion":"El milagro","Correo":"sven23_@hotmail.com","User":"carloss","Contrasenia":"carlosss","Rol":"cliente"}
+{"Nombre_apellido":"Carlos","DNI":"77668899","Direccion":"El milagro","Correo":"Sven23_@hotmail.com","User":"carlos","Contrasenia":"carlosss","Rol":"cliente"}
+{"Nombre_apellido":"Luis231","DNI":"12345432","Direccion":"El milagro","Correo":"sven23_@hotmail.com","User":"Luiss","Contrasenia":"12345678","Rol":"cliente"}
+{"Nombre_apellido":"Carlos","DNI":"77889977","Direccion":"El milagro","Correo":"Sven23_@hotmail.com","User":"Luisss","Contrasenia":"12345678","Rol":"cliente"}
+{"Nombre_apellido":"Carlos","DNI":"12312312","Direccion":"El milagro","Correo":"Sven23_@hotmail.com","User":"Carloss","Contrasenia":"Carlos.2003","Rol":"cliente"}
+{"Nombre_apellido":"Luis123","DNI":"77667766","Direccion":"el milagro","Correo":"Sven23_@hotmail.com","User":"luisss","Contrasenia":"carlos.2003","Rol":"cliente"}
+{"Nombre_apellido":"carlos","DNI":"31231231","Direccion":"El milagro 2017","Correo":"sven23_@hotmail.com","User":"carlos","Contrasenia":"12345678","Rol":"cliente"}
+{"Nombre_apellido":"juaneco","DNI":"10101010","Direccion":"milagro217","Correo":"sven23_@hotmail.com","User":"Carloss","Contrasenia":"12345678","Rol":"cliente"}
+{"Nombre_apellido":"Ramos","DNI":"12312312","Direccion":"el milagro 2003","Correo":"sven23_@hotmail.com","User":"Ramos","Contrasenia":"123123123","Rol":"cliente"}
+{"Nombre_apellido":"RAMOS","DNI":"12312312","Direccion":"Jr. el milagro","Correo":"sven23_@hotmail.com","User":"carloss","Contrasenia":"123123123","Rol":"cliente"}
+{"Nombre_apellido":"Ramos","DNI":"12312312","Direccion":"milagro","Correo":"sven23_@hotmail.com","User":"Carloss","Contrasenia":"123123123","Rol":"cliente"}
+{"Nombre_apellido":"Ramoss","DNI":"12312312","Direccion":"el milagro","Correo":"sven23_@hotmail.com","User":"ramoss","Contrasenia":"123123123","Rol":"cliente"}
+{"Nombre_apellido":"ramos","DNI":"12312312","Direccion":"el milagro","Correo":"sven23_@hotmail.com","User":"Carloss","Contrasenia":"123123123","Rol":"cliente"}
+{"Nombre_apellido":"carlos","DNI":"12312312","Direccion":"El milagro","Correo":"sven23_@hotmail.com","User":"ramos","Contrasenia":"123123123","Rol":"cliente"}
+{"Nombre_apellido":"carlos","DNI":"12312312","Direccion":"El milagro","Correo":"sven23_@hotmail.com","User":"ramos","Contrasenia":"123123123","Rol":"cliente"}
