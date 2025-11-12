@@ -4,7 +4,7 @@ import { HttpClient } from '@angular/common/http';
 
 
 export interface Categorias {
-  idCategoria: number;
+  idCategoria: number| null;
   nombre: string;
 }
 @Injectable({

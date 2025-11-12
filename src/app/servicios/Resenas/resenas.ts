@@ -15,7 +15,7 @@ export interface ReseñaDto {
 })
 export class ResenaServicio {
   private base = window.location.origin;
-  //private apiUrl = `https://sassakyxx-001-site1.jtempurl.com/api/Resenas`;
+ //private apiUrl = `https://sassakyxx-001-site1.jtempurl.com/api/Resenas`;
   private apiUrl = `${this.base}/api/Resenas`;
 
   constructor(private http: HttpClient) { }

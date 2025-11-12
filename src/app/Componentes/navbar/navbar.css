@@ -19,7 +19,8 @@
 }
 .Botón:hover
 {
-  transform: scale(1.1);
+  transform: scale(1.2);
+  background-color: #73a0db;
 }
 .nav-btn
 {
@@ -31,4 +32,31 @@
 {
 
   transform: scale(1.1);
+}
+/* 🔹 Cuando la pantalla sea MENOR a 900px */
+@media (max-width: 1300px) {
+  /* Mostrar el botón del offcanvas */
+  .btn-offcanvas-custom {
+    display: inline-block !important;
+  }
+
+
+  .navbar-nav.d-none.d-lg-flex,
+  .d-lg-flex {
+    display: none !important;
+  }
+}
+
+/* 🔹 Cuando la pantalla sea MAYOR a 900px */
+@media (min-width: 1300px) {
+  /* Ocultar el botón del offcanvas */
+  .btn-offcanvas-custom {
+    display: none !important;
+  }
+
+  /* Mostrar el menú normal */
+  .navbar-nav.d-none.d-lg-flex,
+  .d-lg-flex {
+    display: flex !important;
+  }
 }

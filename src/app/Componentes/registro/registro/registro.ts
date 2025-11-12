@@ -16,10 +16,11 @@ import { Router } from '@angular/router';
   templateUrl: './registro.html',
   styleUrls: ['./registro.css']
 })
+
 export class Registro {
     usuario = {
     nombre_apellido: '',
-    dni: null,
+    dni: '',
     direccion: '',
     correo: '',
     user: '',
@@ -33,6 +34,19 @@ export class Registro {
   registrar() {
     if (this.usuario.contrasenia !== this.usuario.confirmarContrasenia)  {
       this.mensaje = 'Las contraseñas no coinciden';
+      return;
+    }
+    if (!this.usuario.correo.trim() || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(this.usuario.correo)) {
+    this.mensaje = 'El correo no tiene un formato válido';
+    return;
+    }
+    if (this.usuario.contrasenia.length < 8 )
+    {
+      this.mensaje ='La contraseña debe tener al menos 8 caracteres'
+      return;
+    }
+    if (!/^\d{8}$/.test(this.usuario.dni)) {
+      this.mensaje = 'Ingrese un DNI válido de 8 dígitos';
       return;
     }
 
@@ -49,6 +63,7 @@ export class Registro {
 
       this.auth.register(usuarioEnviar).subscribe({
       next: (res) => {
+
         localStorage.setItem('tempUser', this.usuario.user);
 
           Swal.fire({

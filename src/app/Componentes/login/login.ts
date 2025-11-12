@@ -33,7 +33,15 @@ export class Login {
   iniciarSesion() {
       this.procesandoLogin = true;
       this.mensaje = '';
-      this.auth.login(this.credenciales).subscribe({
+
+      const input = this.credenciales.User.trim();
+      const credencialesFinal = /^\d+$/.test(input)
+
+      ? { DNI: input, Contrasenia: this.credenciales.Contrasenia }
+      : { User: input, Contrasenia: this.credenciales.Contrasenia };
+
+
+      this.auth.login(credencialesFinal).subscribe({
         next: (res) => {
           this.procesandoLogin = false;
           if (res?.token) {
@@ -42,7 +50,15 @@ export class Login {
             this.router.navigate(['/']);
           } else if (res?.requiereCodigo) {
             // login con 2FA pendiente
-            localStorage.setItem('tempUser', this.credenciales.User);
+          if (/^\d+$/.test(input)) {
+            // Es DNI
+            localStorage.setItem('tempDNI', input);
+            localStorage.removeItem('tempUser');
+          } else {
+            // Es usuario
+            localStorage.setItem('tempUser', input);
+            localStorage.removeItem('tempDNI');
+          }
 
               Swal.fire({
               icon: 'success',

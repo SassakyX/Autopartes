@@ -288,7 +288,7 @@ constructor(private ProductosService : ProductosServicio, private CategoriasServ
       }
     }).then(result => {
       if (result.isConfirmed) {
-        this.CategoriasService.editar(c.idCategoria, result.value).subscribe(editada => {
+        this.CategoriasService.editar(c.idCategoria!, result.value).subscribe(editada => {
         const idx = this.categorias.findIndex(cat => cat.idCategoria === c.idCategoria);
         if (idx > -1) this.categorias[idx] = editada;
         this.categorias = [...this.categorias];

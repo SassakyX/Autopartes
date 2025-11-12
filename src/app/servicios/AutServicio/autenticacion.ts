@@ -38,10 +38,11 @@ export class AuthService {
     return this.http.post(`${this.apiUrl}/register`, usuario);
   }
 
-  login(credenciales: { User: string; Contrasenia: string }) {
+  login(credenciales: { User?:string; DNI?: string; Contrasenia: string }) {
     return this.http.post<any>(`${this.apiUrl}/login`, credenciales).pipe(
       tap((res) => {
-        this.safeSet('tempUser', credenciales.User);
+        const identificador = credenciales.User || credenciales.DNI;
+        this.safeSet('tempUser', identificador!);
         localStorage.setItem('rol', res.rol);
       })
     );
@@ -62,7 +63,7 @@ export class AuthService {
   }
 
 
-verificarCodigo(data: { User: string; Codigo: string }) {
+verificarCodigo(data: { User?: string; DNI?: string; Codigo: string }) {
   //return this.http.post<any>(`${this.apiUrl}/verificar-codigo`, data).pipe(
   return this.http.post<any>(`${this.apiUrl}/verificar-codigo`, data).pipe(
     tap((res) => {
@@ -84,6 +85,7 @@ verificarCodigo(data: { User: string; Codigo: string }) {
     this.safeRemove('usuario');
     this.safeRemove('token');
     this.safeRemove('tempUser');
+    this.safeRemove('tempDNI')
     localStorage.removeItem('rol');
     this.usuarioSubject.next(null);
   }

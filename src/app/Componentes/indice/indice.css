@@ -5,11 +5,7 @@
   overflow: hidden;
 
 }
-@media (max-width: 768px) {
-  .slider-container {
-    height: 200px;  /* Ajusta la altura a un valor más pequeño para móviles */
-  }
-}
+
 .carousel-inner img {
   width: 100%;
   height: 100%;       /* ocupa todo el alto */
@@ -63,18 +59,19 @@
 }
 .boton:hover
 {
-  transform: scale(1.05);
+  transform: scale(1.08);
 }
 .categoria-item img
 {
     position: relative;
     overflow: hidden;  /*Ajusta la imagen para que no se salga del botón? */
-    padding: 0; /* Ajusta la imagen a los bordes por eso 0 */
+    padding: 0px; /* Ajusta la imagen a los bordes por eso 0 */
     display: flex;
     flex-direction: column; /* Alinear el texto y la imagen en una columna */
     justify-content: center; /* Centra la imagen y por consecuencia el texto xd */
     align-items: center; /*   la orientación de los elementos */
-    height: 265px; /* altura fija */
+    height: 295px; /* altura fija */
+    width: 265px;
 }
 .texto_categoria
 {
@@ -108,5 +105,38 @@
 
 
 .categoria-item.btn:hover {
-transform: scale(1.10);
+transform: scale(1.05);
+}
+@media (max-width: 970px) {
+    .carousel-caption h5 {
+        font-size: 1.0rem;  /* Reducir tamaño del texto en pantallas pequeñas */
+    }
+    .categoria-item
+    {
+      width: 120px;
+    }
+
+    .carousel-caption p {
+        font-size: 0.7rem;  /* Reducir tamaño del texto en pantallas pequeñas */
+    }
+
+@media (max-width: 768px) {
+  .slider-container {
+    height: 210px;  /* Ajusta la altura a un valor más pequeño para móviles */
+  }
+}
+
+@media (max-width: 968px) {
+    .carousel-caption h5 {
+        font-size: 1.0rem;  /* Reducir tamaño del texto en pantallas pequeñas */
+    }
+    .categoria-item
+    {
+      width: 230px;
+    }
+
+    .carousel-caption p {
+        font-size: 0.7rem;  /* Reducir tamaño del texto en pantallas pequeñas */
+    }
+}
 }

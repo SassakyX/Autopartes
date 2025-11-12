@@ -1,9 +1,9 @@
-import { Component, OnInit, Pipe } from '@angular/core';
+import { Component, NgModule, OnInit, Pipe } from '@angular/core';
 import { Producto, ProductosServicio } from '../../servicios/Productos/productos';
 import { CommonModule } from '@angular/common';
-import { FormsModule } from '@angular/forms';
+import { FormsModule, NgModel } from '@angular/forms';
 import { CategoriasServicio,Categorias } from '../../servicios/Categoria/categorias';
-import { RouterLink } from '@angular/router';
+import { ActivatedRoute, RouterLink } from '@angular/router';
 import { debounceTime, Subject } from 'rxjs';
 
 @Component({
@@ -19,6 +19,7 @@ export class Repuestos implements OnInit {
   categorias: Categorias[] = [];
 
   // Filtros
+
   filtroNombre = '';
   categoriaSeleccionada: number | null = null;
   precioMin?: number;
@@ -28,26 +29,33 @@ export class Repuestos implements OnInit {
 
   constructor(
     private productoservicio: ProductosServicio,
-    private categoriasServicio: CategoriasServicio
+    private categoriasServicio: CategoriasServicio,
+    private route: ActivatedRoute
   ) {}
 
   ngOnInit(): void {
     // cargar productos iniciales
-    this.productoservicio.getTodos().subscribe(data => this.producto = data);
-
-
-
-
 
 
 
     // cargar categorías
-    this.categoriasServicio.getCategorias().subscribe(data => this.categorias = data);
+    this.categoriasServicio.getCategorias().subscribe(data => {
+      this.categorias = [{ idCategoria: null, nombre: 'Todas' }, ...data];
+    });
+    this.route.queryParams.subscribe(params => {
+      if (params['categoria']) {
+      this.categoriaSeleccionada = Number(params['categoria']);
+      this.aplicarFiltros();
+      }else
+      {
+      this.productoservicio.getTodos().subscribe(data => this.producto = data);
+      }
+      });
     this.busqueda$.pipe(debounceTime(300)).subscribe(valor => {
     this.filtroNombre = valor;
-    this.aplicarFiltros();
-  });
+    });
   }
+
   aplicarFiltros(): void {
     this.productoservicio.getProductos({
       nombre: this.filtroNombre,

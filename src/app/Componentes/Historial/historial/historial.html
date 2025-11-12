@@ -1,0 +1,43 @@
+<!-- historial.html -->
+<div class="historial-wrapper">
+  <div class="historial-panel">
+    <div class="container">
+      <h2 class="fw-bold mb-4 text-primary text-center">Historial de pedidos</h2>
+
+      <div *ngIf="loading" class="text-center">
+        <p>Cargando tu historial...</p>
+      </div>
+
+      <div *ngIf="!loading && pedidos.length === 0" class="alert alert-info">
+        No tienes pedidos registrados
+      </div>
+
+      <div *ngIf="!loading && pedidos.length > 0">
+        <div *ngFor="let p of pedidos" class="card mb-3 shadow-sm">
+          <div class="card-body">
+            <h5 class="card-title">Pedido #{{ p.idVenta }}</h5>
+            <p class="card-text mb-1"><strong>Fecha:</strong> {{ p.fecha | date:'short' }}</p>
+            <p class="card-text mb-1"><strong>Total:</strong> S/ {{ p.total | number:'1.2-2' }}</p>
+            <p class="card-text mb-2">
+              <strong>Estado:</strong>
+              <span [ngClass]="{
+                'text-success': p.estado === 'Finalizado',
+                'text-warning': p.estado === 'Pendiente',
+                'text-danger': p.estado === 'Cancelado'
+              }">
+                {{ p.estado }}
+              </span>
+            </p>
+
+            <h6>Detalles:</h6>
+            <ul class="list-group list-group-flush">
+              <li *ngFor="let d of p.detalles" class="list-group-item">
+                {{ d.productoNombre }} — {{ d.cantidad }} Unidad × S/ {{ d.precioUnidad | number:'1.2-2' }}
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

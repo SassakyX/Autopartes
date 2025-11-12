@@ -3,11 +3,45 @@
 
 body
 {
-  background-color:rgb(233, 233, 233);
+  background-color:rgb(230, 230, 230);
 }
 .textoHolder {
-  color :rgb(131, 131, 131);
+  color :rgb(236, 236, 236);
   text-align: start;
   margin-top: 1%;
   margin-bottom: -1%;
+}
+#userwayAccessibilityIcon {
+  position: fixed !important;
+  top: 90vh !important;
+  left: 2vw !important;
+  right: auto !important;
+  bottom: auto !important;
+  z-index: 999999 !important;
+  transition: all 0.3s ease-in-out;
+}
+
+
+@media (max-width: 1024px) {
+  #userwayAccessibilityIcon {
+    top: 600px !important;
+    left: 15px !important;
+  }
+}
+
+@media (max-width: 768px) {
+  #userwayAccessibilityIcon {
+    top: auto !important;
+    bottom: 80px !important;
+    left: 15px !important;
+  }
+}
+
+
+@media (max-width: 480px) {
+  #userwayAccessibilityIcon {
+    top: auto !important;
+    bottom: 20px !important;
+    left: 10px !important;
+  }
 }

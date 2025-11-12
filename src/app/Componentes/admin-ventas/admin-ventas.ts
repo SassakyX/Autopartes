@@ -24,12 +24,14 @@ export class AdminVentas implements OnInit {
   }
 
   cargarVentas() {
-    this.ventasService.getVentas().subscribe(res => {
-      this.ventas = res.map(v => ({
+  this.ventasService.getVentas().subscribe(res => {
+    this.ventas = res
+      .map(v => ({
         ...v,
         estadoAnterior: v.estado
-       }));
-      });
+      }))
+      .sort((a, b) => new Date(b.fecha).getTime() - new Date(a.fecha).getTime());
+    });
     }
   cambiarEstado(id: number, nuevoEstado: string, estadoAnterior: string) {
     // condicional para verificar estado

@@ -11,6 +11,7 @@ import { Router } from '@angular/router';
   templateUrl: './verificar-cod.html',
   styleUrl: './verificar-cod.css'
 })
+
 export class VerificarCod {
     codigo = '';
     mensaje = '';
@@ -19,12 +20,14 @@ export class VerificarCod {
     Verificar()
     {
     const user= localStorage.getItem('tempUser');
-    if (!user) { this.mensaje ="No se detecto el usuario temporal.";
+    const dni = localStorage.getItem('tempDNI')
+    if (!user && !dni) { this.error ="No se detecto el usuario temporal.";
       return;
     }
 
-
-    this.auth.verificarCodigo({ User: user, Codigo: this.codigo }).subscribe({
+    const tempUser = localStorage.getItem('tempUser') || undefined;
+    const tempDNI = localStorage.getItem('tempDNI') || undefined;
+    this.auth.verificarCodigo({User: tempUser, DNI: tempDNI, Codigo: this.codigo }).subscribe({
       next: (res) => {
         this.mensaje = res.mensaje;
         this.error = '';

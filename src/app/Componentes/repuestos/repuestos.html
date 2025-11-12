@@ -28,27 +28,16 @@
        <!-- categorias dinamicas-->
 
       <h6>Categorías</h6>
-        <div *ngFor="let cat of categorias">
-          <label>
+      <div *ngFor="let cat of categorias">
+        <label>
           <input type="radio"
                 name="categoria"
-                [value]="cat.idCategoria"
+                [value]="cat.idCategoria === null ? '' : cat.idCategoria"
                 [(ngModel)]="categoriaSeleccionada"
                 (change)="aplicarFiltros()">
-            {{ cat.nombre }}
-          </label>
-        </div>
-
-        <!-- Opción todas-->
-
-        <label>
-        <input type="radio"
-              name="categoria"
-              [value]="null"
-              [(ngModel)]="categoriaSeleccionada"
-              (change)="aplicarFiltros()">
-        Todas
-      </label>
+          {{ cat.nombre }}
+        </label>
+      </div>
     <!-- Precios -->
         <h6 class="mt-3">Precio</h6>
         <input type="number" [(ngModel)]="precioMin" placeholder="Mínimo"   class="form-control mb-2" style="width:120px">

@@ -21,8 +21,8 @@ export interface Producto {
 })
 export class ProductosServicio {
   private base = window.location.origin;
-  //private apiUrl = `https://sassakyxx-001-site1.jtempurl.com/api/Producto`;
-  private apiUrl = `${this.base}/api/Producto`;
+  private apiUrl = `https://sassakyxx-001-site1.jtempurl.com/api/Producto`;
+  //private apiUrl = `${this.base}/api/Producto`;
 
   constructor(private http: HttpClient) {}
 
