@@ -1,12 +1,12 @@
 import { Component, inject, OnInit } from '@angular/core';
 import { GatoServicio } from '../../servicios/Gato/gato-servicio';
 import { CommonModule } from '@angular/common';
-import { Router } from '@angular/router';
+import { Router, RouterLink, RouterModule } from '@angular/router';
 
 @Component({
   selector: 'app-indice',
   standalone:true,
-  imports: [CommonModule],
+  imports: [CommonModule, RouterLink, RouterModule],
   templateUrl: './indice.html',
   styleUrls: ['./indice.css']
 })

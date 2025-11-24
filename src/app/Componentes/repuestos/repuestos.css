@@ -34,9 +34,8 @@
 }
 .productos-grid {
     display: grid;
-    grid-template-columns: repeat(7, 260px); /*4 columnas fijas */
+    grid-template-columns: repeat(4, 330px); /*4 columnas fijas */
     gap: 20px;
-    margin-top: 20px;
     padding: 10px;
     animation: fadeIn 1s ease forwards;
 }
