@@ -4,23 +4,27 @@
   border: none;    /* sin borde */
   transition: 0.3s;
 }
-
+.nav-item li{
+  color: #048f47;
+}
 .navbar {
     box-shadow: 0 3px 20px rgba(0, 0, 0, 0.3);
-    background-color: rgb(231, 231, 231);
+    background-color: rgb(255, 255, 255);
 }
+
 .Botón
 {
   border-radius: 8px;
-  background-color: lavender;
+  background-color: rgb(255, 255, 255);
   box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
   transition: 0.3s;
   cursor:pointer;
 }
+
 .Botón:hover
 {
   transform: scale(1.2);
-  background-color: #73a0db;
+  background-color:rgb(59, 170, 96);
 }
 .nav-btn
 {
@@ -33,6 +37,153 @@
 
   transform: scale(1.1);
 }
+
+.navbar-wrapper {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+}
+
+.banner-marquetero {
+  width: 100%;
+  background-color: #048f47; /* verde intenso */
+  color: rgb(238, 238, 238);
+  top: 63px;
+  overflow: hidden; /* evita que el texto se vea al salir */
+  white-space: nowrap;
+  position: relative;
+  z-index: 999;
+  padding: 3.5px 0;
+  font-weight: bold;
+  font-size: 1.1rem;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.3);
+  height: 35px;
+}
+
+.banner-texto {
+  overflow: hidden;
+  white-space: nowrap;
+  position: relative;
+   height: 1.3em;
+}
+.mensaje
+{
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  opacity: 0;
+  animation: rotarTextos 30s infinite;
+}
+.mensaje span {
+  display: inline-block;
+  padding-left: 100%;
+  animation: tren 10s linear infinite;
+}
+.mensaje:nth-child(1) {
+  animation-delay: 0s;
+}
+
+.mensaje:nth-child(2) {
+  animation-delay: 10s; /* mitad de 10s pa que roten parejo */
+}
+.mensaje:nth-child(3)
+{
+  animation-delay: 20s;
+}
+/* Redes sociales*/
+/* Botón flotante principal */
+.social-toggle {
+  position: fixed;
+  right: 25px;
+  bottom: 30px;
+  width: 50px;
+  height: 50px;
+  background: #048f47;
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  cursor: pointer;
+  z-index: 9999;
+  box-shadow: 4px 0px 5px rgba(0,0,0,0.9);
+  transition: transform 0.3s;
+}
+
+.social-toggle:hover {
+  transform: scale(1.1);
+}
+
+/* Menú de redes desplegable */
+.social-menu {
+  position: fixed;
+  right: 25px;
+  bottom: 90px;
+  display: flex;
+  flex-direction: column;
+  gap: 11px;
+  opacity: 0;
+  pointer-events: none;
+  transform: translateX(20px);
+  transition: 0.9s ease;
+  z-index: 9998;
+}
+
+/* Activo = visible */
+.social-menu.activo {
+  opacity: 1;
+  pointer-events: auto;
+  transform: translateX(0);
+}
+
+/* Botoncitos individuales */
+.red-btn {
+  width: 45px;
+  height: 45px;
+  background: white;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 22px;
+  color: #333;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.25);
+  transition: 0.25s;
+}
+
+.red-btn:hover {
+  transform: scale(1.15);
+}
+
+/* Colores según red */
+.facebook {
+  color: #1877f2;
+}
+
+.whatsapp {
+  color: #25d366;
+}
+
+.instagram {
+  color: #d62976;
+}
+
+
+
+
+
+@keyframes rotarTextos
+{
+  0%, 30% { opacity: 1; }
+  35%, 100% { opacity: 0; }
+}
+@keyframes tren {
+  0% { transform: translateX(0%); }
+  100% { transform: translateX(-100%); }
+}
+
 /* 🔹 Cuando la pantalla sea MENOR a 900px */
 @media (max-width: 1300px) {
   /* Mostrar el botón del offcanvas */
@@ -60,3 +211,5 @@
     display: flex !important;
   }
 }
+
+

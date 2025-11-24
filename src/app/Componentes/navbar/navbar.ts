@@ -12,8 +12,10 @@ import Swal from 'sweetalert2';
   templateUrl: './navbar.html',
   styleUrls: ['./navbar.css']
 })
+
 export class Navbar implements OnInit{
   usuario:any = null;
+  redesActivas: boolean = false;
 
   constructor(private auth: AuthService) {}
 
@@ -22,17 +24,21 @@ export class Navbar implements OnInit{
       this.usuario = u;
     console.log("Navbar detectó un usuario: ", u);
   });
+
 }
   esAdmin(): boolean {
   return this.usuario?.rol === 'Admin';
 
+  }
+  toggleRedes() {
+  this.redesActivas = !this.redesActivas;
   }
   cerrarSesion() {
   Swal.fire({
     icon: 'info',
     title: 'Sesión cerrada',
     text: 'Has cerrado sesión correctamente',
-    confirmButtonColor: '#3085d6',
+    confirmButtonColor: '#137c21ff',
     timer: 2000,
     timerProgressBar: true,
     showConfirmButton: false

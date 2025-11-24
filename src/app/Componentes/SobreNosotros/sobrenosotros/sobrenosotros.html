@@ -1,0 +1,29 @@
+<div class="hero-nosotros">
+
+  <!-- VIDEOS DE FONDO -->
+  <video
+    *ngFor="let v of videos; let i = index"
+    class="video-fondo"
+    [class.active]="i === videoActual"
+    [src]="v"
+    autoplay muted loop>
+  </video>
+
+  <!-- CAPA OSCURA PARA LEER TEXTO -->
+  <div class="overlay"></div>
+
+  <!-- TEXTO DEL HERO -->
+  <div class="contenido-texto">
+    <h1>Autopartes El Águila</h1>
+    <p>
+      Somos una empresa dedicada a brindar calidad, rapidez y garantía en cada producto.
+      Nuestro compromiso es ofrecer repuestos confiables y un servicio transparente.
+    </p>
+  </div>
+
+</div>
+
+<footer class="video-creditos">
+  Videos de fondo obtenidos de
+  <a href="https://www.freepik.es/" style="font-weight: bold;">Freepik</a>
+</footer>

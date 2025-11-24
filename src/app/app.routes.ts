@@ -12,6 +12,7 @@ import { Carrito } from './Componentes/carrito/carrito';
 import { AdminVentas } from './Componentes/admin-ventas/admin-ventas';
 import { Historial } from './servicios/Historial/historial';
 import { HistorialC } from './Componentes/Historial/historial/historial';
+import { Sobrenosotros } from './Componentes/SobreNosotros/sobrenosotros/sobrenosotros';
 
 export const routes: Routes = [
  {path : '', component: Indice},
@@ -24,6 +25,7 @@ export const routes: Routes = [
  {path: 'detalle-producto/:id', component: DetalleProducto },
  {path: 'carrito', component: Carrito },
  {path: 'admin-ventas', component: AdminVentas },
- {path :'historial', component: HistorialC}
+ {path :'historial', component: HistorialC},
+ {path: 'sobrenosotros',component: Sobrenosotros}
 
 ];
