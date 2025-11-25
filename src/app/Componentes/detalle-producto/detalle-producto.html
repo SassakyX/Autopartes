@@ -18,13 +18,13 @@
       </p>
       <p><strong>Categoría:</strong> {{ producto.categoria }}</p>
       <div class="cantidad-container">
-        <label for="cantidad"><strong>Cantidad:</strong></label>
-        <input id="cantidad" type="number" [(ngModel)]="cantidad" min="0" [max]="producto.stock"  [disabled]="producto.stock <= 0"
+        <label for="cantidad" aria-label="Cantidad"><strong>Cantidad:</strong></label>
+        <input id="cantidad" aria-label="Seleccionar Cantidad"type="number" [(ngModel)]="cantidad" min="0" [max]="producto.stock"  [disabled]="producto.stock <= 0"
         (keypress)="soloNumeros($event)"
         (change)="validarCantidad()" />
       </div>
     </div>
-    <button class="btn-carrito" (click)="agregarAlCarrito()" [disabled]="producto.stock <= 0">Agregar al carrito</button>
+    <button class="btn-carrito" aria-label="Agregar a carrito"(click)="agregarAlCarrito()" [disabled]="producto.stock <= 0">Agregar al carrito</button>
     <div class="aviso-desliza" *ngIf="!panelAbierto">
       <span class="texto-aviso">Desliza para ver reseñas →</span>
     </div>
@@ -34,7 +34,7 @@
   <div #panel class="panel-resenas" [class.abierto]="panelAbierto">
     <div class="panel-header">
       <h3>Opiniones de los clientes</h3>
-      <button class="cerrar" (click)="togglePanel()">✖</button>
+      <button class="cerrar" aria-label="Cerrar panel reseñas" (click)="togglePanel()">✖</button>
     </div>
 
     <!-- promedio -->
@@ -54,7 +54,7 @@
            (click)="seleccionarCalificacion(e)"></i>
       </div>
       <textarea [(ngModel)]="comentario" placeholder="Escribe tu comentario..."></textarea>
-      <button (click)="enviarResena()">Enviar</button>
+      <button (click)="enviarResena()" aria-label="Enviar reseña" >Enviar</button>
     </div>
 
 

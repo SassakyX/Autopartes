@@ -1,8 +1,9 @@
+
 import { Component, signal } from '@angular/core';
 import { RouterOutlet} from '@angular/router';
 import { Navbar } from './Componentes/navbar/navbar';
 import { FormsModule } from '@angular/forms';
-import { Footer } from './Footer/footer/footer';
+import { Footer } from './Componentes/footer/footer';
 
 
 

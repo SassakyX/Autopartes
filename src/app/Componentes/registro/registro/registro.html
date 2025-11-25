@@ -2,18 +2,18 @@
   <h2>Registro de Usuario</h2>
 
   <form (ngSubmit)="registrar()">
-    <input type="text" [(ngModel)]="usuario.nombre_apellido" name="nombre_apellido" placeholder="Nombre y Apellido" required>
-    <input type="text" maxlength="8" [(ngModel)]="usuario.dni" name="dni" placeholder="DNI" required>
-    <input type="text" [(ngModel)]="usuario.direccion" name="direccion" placeholder="Dirección">
-    <input type="email" [(ngModel)]="usuario.correo" name="correo" placeholder="Correo" required>
-    <input type="text" [(ngModel)]="usuario.user" name="user" placeholder="Usuario" required>
-    <input type="password" [(ngModel)]="usuario.contrasenia" name="contrasenia" placeholder="Contraseña" required>
-    <input type="password" class="form-control" [(ngModel)]="usuario.confirmarContrasenia" name="confirmarContrasenia"  placeholder="Confirmar Contraseña" required="">
+    <input type="text" aria-label="Nombre y apellido"[(ngModel)]="usuario.nombre_apellido" name="nombre_apellido" placeholder="Nombre y Apellido" required>
+    <input type="text" aria-label="DNI" maxlength="8" [(ngModel)]="usuario.dni" name="dni" placeholder="DNI" required>
+    <input type="text" aria-label="Dirección" [(ngModel)]="usuario.direccion" name="direccion" placeholder="Dirección">
+    <input type="email" aria-label="Correo" [(ngModel)]="usuario.correo" name="correo" placeholder="Correo" required>
+    <input type="text"  aria-label="Usuario"[(ngModel)]="usuario.user" name="user" placeholder="Usuario" required>
+    <input type="password" aria-label="Contraseña" [(ngModel)]="usuario.contrasenia" name="contrasenia" placeholder="Contraseña" required>
+    <input type="password" aria-label="Confirmar contraseña" class="form-control" [(ngModel)]="usuario.confirmarContrasenia" name="confirmarContrasenia"  placeholder="Confirmar Contraseña" required="">
       <div *ngIf="usuario.contrasenia && usuario.confirmarContrasenia && usuario.contrasenia !== usuario.confirmarContrasenia" class="text-danger mt-2">
         Las contraseñas no coinciden
       </div>
 
-    <button type="submit">Registrarse</button>
+    <button type="submit" aria-label="Registrarse">Registrarse</button>
   </form>
   <p  style ="color:rgb(241, 5, 5)" *ngIf="mensaje">{{ mensaje }}</p>
 </div>

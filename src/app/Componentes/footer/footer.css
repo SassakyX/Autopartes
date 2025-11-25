@@ -10,3 +10,7 @@ body {
 router-outlet {
   flex: 1;
 }
+.Texto {
+  color: whitesmoke;
+  font-family: cursive;
+}

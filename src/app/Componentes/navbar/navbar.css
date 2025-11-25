@@ -49,7 +49,7 @@
   width: 100%;
   background-color: #048f47; /* verde intenso */
   color: rgb(238, 238, 238);
-  top: 63px;
+  top: 58px;
   overflow: hidden; /* evita que el texto se vea al salir */
   white-space: nowrap;
   position: relative;

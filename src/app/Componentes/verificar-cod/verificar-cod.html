@@ -1,6 +1,6 @@
 <form class="container"  (ngSubmit)="Verificar()" #form="ngForm">
   <div class="mb-3">
-    <label style="font-size: larger;" for="codigo" class="form-label">Hola, ingresa el Código de verificación que fue enviado al correo proporcionado</label>
+    <label style="font-size: larger;" aria-label="Ingresa código de verificación"  for="codigo" class="form-label">Hola, ingresa el Código de verificación que fue enviado al correo proporcionado</label>
     <input
       type="text"
       [(ngModel)]="codigo"
@@ -11,7 +11,7 @@
       maxlength="6"
       pattern="[0-9]*"/>
   </div>
-  <button class="btn btn-primary" type="submit" [disabled]="form.invalid">
+  <button class="btn btn-primary" aria-label="Verificar Codigo" type="submit" [disabled]="form.invalid">
     Verificar
   </button>
   <!-- Aviso de éxito -->

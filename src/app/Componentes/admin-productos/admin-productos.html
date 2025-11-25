@@ -6,14 +6,14 @@
 <hr>
 
 <h2>Gestión de Categorías</h2>
-<button class="agregar-btn" (click)="abrirModalCrearCategoria()">Nueva Categoría</button>
+<button class="agregar-btn" aria-label="Nueva categoria" (click)="abrirModalCrearCategoria()">Nueva Categoría</button>
 <div class="productos-grid">
   <div *ngFor="let c of categorias" class="producto-card">
     <div>
       <h4>{{ c.nombre }}</h4>
     </div>
-    <button (click)="abrirModalEditarCategoria(c)">Editar</button>
-    <button (click)="eliminarCategoria(c.idCategoria!)">Eliminar</button>
+    <button aria-label="Editar producto"(click)="abrirModalEditarCategoria(c)">Editar</button>
+    <button aria-label="Eliminar categoria"(click)="eliminarCategoria(c.idCategoria!)">Eliminar</button>
   </div>
 </div>
 <!-- Crear nuevo -->

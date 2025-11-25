@@ -5,17 +5,17 @@
     <form (ngSubmit)="iniciarSesion()">
       <div class="mb-3">
         <label for="user" class="form-label">Usuario o DNI</label>
-        <input type="text" id="user" [(ngModel)]="credenciales.User" name="user"
+        <input type="text" id="user" [(ngModel)]="credenciales.User" name="user" aria-label="Usuario"
                class="form-control" placeholder="Ej: LUIS" required>
       </div>
 
       <div class="mb-3">
         <label for="contrasenia" class="form-label">Contraseña</label>
-        <input type="password" id="contrasenia" [(ngModel)]="credenciales.Contrasenia" name="contraseña"
+        <input type="password" id="contrasenia" [(ngModel)]="credenciales.Contrasenia" name="contraseña" aria-label="Contraseña"
                class="form-control" placeholder="********" required>
       </div>
 
-    <button type="submit" class="btn btn-primary w-100" [disabled]="procesandoLogin">
+    <button type="submit" class="btn btn-primary w-100" aria-label="Iniciar sesión" [disabled]="procesandoLogin">
       {{ procesandoLogin ? 'Verificando...' : 'Ingresar' }}
     </button>
     </form>
@@ -25,7 +25,7 @@
     </p>
 
     <div class="text-center mt-3">
-      <small>¿No tienes cuenta? <a routerLink="/registro" class="link-primary">Regístrate aquí</a></small>
+      <small>¿No tienes cuenta? <a routerLink="/registro" class="link-primary" aria-label="Registrarse">Regístrate aquí</a></small>
     </div>
   </div>
 </div>
